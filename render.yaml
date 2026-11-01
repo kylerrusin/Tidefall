@@ -8,7 +8,7 @@ services:
     autoDeployTrigger: off
     buildCommand: npm ci --include=dev --no-audit --no-fund && npm run build
     startCommand: npm start
-    healthCheckPath: /health
+    # Use Render default TCP checks: world creation is CPU intensive on Free.
     envVars:
       - key: NODE_VERSION
         value: "22"

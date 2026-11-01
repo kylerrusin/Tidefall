@@ -1,0 +1,25 @@
+{
+  "url": "https://tidefall-multiplayer.onrender.com/",
+  "freePlanUnchanged": true,
+  "cloudCommit": "9489e2ed994cc88261ea27f8f28245340930667e",
+  "renderDeploy": "dep-dbjdlivb9u1s73dnvqj0",
+  "before": {
+    "simulationPerWall": 0.6079027355623127,
+    "meanIntervalMs": 411.25,
+    "p95IntervalMs": 1109,
+    "meanSnapshotBytes": 88749.75675675676,
+    "warmLast15MeanRttMs": 452
+  },
+  "after": {
+    "simulationPerWall": 0.8659454164997262,
+    "meanIntervalMs": 170.1590909090909,
+    "p95IntervalMs": 484,
+    "meanSnapshotBytes": 27935.91011235955,
+    "warmLast15MeanRttMs": 194.6
+  },
+  "notes": [
+    "Short samples from different random seeds; not a controlled latency guarantee.",
+    "World creation still blocks the small free instance temporarily. HTTP health check caused a restart in the first attempt; default TCP checks retained for the rerun.",
+    "Both retain 60 Hz authoritative simulation. Free CPU still occasionally falls behind real time."
+  ]
+}
