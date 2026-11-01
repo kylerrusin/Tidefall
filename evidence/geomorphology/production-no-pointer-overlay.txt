@@ -1,0 +1,15 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport" [active]
+  - generic: TIDE RECEDING
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "74"
+  - generic: "1"
+  - text: Kinetic pulse rifle · 100%
+  - generic: TAB · KIT & CHART
+  - status

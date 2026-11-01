@@ -1,0 +1,20 @@
+{
+  "source": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Cpl_rade%2Cpl_orbsmax%2Cpl_orbper+from+pscomppars+where+pl_name+in+%28%27TRAPPIST-1+f%27%2C%2755+Cnc+b%27%29&format=json",
+  "retrieved": "2026-10-29",
+  "records": [
+    {
+      "pl_name": "55 Cnc b",
+      "hostname": "55 Cnc",
+      "pl_rade": 13.9,
+      "pl_orbsmax": 0.118,
+      "pl_orbper": 14.651552
+    },
+    {
+      "pl_name": "TRAPPIST-1 f",
+      "hostname": "TRAPPIST-1",
+      "pl_rade": 1.045,
+      "pl_orbsmax": 0.03849,
+      "pl_orbper": 9.20754
+    }
+  ]
+}

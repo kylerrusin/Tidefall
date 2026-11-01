@@ -1,0 +1,19 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED
+    - heading "Volcanic aerosol field" [level=3]
+    - generic: Pressure ~20 kPa · assumed
+    - generic: Air 882°C · wind 3 m/s
+    - generic: No modeled water clouds · ash obscures visibility
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport"
+  - generic: BASALT FRONTIER
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - text: JOINED IN PROGRESS
+  - heading "You’ll enter the next round." [level=3]
+  - paragraph: Spectating Ivory
+  - button "Next astronaut"
+  - button "Capture mouse to look"

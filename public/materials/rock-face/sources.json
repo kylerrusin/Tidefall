@@ -1,0 +1,26 @@
+[
+  {
+    "map": "albedo",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_diff_1k.jpg",
+    "bytes": 732721,
+    "sha256": "CCE4B50517161264BDEF196F5E247E328CA3739083CD6044AD3CC54D88CB82E2"
+  },
+  {
+    "map": "normal",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_nor_gl_1k.jpg",
+    "bytes": 1139857,
+    "sha256": "E2682E1286C8B6ACA7E01BA7B8FE1726CB6606042B9EE70D097AA67470D410EF"
+  },
+  {
+    "map": "roughness",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_rough_1k.jpg",
+    "bytes": 224371,
+    "sha256": "70DDFC5D7F292909D18AD56DBB1FF7C3A65809DC031854356C7A6978CB446219"
+  },
+  {
+    "map": "occlusion",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_ao_1k.jpg",
+    "bytes": 501528,
+    "sha256": "EEA694F92D0CB0658A07915707D2F1D0D34231B534483901A107824824D54D03"
+  }
+]

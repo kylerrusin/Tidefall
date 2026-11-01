@@ -1,0 +1,1664 @@
+{
+  "summary": {
+    "seed": 47,
+    "processed": 64,
+    "chunks": 64,
+    "bodies": 309,
+    "fragments": 502,
+    "shapeBufferBytes": 2456520,
+    "bodyGenerationMs": 1295.2404999999999,
+    "includingCoverageMs": 1782.4698000000003,
+    "slopeUnder15": 0.62237548828125,
+    "slope95": 32.90223546910393,
+    "slopeMax": 62.49968281337625,
+    "empty": [
+      {
+        "x": 2,
+        "z": 1,
+        "processed": true,
+        "classification": "regolith",
+        "protectedFraction": 0.7777777777777778,
+        "exposedRockSampleFraction": 1,
+        "visibleVolumeSampleFraction": 0.012345679012345678,
+        "reliefMin": -0.11306017643745037,
+        "reliefMax": 0.7867810584522417,
+        "bodies": 0,
+        "fragments": 1,
+        "families": [
+          "fractured"
+        ],
+        "heightMin": 16.958900120729652,
+        "heightMax": 23.56921652802562,
+        "lodTriangles": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "x": 3,
+        "z": 1,
+        "processed": true,
+        "classification": "regolith",
+        "protectedFraction": 0.7901234567901234,
+        "exposedRockSampleFraction": 1,
+        "visibleVolumeSampleFraction": 0,
+        "reliefMin": 0,
+        "reliefMax": 0.10206507736327453,
+        "bodies": 0,
+        "fragments": 0,
+        "families": [],
+        "heightMin": 17.169454495132474,
+        "heightMax": 23,
+        "lodTriangles": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "x": 4,
+        "z": 1,
+        "processed": true,
+        "classification": "regolith",
+        "protectedFraction": 0.8888888888888888,
+        "exposedRockSampleFraction": 1,
+        "visibleVolumeSampleFraction": 0,
+        "reliefMin": -0.03735681033239047,
+        "reliefMax": 0.06547915729512965,
+        "bodies": 0,
+        "fragments": 0,
+        "families": [],
+        "heightMin": 17.97389842438075,
+        "heightMax": 23,
+        "lodTriangles": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "x": 0,
+      "z": 0,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.07407407407407407,
+      "reliefMin": -0.1136350887184463,
+      "reliefMax": 2.828916020661776,
+      "bodies": 7,
+      "fragments": 8,
+      "families": [
+        "stratified",
+        "rounded",
+        "fractured",
+        "tower"
+      ],
+      "heightMin": 23.389753535152344,
+      "heightMax": 29.26874163573114,
+      "lodTriangles": [
+        1011,
+        635,
+        433
+      ]
+    },
+    {
+      "x": 1,
+      "z": 0,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.18518518518518517,
+      "reliefMin": -0.13168979799214497,
+      "reliefMax": 3.9300228533073494,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "shelf",
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 23.56921652802562,
+      "heightMax": 31.097543437685125,
+      "lodTriangles": [
+        800,
+        615,
+        424
+      ]
+    },
+    {
+      "x": 2,
+      "z": 0,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.30864197530864196,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.024691358024691357,
+      "reliefMin": -0.13168979799214497,
+      "reliefMax": 3.5633633985458424,
+      "bodies": 4,
+      "fragments": 7,
+      "families": [
+        "shelf",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": 22.774468675925547,
+      "heightMax": 29.586751812056225,
+      "lodTriangles": [
+        406,
+        351,
+        226
+      ]
+    },
+    {
+      "x": 3,
+      "z": 0,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.19753086419753085,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.09876543209876543,
+      "reliefMin": -0.08084557958519412,
+      "reliefMax": 1.3090716146662302,
+      "bodies": 5,
+      "fragments": 7,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 22.44296290889924,
+      "heightMax": 27.68509754989596,
+      "lodTriangles": [
+        835,
+        413,
+        258
+      ]
+    },
+    {
+      "x": 4,
+      "z": 0,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.1728395061728395,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.07407407407407407,
+      "reliefMin": -0.06699553642805967,
+      "reliefMax": 1.3136666401064012,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 22.52001131771665,
+      "heightMax": 27.9506196089524,
+      "lodTriangles": [
+        841,
+        485,
+        268
+      ]
+    },
+    {
+      "x": 5,
+      "z": 0,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.037037037037037035,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.12345679012345678,
+      "reliefMin": -0.08691764832968119,
+      "reliefMax": 2.105335725603908,
+      "bodies": 5,
+      "fragments": 9,
+      "families": [
+        "rounded",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": 22.6902723331945,
+      "heightMax": 28.124017544143488,
+      "lodTriangles": [
+        639,
+        455,
+        238
+      ]
+    },
+    {
+      "x": 6,
+      "z": 0,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.16049382716049382,
+      "reliefMin": -0.06600969015201841,
+      "reliefMax": 2.010010284292818,
+      "bodies": 4,
+      "fragments": 12,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 24.843683110982766,
+      "heightMax": 28.338473554764636,
+      "lodTriangles": [
+        410,
+        317,
+        147
+      ]
+    },
+    {
+      "x": 7,
+      "z": 0,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.09876543209876543,
+      "reliefMin": -0.12922761802717986,
+      "reliefMax": 1.8011015838602766,
+      "bodies": 7,
+      "fragments": 8,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 25.039979172315576,
+      "heightMax": 28.789026903676383,
+      "lodTriangles": [
+        625,
+        537,
+        235
+      ]
+    },
+    {
+      "x": 0,
+      "z": 1,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.1728395061728395,
+      "reliefMin": -0.08361093571978628,
+      "reliefMax": 3.3543732897040357,
+      "bodies": 6,
+      "fragments": 10,
+      "families": [
+        "tower",
+        "fractured",
+        "rounded",
+        "stratified"
+      ],
+      "heightMin": 21.59297950784446,
+      "heightMax": 26.369823224961667,
+      "lodTriangles": [
+        765,
+        413,
+        302
+      ]
+    },
+    {
+      "x": 1,
+      "z": 1,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.19753086419753085,
+      "reliefMin": -0.13335907998878227,
+      "reliefMax": 3.55097692707184,
+      "bodies": 5,
+      "fragments": 11,
+      "families": [
+        "fractured",
+        "rounded",
+        "tower",
+        "stratified"
+      ],
+      "heightMin": 20.884211886860033,
+      "heightMax": 26.947578876290045,
+      "lodTriangles": [
+        638,
+        367,
+        267
+      ]
+    },
+    {
+      "x": 2,
+      "z": 1,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.7777777777777778,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.012345679012345678,
+      "reliefMin": -0.11306017643745037,
+      "reliefMax": 0.7867810584522417,
+      "bodies": 0,
+      "fragments": 1,
+      "families": [
+        "fractured"
+      ],
+      "heightMin": 16.958900120729652,
+      "heightMax": 23.56921652802562,
+      "lodTriangles": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "x": 3,
+      "z": 1,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.7901234567901234,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0,
+      "reliefMin": 0,
+      "reliefMax": 0.10206507736327453,
+      "bodies": 0,
+      "fragments": 0,
+      "families": [],
+      "heightMin": 17.169454495132474,
+      "heightMax": 23,
+      "lodTriangles": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "x": 4,
+      "z": 1,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.8888888888888888,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0,
+      "reliefMin": -0.03735681033239047,
+      "reliefMax": 0.06547915729512965,
+      "bodies": 0,
+      "fragments": 0,
+      "families": [],
+      "heightMin": 17.97389842438075,
+      "heightMax": 23,
+      "lodTriangles": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "x": 5,
+      "z": 1,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.2839506172839506,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.1728395061728395,
+      "reliefMin": -0.0859818213462269,
+      "reliefMax": 1.915255455223189,
+      "bodies": 5,
+      "fragments": 7,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": 17.97389842438075,
+      "heightMax": 26.950756519664925,
+      "lodTriangles": [
+        851,
+        424,
+        264
+      ]
+    },
+    {
+      "x": 6,
+      "z": 1,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.24691358024691357,
+      "reliefMin": -0.0859818213462269,
+      "reliefMax": 2.054700330058612,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": 25.321849308677432,
+      "heightMax": 31.85269126106065,
+      "lodTriangles": [
+        726,
+        478,
+        250
+      ]
+    },
+    {
+      "x": 7,
+      "z": 1,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.20987654320987653,
+      "reliefMin": -0.12729344404666065,
+      "reliefMax": 3.333636690557576,
+      "bodies": 7,
+      "fragments": 12,
+      "families": [
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 23.93599845497067,
+      "heightMax": 32.02282941277566,
+      "lodTriangles": [
+        922,
+        589,
+        393
+      ]
+    },
+    {
+      "x": 0,
+      "z": 2,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.14814814814814814,
+      "reliefMin": -0.12084518398603095,
+      "reliefMax": 3.9791564341493277,
+      "bodies": 5,
+      "fragments": 9,
+      "families": [
+        "rounded",
+        "shelf",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": 23.268750948694887,
+      "heightMax": 30.563932118869147,
+      "lodTriangles": [
+        620,
+        441,
+        353
+      ]
+    },
+    {
+      "x": 1,
+      "z": 2,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.25925925925925924,
+      "reliefMin": -0.13335907998878227,
+      "reliefMax": 3.246451528486528,
+      "bodies": 7,
+      "fragments": 13,
+      "families": [
+        "shelf",
+        "fractured",
+        "tower",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 20.930186403911673,
+      "heightMax": 30.40420511195533,
+      "lodTriangles": [
+        680,
+        478,
+        379
+      ]
+    },
+    {
+      "x": 2,
+      "z": 2,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.48148148148148145,
+      "exposedRockSampleFraction": 0.8888888888888888,
+      "visibleVolumeSampleFraction": 0.024691358024691357,
+      "reliefMin": -0.11306017643745037,
+      "reliefMax": 2.537581221035584,
+      "bodies": 3,
+      "fragments": 4,
+      "families": [
+        "stratified",
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 10.592116910868059,
+      "heightMax": 23.570886595703374,
+      "lodTriangles": [
+        478,
+        272,
+        186
+      ]
+    },
+    {
+      "x": 3,
+      "z": 2,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.1111111111111111,
+      "exposedRockSampleFraction": 0.48148148148148145,
+      "visibleVolumeSampleFraction": 0.04938271604938271,
+      "reliefMin": -0.13369169636190392,
+      "reliefMax": 1.0384176216652925,
+      "bodies": 7,
+      "fragments": 8,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 5.826003400847594,
+      "heightMax": 21.684727817456594,
+      "lodTriangles": [
+        856,
+        580,
+        285
+      ]
+    },
+    {
+      "x": 4,
+      "z": 2,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.20987654320987653,
+      "exposedRockSampleFraction": 0.49382716049382713,
+      "visibleVolumeSampleFraction": 0.037037037037037035,
+      "reliefMin": -0.13369169636190392,
+      "reliefMax": 1.1703461668960138,
+      "bodies": 3,
+      "fragments": 4,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": 5.456457085484902,
+      "heightMax": 21.684727817456594,
+      "lodTriangles": [
+        410,
+        238,
+        136
+      ]
+    },
+    {
+      "x": 5,
+      "z": 2,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.48148148148148145,
+      "exposedRockSampleFraction": 0.9506172839506173,
+      "visibleVolumeSampleFraction": 0.024691358024691357,
+      "reliefMin": -0.053610144991385056,
+      "reliefMax": 1.1703461668960138,
+      "bodies": 4,
+      "fragments": 6,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 11.420587229809394,
+      "heightMax": 27.508571795335868,
+      "lodTriangles": [
+        580,
+        313,
+        191
+      ]
+    },
+    {
+      "x": 6,
+      "z": 2,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0.06172839506172839,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.19753086419753085,
+      "reliefMin": -0.12558382341365615,
+      "reliefMax": 2.0691781397117204,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 26.496568454559316,
+      "heightMax": 33.31446781410848,
+      "lodTriangles": [
+        534,
+        441,
+        204
+      ]
+    },
+    {
+      "x": 7,
+      "z": 2,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.1111111111111111,
+      "reliefMin": -0.08397405129377589,
+      "reliefMax": 3.62146392439508,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "rounded",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": 21.676917999622166,
+      "heightMax": 32.645084872048486,
+      "lodTriangles": [
+        757,
+        491,
+        276
+      ]
+    },
+    {
+      "x": 0,
+      "z": 3,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.2345679012345679,
+      "reliefMin": -0.11373641625426956,
+      "reliefMax": 2.638560850346309,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 21.143977105593805,
+      "heightMax": 30.381307050540435,
+      "lodTriangles": [
+        784,
+        466,
+        332
+      ]
+    },
+    {
+      "x": 1,
+      "z": 3,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.3333333333333333,
+      "reliefMin": -0.09891713247719025,
+      "reliefMax": 3.9651791659907545,
+      "bodies": 7,
+      "fragments": 13,
+      "families": [
+        "rounded",
+        "shelf",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": 15.581558009139027,
+      "heightMax": 31.568821893158525,
+      "lodTriangles": [
+        947,
+        647,
+        477
+      ]
+    },
+    {
+      "x": 2,
+      "z": 3,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.13580246913580246,
+      "exposedRockSampleFraction": 0.5679012345679012,
+      "visibleVolumeSampleFraction": 0.037037037037037035,
+      "reliefMin": -0.11069770934267176,
+      "reliefMax": 2.6020734884529464,
+      "bodies": 6,
+      "fragments": 7,
+      "families": [
+        "stratified",
+        "fractured",
+        "rounded",
+        "tower"
+      ],
+      "heightMin": 2.4045608482823155,
+      "heightMax": 22.93724197763282,
+      "lodTriangles": [
+        625,
+        397,
+        277
+      ]
+    },
+    {
+      "x": 3,
+      "z": 3,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.06172839506172839,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0.024691358024691357,
+      "reliefMin": -0.07600634928708239,
+      "reliefMax": 0.3076631993483323,
+      "bodies": 5,
+      "fragments": 5,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": -0.39940325476621036,
+      "heightMax": 10.592116910868059,
+      "lodTriangles": [
+        688,
+        424,
+        219
+      ]
+    },
+    {
+      "x": 4,
+      "z": 3,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0.024691358024691357,
+      "reliefMin": -0.12552903599689635,
+      "reliefMax": 0.47754145403004955,
+      "bodies": 5,
+      "fragments": 3,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -1.933713461204352,
+      "heightMax": 11.420587229809394,
+      "lodTriangles": [
+        669,
+        401,
+        219
+      ]
+    },
+    {
+      "x": 5,
+      "z": 3,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0.5308641975308642,
+      "exposedRockSampleFraction": 0.6419753086419753,
+      "visibleVolumeSampleFraction": 0,
+      "reliefMin": -0.13332858158890026,
+      "reliefMax": 0.6757883704598555,
+      "bodies": 2,
+      "fragments": 4,
+      "families": [
+        "fractured"
+      ],
+      "heightMin": 3.2929182104534678,
+      "heightMax": 26.496568454559316,
+      "lodTriangles": [
+        150,
+        150,
+        60
+      ]
+    },
+    {
+      "x": 6,
+      "z": 3,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0.14814814814814814,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.13580246913580246,
+      "reliefMin": -0.06186967255522546,
+      "reliefMax": 3.7760730361501373,
+      "bodies": 6,
+      "fragments": 11,
+      "families": [
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 15.571987020591813,
+      "heightMax": 33.25945455698803,
+      "lodTriangles": [
+        491,
+        370,
+        217
+      ]
+    },
+    {
+      "x": 7,
+      "z": 3,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.13580246913580246,
+      "reliefMin": -0.047601098644936,
+      "reliefMax": 3.4585916152622787,
+      "bodies": 4,
+      "fragments": 7,
+      "families": [
+        "fractured",
+        "rounded",
+        "stratified"
+      ],
+      "heightMin": 16.27532922900218,
+      "heightMax": 32.56299272413444,
+      "lodTriangles": [
+        405,
+        303,
+        179
+      ]
+    },
+    {
+      "x": 0,
+      "z": 4,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.14814814814814814,
+      "reliefMin": -0.11373641625426956,
+      "reliefMax": 3.220872060570695,
+      "bodies": 7,
+      "fragments": 10,
+      "families": [
+        "fractured",
+        "rounded",
+        "stratified",
+        "shelf",
+        "tower"
+      ],
+      "heightMin": 17.18633546293013,
+      "heightMax": 24.737795716057068,
+      "lodTriangles": [
+        916,
+        597,
+        437
+      ]
+    },
+    {
+      "x": 1,
+      "z": 4,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.30864197530864196,
+      "reliefMin": -0.10075511588948416,
+      "reliefMax": 3.92071168789232,
+      "bodies": 5,
+      "fragments": 13,
+      "families": [
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 11.45918901247959,
+      "heightMax": 24.737795716057068,
+      "lodTriangles": [
+        638,
+        416,
+        304
+      ]
+    },
+    {
+      "x": 2,
+      "z": 4,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.4691358024691358,
+      "exposedRockSampleFraction": 0.4444444444444444,
+      "visibleVolumeSampleFraction": 0.1111111111111111,
+      "reliefMin": -0.10075511588948416,
+      "reliefMax": 2.1114101657849176,
+      "bodies": 3,
+      "fragments": 3,
+      "families": [
+        "shelf",
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 0.7116309000223402,
+      "heightMax": 15.581558009139027,
+      "lodTriangles": [
+        527,
+        307,
+        200
+      ]
+    },
+    {
+      "x": 3,
+      "z": 4,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.2345679012345679,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0.037037037037037035,
+      "reliefMin": -0.07818910578458205,
+      "reliefMax": 0.49966154450070754,
+      "bodies": 4,
+      "fragments": 5,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -5.122605970153749,
+      "heightMax": 2.4045608482823155,
+      "lodTriangles": [
+        518,
+        346,
+        170
+      ]
+    },
+    {
+      "x": 4,
+      "z": 4,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0.012345679012345678,
+      "reliefMin": -0.07818910578458205,
+      "reliefMax": 0.3814174370579906,
+      "bodies": 4,
+      "fragments": 4,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -6.977123652645103,
+      "heightMax": 3.2929182104534678,
+      "lodTriangles": [
+        606,
+        339,
+        191
+      ]
+    },
+    {
+      "x": 5,
+      "z": 4,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.4691358024691358,
+      "exposedRockSampleFraction": 0.38271604938271603,
+      "visibleVolumeSampleFraction": 0.04938271604938271,
+      "reliefMin": -0.05221248865971839,
+      "reliefMax": 2.0191112620038365,
+      "bodies": 4,
+      "fragments": 3,
+      "families": [
+        "rounded",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": -4.252161447113239,
+      "heightMax": 15.571987020591813,
+      "lodTriangles": [
+        622,
+        343,
+        222
+      ]
+    },
+    {
+      "x": 6,
+      "z": 4,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0.14814814814814814,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.24691358024691357,
+      "reliefMin": -0.06186967255522546,
+      "reliefMax": 2.5236031903078793,
+      "bodies": 4,
+      "fragments": 12,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 5.3479104726026305,
+      "heightMax": 22.58880494205072,
+      "lodTriangles": [
+        417,
+        323,
+        147
+      ]
+    },
+    {
+      "x": 7,
+      "z": 4,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.2839506172839506,
+      "reliefMin": -0.034178887989185114,
+      "reliefMax": 3.4585916152622787,
+      "bodies": 5,
+      "fragments": 10,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": 6.966000634828418,
+      "heightMax": 23.361782023360494,
+      "lodTriangles": [
+        563,
+        395,
+        196
+      ]
+    },
+    {
+      "x": 0,
+      "z": 5,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.07407407407407407,
+      "reliefMin": -0.11129084646675125,
+      "reliefMax": 4.015406887236406,
+      "bodies": 7,
+      "fragments": 11,
+      "families": [
+        "tower",
+        "fractured",
+        "stratified",
+        "shelf"
+      ],
+      "heightMin": 11.637383419477514,
+      "heightMax": 20.482861253252647,
+      "lodTriangles": [
+        766,
+        583,
+        477
+      ]
+    },
+    {
+      "x": 1,
+      "z": 5,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.14814814814814814,
+      "reliefMin": -0.08886576907164923,
+      "reliefMax": 4.137411897623197,
+      "bodies": 6,
+      "fragments": 14,
+      "families": [
+        "stratified",
+        "fractured",
+        "tower",
+        "rounded"
+      ],
+      "heightMin": 3.6357705379335647,
+      "heightMax": 20.482861253252647,
+      "lodTriangles": [
+        614,
+        425,
+        348
+      ]
+    },
+    {
+      "x": 2,
+      "z": 5,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.41975308641975306,
+      "visibleVolumeSampleFraction": 0.06172839506172839,
+      "reliefMin": -0.13037698506177442,
+      "reliefMax": 2.1770437766648087,
+      "bodies": 3,
+      "fragments": 5,
+      "families": [
+        "stratified",
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": -3.093650932454169,
+      "heightMax": 11.697069879784193,
+      "lodTriangles": [
+        398,
+        260,
+        179
+      ]
+    },
+    {
+      "x": 3,
+      "z": 5,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.09876543209876543,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0,
+      "reliefMin": -0.07375551035914718,
+      "reliefMax": 0.12653148583629026,
+      "bodies": 2,
+      "fragments": 1,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -8.539265793583942,
+      "heightMax": 1.4813061547897708,
+      "lodTriangles": [
+        362,
+        174,
+        112
+      ]
+    },
+    {
+      "x": 4,
+      "z": 5,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0.3333333333333333,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0.012345679012345678,
+      "reliefMin": -0.1322557239249491,
+      "reliefMax": 0.21690931966541704,
+      "bodies": 2,
+      "fragments": 1,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -11.147270920185134,
+      "heightMax": -4.252161447113239,
+      "lodTriangles": [
+        317,
+        151,
+        103
+      ]
+    },
+    {
+      "x": 5,
+      "z": 5,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.345679012345679,
+      "visibleVolumeSampleFraction": 0.08641975308641975,
+      "reliefMin": -0.13565496280802503,
+      "reliefMax": 2.0191112620038365,
+      "bodies": 4,
+      "fragments": 6,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -7.016481592541882,
+      "heightMax": 5.8741536065694,
+      "lodTriangles": [
+        501,
+        324,
+        163
+      ]
+    },
+    {
+      "x": 6,
+      "z": 5,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.2839506172839506,
+      "reliefMin": -0.12825699960242476,
+      "reliefMax": 3.8409169244498003,
+      "bodies": 7,
+      "fragments": 14,
+      "families": [
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": -2.5611078410047594,
+      "heightMax": 9.550884641267363,
+      "lodTriangles": [
+        826,
+        525,
+        340
+      ]
+    },
+    {
+      "x": 7,
+      "z": 5,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.2716049382716049,
+      "reliefMin": -0.04343336303174694,
+      "reliefMax": 3.8409169244498003,
+      "bodies": 7,
+      "fragments": 11,
+      "families": [
+        "rounded",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": 0.0024372863572698494,
+      "heightMax": 9.461508640866748,
+      "lodTriangles": [
+        855,
+        562,
+        364
+      ]
+    },
+    {
+      "x": 0,
+      "z": 6,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.16049382716049382,
+      "reliefMin": -0.053992191337873585,
+      "reliefMax": 3.3792520821699803,
+      "bodies": 7,
+      "fragments": 10,
+      "families": [
+        "shelf",
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": 6.313522622122914,
+      "heightMax": 15.752980640968042,
+      "lodTriangles": [
+        923,
+        656,
+        479
+      ]
+    },
+    {
+      "x": 1,
+      "z": 6,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.1728395061728395,
+      "reliefMin": -0.08886576907164923,
+      "reliefMax": 3.428602029777708,
+      "bodies": 6,
+      "fragments": 14,
+      "families": [
+        "tower",
+        "fractured",
+        "rounded",
+        "shelf",
+        "stratified"
+      ],
+      "heightMin": -1.9461169264977098,
+      "heightMax": 15.752980640968042,
+      "lodTriangles": [
+        776,
+        486,
+        361
+      ]
+    },
+    {
+      "x": 2,
+      "z": 6,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.3950617283950617,
+      "visibleVolumeSampleFraction": 0.07407407407407407,
+      "reliefMin": -0.13037698506177442,
+      "reliefMax": 1.4206960307369454,
+      "bodies": 3,
+      "fragments": 5,
+      "families": [
+        "stratified",
+        "fractured",
+        "rounded",
+        "shelf"
+      ],
+      "heightMin": -7.092646334178414,
+      "heightMax": 3.6357705379335647,
+      "lodTriangles": [
+        333,
+        211,
+        144
+      ]
+    },
+    {
+      "x": 3,
+      "z": 6,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0.012345679012345678,
+      "reliefMin": -0.12288306980878083,
+      "reliefMax": 0.3363646586122506,
+      "bodies": 4,
+      "fragments": 4,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -11.13098513537261,
+      "heightMax": -3.093650932454169,
+      "lodTriangles": [
+        442,
+        276,
+        162
+      ]
+    },
+    {
+      "x": 4,
+      "z": 6,
+      "processed": true,
+      "classification": "regolith",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.13580246913580246,
+      "visibleVolumeSampleFraction": 0.012345679012345678,
+      "reliefMin": -0.1322557239249491,
+      "reliefMax": 0.5622867303538781,
+      "bodies": 2,
+      "fragments": 3,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -11.593460815571667,
+      "heightMax": -0.20410976725533397,
+      "lodTriangles": [
+        217,
+        120,
+        78
+      ]
+    },
+    {
+      "x": 5,
+      "z": 6,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.3333333333333333,
+      "visibleVolumeSampleFraction": 0.09876543209876543,
+      "reliefMin": -0.13565496280802503,
+      "reliefMax": 1.3761291472894737,
+      "bodies": 3,
+      "fragments": 5,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -8.0047416303695,
+      "heightMax": -1.2369781403069988,
+      "lodTriangles": [
+        407,
+        225,
+        138
+      ]
+    },
+    {
+      "x": 6,
+      "z": 6,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.2962962962962963,
+      "reliefMin": -0.12719336906773987,
+      "reliefMax": 3.6200845960971497,
+      "bodies": 7,
+      "fragments": 12,
+      "families": [
+        "fractured",
+        "rounded",
+        "stratified"
+      ],
+      "heightMin": -6.52386669140881,
+      "heightMax": 0.8182815766439353,
+      "lodTriangles": [
+        817,
+        539,
+        310
+      ]
+    },
+    {
+      "x": 7,
+      "z": 6,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.2345679012345679,
+      "reliefMin": -0.06607952845447729,
+      "reliefMax": 2.7238945187293635,
+      "bodies": 5,
+      "fragments": 9,
+      "families": [
+        "fractured",
+        "stratified",
+        "rounded"
+      ],
+      "heightMin": -4.4003573862579035,
+      "heightMax": 0.8182815766439353,
+      "lodTriangles": [
+        662,
+        451,
+        254
+      ]
+    },
+    {
+      "x": 0,
+      "z": 7,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.08641975308641975,
+      "reliefMin": -0.05820354754913337,
+      "reliefMax": 3.503858773065107,
+      "bodies": 6,
+      "fragments": 9,
+      "families": [
+        "stratified",
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": -1.8385768800256153,
+      "heightMax": 11.37807926496293,
+      "lodTriangles": [
+        721,
+        484,
+        372
+      ]
+    },
+    {
+      "x": 1,
+      "z": 7,
+      "processed": true,
+      "classification": "carbonate",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.07407407407407407,
+      "reliefMin": -0.07490947063263531,
+      "reliefMax": 3.149580993047654,
+      "bodies": 6,
+      "fragments": 13,
+      "families": [
+        "fractured",
+        "tower",
+        "stratified",
+        "shelf"
+      ],
+      "heightMin": -7.353569233470605,
+      "heightMax": 9.682628621182653,
+      "lodTriangles": [
+        613,
+        463,
+        377
+      ]
+    },
+    {
+      "x": 2,
+      "z": 7,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.37037037037037035,
+      "visibleVolumeSampleFraction": 0.06172839506172839,
+      "reliefMin": 0.001993565784928819,
+      "reliefMax": 1.8042527631812106,
+      "bodies": 3,
+      "fragments": 4,
+      "families": [
+        "shelf",
+        "fractured",
+        "stratified"
+      ],
+      "heightMin": -10.626356518300275,
+      "heightMax": -1.9461169264977098,
+      "lodTriangles": [
+        292,
+        225,
+        202
+      ]
+    },
+    {
+      "x": 3,
+      "z": 7,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0,
+      "visibleVolumeSampleFraction": 0,
+      "reliefMin": -0.11550848045753526,
+      "reliefMax": 0.31309536533725435,
+      "bodies": 6,
+      "fragments": 6,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -12.942143568943724,
+      "heightMax": -7.092646334178414,
+      "lodTriangles": [
+        732,
+        466,
+        251
+      ]
+    },
+    {
+      "x": 4,
+      "z": 7,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.04938271604938271,
+      "visibleVolumeSampleFraction": 0.024691358024691357,
+      "reliefMin": -0.13515738783775877,
+      "reliefMax": 0.5690449945170748,
+      "bodies": 6,
+      "fragments": 5,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -13.960473254119245,
+      "heightMax": -1.776258024814707,
+      "lodTriangles": [
+        730,
+        384,
+        240
+      ]
+    },
+    {
+      "x": 5,
+      "z": 7,
+      "processed": true,
+      "classification": "sediment",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 0.3333333333333333,
+      "visibleVolumeSampleFraction": 0.06172839506172839,
+      "reliefMin": -0.13515738783775877,
+      "reliefMax": 1.7031569112875662,
+      "bodies": 4,
+      "fragments": 5,
+      "families": [
+        "fractured",
+        "rounded"
+      ],
+      "heightMin": -12.271055255380045,
+      "heightMax": -2.842035777546761,
+      "lodTriangles": [
+        503,
+        331,
+        162
+      ]
+    },
+    {
+      "x": 6,
+      "z": 7,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.1728395061728395,
+      "reliefMin": -0.09741455317305814,
+      "reliefMax": 3.9364616816372533,
+      "bodies": 7,
+      "fragments": 13,
+      "families": [
+        "fractured",
+        "rounded",
+        "stratified"
+      ],
+      "heightMin": -9.828484679718317,
+      "heightMax": -2.1981159938557826,
+      "lodTriangles": [
+        992,
+        615,
+        339
+      ]
+    },
+    {
+      "x": 7,
+      "z": 7,
+      "processed": true,
+      "classification": "basalt",
+      "protectedFraction": 0,
+      "exposedRockSampleFraction": 1,
+      "visibleVolumeSampleFraction": 0.18518518518518517,
+      "reliefMin": -0.05214167029641992,
+      "reliefMax": 3.9364616816372533,
+      "bodies": 5,
+      "fragments": 10,
+      "families": [
+        "rounded",
+        "fractured"
+      ],
+      "heightMin": -9.288201797002623,
+      "heightMax": -2.1981159938557826,
+      "lodTriangles": [
+        588,
+        424,
+        194
+      ]
+    }
+  ]
+}

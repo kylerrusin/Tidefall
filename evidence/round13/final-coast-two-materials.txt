@@ -1,0 +1,62 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - generic: FIELD KIT AND SURFACE CHART
+  - button "Close inventory": ×
+  - heading "Travel light." [level=2]
+  - generic "Discoveries · 3"
+  - region "Geological samples":
+    - heading "Samples · 2/20 materials" [level=3]
+    - paragraph: V toggles the rifle between combat and geological sampling. Aim within 10 m and fire controlled pulses. E opens this field kit; X operates doors and seats.
+    - button "Switch rifle to combat"
+    - status: Coastal volcaniclastic sediment collected · 0.12 kg · 2 samples remain in this patch.
+    - generic "Bedded carbonate mudstone · 1 × · 0.18 kg TDF-LT-043":
+      - strong: Bedded carbonate mudstone
+      - text: · 1 × · 0.18 kg
+      - generic: TDF-LT-043
+    - generic "Coastal volcaniclastic sediment · 1 × · 0.12 kg TDF-SD-014":
+      - strong: Coastal volcaniclastic sediment
+      - text: · 1 × · 0.12 kg
+      - generic: TDF-SD-014
+  - button "1 Kinetic pulse rifle Kinetic pulse · 0.32s cadence":
+    - generic: "1"
+    - strong: Kinetic pulse rifle
+    - generic: Kinetic pulse · 0.32s cadence
+  - button "2 Oxygen canister 0 stored · +65 oxygen each":
+    - generic: "2"
+    - strong: Oxygen canister
+    - generic: 0 stored · +65 oxygen each
+  - button "3 Artificial field 100% charge · Q reverse · R recall":
+    - generic: "3"
+    - strong: Artificial field
+    - generic: 100% charge · Q reverse · R recall
+  - term: Suit
+  - definition: 100%
+  - term: Oxygen
+  - definition: 100%
+  - term: Core temperature
+  - definition: 37.0°C
+  - term: Thermal liner
+  - definition: None
+  - term: Emergency thrust
+  - definition: 100 / 100
+  - button "B · Energy cell · 0" [disabled]
+  - button "T · Thermal compound · 0" [disabled]
+  - button "Medical supply · 0 · +32 health" [disabled]
+  - button "Field service · 0/3 minerals" [disabled]
+  - generic: Medical and mineral supplies are recovered in the field.
+  - figure "AMBER MARKS SHELTERS · SUIT COLORS MARK ASTRONAUTS THE EBB · 3:13 elapsed":
+    - generic "Coastline chart showing shelters and surviving astronauts"
+    - text: AMBER MARKS SHELTERS · SUIT COLORS MARK ASTRONAUTS
+    - text: THE EBB · 3:13 elapsed
+  - button "Equip an item to use" [disabled]
+  - button "Carry nearby sampleG"
+  - button "Drop Medical" [disabled]
+  - button "Drop Energy" [disabled]
+  - button "Drop Thermal" [disabled]
+  - button "Drop Oxygen" [disabled]
+  - button "Drop Mineral" [disabled]
+  - paragraph: Oxygen is consumed underwater. Hold C to dive; release to float. Space assists ascent. Close physical compartment doors to shelter from wind and cold. G carries portable samples.
+  - button "Return to the surface Begin":
+    - text: Return to the surface
+    - generic: Begin

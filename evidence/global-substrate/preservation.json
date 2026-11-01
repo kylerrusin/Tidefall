@@ -1,0 +1,91 @@
+{
+  "lavaBed": {
+    "before": "78566dd6c561492a4305a3d9aaf905c281c3b7eb2a3d72987d54b1acf1157b34",
+    "after": "78566dd6c561492a4305a3d9aaf905c281c3b7eb2a3d72987d54b1acf1157b34"
+  },
+  "facilities": [
+    {
+      "seed": 42,
+      "before": "4141297fe0f99a8d3a46b50f16c75ac3ccf22337501d4d0bfd7ba324d922f8f9",
+      "after": "4141297fe0f99a8d3a46b50f16c75ac3ccf22337501d4d0bfd7ba324d922f8f9"
+    },
+    {
+      "seed": -43,
+      "before": "92a634706c291c327a991bebafe49eb540ee9bce5bc0bd2d1adbb740e24379d0",
+      "after": "92a634706c291c327a991bebafe49eb540ee9bce5bc0bd2d1adbb740e24379d0"
+    }
+  ],
+  "heroes": [
+    {
+      "seed": 42,
+      "before": [
+        "bd86d058f464752265ee86cdfe4875529eb2c4ab91a842a7f42471ac8798343c",
+        "8a2722db0069478bd6ea347771d2488ae6ee8a2483b355fad3e25881c17a7095"
+      ],
+      "after": [
+        "bd86d058f464752265ee86cdfe4875529eb2c4ab91a842a7f42471ac8798343c",
+        "8a2722db0069478bd6ea347771d2488ae6ee8a2483b355fad3e25881c17a7095"
+      ]
+    },
+    {
+      "seed": -43,
+      "before": [
+        "3a1b5b1532130ef2192532b2af500468dae817bb89fdc9f84aa5ce8bde226076",
+        "9b31fdcd3c6256741e40cd2b8eed01743f599c6c5f2ac306632b015ef8e2ddaf"
+      ],
+      "after": [
+        "3a1b5b1532130ef2192532b2af500468dae817bb89fdc9f84aa5ce8bde226076",
+        "9b31fdcd3c6256741e40cd2b8eed01743f599c6c5f2ac306632b015ef8e2ddaf"
+      ]
+    }
+  ],
+  "pad": [
+    {
+      "seed": 42,
+      "before": 23,
+      "after": 23
+    },
+    {
+      "seed": -43,
+      "before": 23,
+      "after": 23
+    }
+  ],
+  "source": [
+    {
+      "file": "Atmosphere.tsx",
+      "before": "b078da5500cabf75e4f2df47e3ea1f3ba2408cd6fd8fa35588cca02f0fa6cf21",
+      "after": "b078da5500cabf75e4f2df47e3ea1f3ba2408cd6fd8fa35588cca02f0fa6cf21"
+    },
+    {
+      "file": "facility-lighting.ts",
+      "before": "09905f7dc37e88fae6e16438ec94079b548771d47842b16a6a810c8ffde0e246",
+      "after": "09905f7dc37e88fae6e16438ec94079b548771d47842b16a6a810c8ffde0e246"
+    },
+    {
+      "file": "cloud-shader.ts",
+      "before": "df0ab8b55296ed86b27ae5cc72d459671fee1725cd56c84351595f9ce061a5e2",
+      "after": "df0ab8b55296ed86b27ae5cc72d459671fee1725cd56c84351595f9ce061a5e2"
+    },
+    {
+      "file": "climate.ts",
+      "before": "e5bf14e6a3b49518ecbb60e70a2cdc526e3ace3475926ec2db004f6514f96693",
+      "after": "e5bf14e6a3b49518ecbb60e70a2cdc526e3ace3475926ec2db004f6514f96693"
+    },
+    {
+      "file": "main.tsx",
+      "before": "e72a951e0417cb4b1120da841d6652e74894a86af6339f6b1be078ccd753243f",
+      "after": "e72a951e0417cb4b1120da841d6652e74894a86af6339f6b1be078ccd753243f"
+    },
+    {
+      "file": "controls.ts",
+      "before": "893ebe8bbfe28e8a0f5cbd9903565481bcaac3ce04edcdcf206b1154c2fed48a",
+      "after": "893ebe8bbfe28e8a0f5cbd9903565481bcaac3ce04edcdcf206b1154c2fed48a"
+    },
+    {
+      "file": "CameraRig.tsx",
+      "before": "f93a7b925afd90aa49f0d34c1d6fcbd94c9198738cd89ace0a9ccd6d8c367e03",
+      "after": "f93a7b925afd90aa49f0d34c1d6fcbd94c9198738cd89ace0a9ccd6d8c367e03"
+    }
+  ]
+}

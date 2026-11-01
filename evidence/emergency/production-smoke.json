@@ -1,0 +1,46 @@
+{
+  "health": {
+    "application": "tidefall",
+    "ok": true,
+    "rooms": 0,
+    "mode": "production",
+    "port": 4174
+  },
+  "assets": [
+    {
+      "path": "/assets/index-CGYB3PHa.js",
+      "status": 200,
+      "bytes": 1714030
+    },
+    {
+      "path": "/assets/index-U-T_eNLO.css",
+      "status": 200,
+      "bytes": 18942
+    },
+    {
+      "path": "/assets/prediction-nc88bhdH.js",
+      "status": 200,
+      "bytes": 4340111
+    },
+    {
+      "path": "/materials/rock-face/albedo.jpg",
+      "status": 200,
+      "bytes": 732721
+    },
+    {
+      "path": "/materials/rock-face/normal.jpg",
+      "status": 200,
+      "bytes": 1139857
+    },
+    {
+      "path": "/materials/rock-face/roughness.jpg",
+      "status": 200,
+      "bytes": 224371
+    },
+    {
+      "path": "/materials/rock-face/occlusion.jpg",
+      "status": 200,
+      "bytes": 501528
+    }
+  ]
+}

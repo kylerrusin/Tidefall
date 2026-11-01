@@ -1,0 +1,25 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED
+    - heading "Marine atmosphere" [level=3]
+    - generic: Pressure ~101 kPa · assumed
+    - generic: Air -7°C · wind 10 m/s
+    - generic: Condensation cloud fraction 96%
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - generic: EXTRACTION · 9:00
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · 100%
+  - generic: TAB · KIT & CHART
+  - status
+  - button "Mouse capture unavailable · Retry"
+  - text: RESCUE INBOUND · 300s
+  - generic: Beacon -12, -113 · TAB chart

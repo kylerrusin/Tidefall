@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta name="theme-color" content="#08161f" />
+    <meta
+      name="description"
+      content="Survive the Planet. First-person multiplayer survival on a tidal exoplanet."
+    />
+    <title>TIDEFALL — Survive the Planet</title>
+  </head>
+  <body>
+    <div id="root">
+      <div
+        id="startup-status"
+        style="
+          position: fixed;
+          inset: 0;
+          display: grid;
+          place-content: center;
+          background: #112935;
+          color: #d9e5dd;
+          font: 14px system-ui;
+          text-align: center;
+          gap: 18px;
+        "
+      >
+        <strong style="letter-spacing: 8px">TIDEFALL</strong
+        ><span id="startup-copy">Opening the surface uplink…</span
+        ><button
+          onclick="location.reload()"
+          style="
+            padding: 12px 24px;
+            background: #e7c498;
+            color: #172d36;
+            border: 0;
+            cursor: pointer;
+          "
+        >
+          RETRY CONNECTION
+        </button>
+      </div>
+    </div>
+    <script>
+      setTimeout(function () {
+        var status = document.getElementById("startup-copy");
+        if (status)
+          status.textContent =
+            "The development server may be restarting. Retry if this message remains.";
+      }, 7000);
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

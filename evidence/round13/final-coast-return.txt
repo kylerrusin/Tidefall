@@ -1,0 +1,27 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED GEOLOGY
+    - heading "Bedded carbonate mudstone" [level=3]
+    - generic: TDF-LT-043 · underlying bedrock
+    - generic: "Macro cover: rock 100% · weathered 0% · sediment 0%"
+    - generic: Thin beds of carbonate mud
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport"
+  - generic: STORM BUILDING
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · SAMPLE · V combat · 100%
+  - generic: E · KIT & CHART
+  - status
+  - button "Click to capture mouse"
+  - status:
+    - strong: GEOLOGICAL SAMPLING · V combat
+    - generic: Coastal volcaniclastic sediment collected · 0.12 kg · 2 samples remain in this patch.
+    - generic: E inventory · X interact

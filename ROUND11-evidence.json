@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-30T18:54:09.297Z",
+  "baseline": "22ca0f69edbeb2e6e069c6170b2c367f971d16f4",
+  "maps": [
+    {
+      "seed": 42,
+      "samples": 3132,
+      "previouslySuppressedNormalAndRoughness": 1168,
+      "substantialRock": 2582,
+      "steep": 558,
+      "steepRich": 558,
+      "regolith": 281,
+      "regolithRich": 281,
+      "terrainSha256": "586fbee0e6d59a8de63932ffbc0af9c6ab2f370e7c63ca2fb5005b43d27ba70c",
+      "apronSha256": "d8539d8c90ab09fef287d7d16554680b19ae1335784ccf85439f842f50192026"
+    },
+    {
+      "seed": -43,
+      "samples": 3132,
+      "previouslySuppressedNormalAndRoughness": 323,
+      "substantialRock": 3132,
+      "steep": 1199,
+      "steepRich": 1199,
+      "regolith": 0,
+      "regolithRich": 0,
+      "terrainSha256": "36e6e6dffdf3038c3c9d74fd728c1693a7d6fa3c7a2b2d599ad97d122abef0c5",
+      "apronSha256": "6dd269837f7d2ddfb720a7887f880c3399556cd5276b194df9abbed394e9842b"
+    }
+  ],
+  "appearanceContinuity": {
+    "sampleStepMetres": 0.025,
+    "catalogOrFaciesSwitches": 139,
+    "maxColorComponentJump": 0.00007444849515159113
+  },
+  "plants": {
+    "count": 260,
+    "clusters": 33,
+    "forms": [
+      "filament",
+      "fan",
+      "rosette",
+      "tuft",
+      "frond",
+      "float",
+      "branch",
+      "tube",
+      "mat",
+      "crust"
+    ],
+    "within4mOfNeighbor": 252,
+    "meanNearestNeighborMetres": 1.8211397271835927,
+    "minSize": 0.4330723799575004,
+    "maxSize": 1.3498210519022418
+  },
+  "waterContinuation": {
+    "boundaryVertices": 512,
+    "sides": 4,
+    "renderedTriangles": 2036,
+    "cpuMs": {
+      "median": 1.368000000000393,
+      "p95": 5.3989999999994325,
+      "max": 31.749800000000505
+    }
+  },
+  "limits": [
+    "CPU timings are local microbenchmarks, not a whole-frame or controlled GPU benchmark.",
+    "Coverage weights measure material eligibility, not photographic quality.",
+    "Reference example image was not present in the accessible attachment."
+  ]
+}

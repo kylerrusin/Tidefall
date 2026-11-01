@@ -1,0 +1,2330 @@
+
+> resolve@0.1.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: automatic extraction clips painted edges instead of dropping an entire clipped view
+ok 1 - automatic extraction clips painted edges instead of dropping an entire clipped view
+  ---
+  duration_ms: 8.165
+  type: 'test'
+  ...
+# Subtest: unknown clipping shapes remain suppressed and nested rectangles intersect
+ok 2 - unknown clipping shapes remain suppressed and nested rectangles intersect
+  ---
+  duration_ms: 1.2874
+  type: 'test'
+  ...
+# Subtest: section cut selects the applicable reference, not a closer unrelated head, under transformed placement
+ok 3 - section cut selects the applicable reference, not a closer unrelated head, under transformed placement
+  ---
+  duration_ms: 310.2243
+  type: 'test'
+  ...
+# Subtest: physical REGION area perimeter and slab volume use calibrated source geometry
+ok 4 - physical REGION area perimeter and slab volume use calibrated source geometry
+  ---
+  duration_ms: 3.0784
+  type: 'test'
+  ...
+# Subtest: PATH sections support rectangles triangles trapezoids and arbitrary simple sections
+ok 5 - PATH sections support rectangles triangles trapezoids and arbitrary simple sections
+  ---
+  duration_ms: 1.2387
+  type: 'test'
+  ...
+# Subtest: net additive thickened-edge section deducts slab overlap exactly once
+ok 6 - net additive thickened-edge section deducts slab overlap exactly once
+  ---
+  duration_ms: 0.9995
+  type: 'test'
+  ...
+# Subtest: view classification separates plan and section roles using localized titles
+ok 7 - view classification separates plan and section roles using localized titles
+  ---
+  duration_ms: 22.4601
+  type: 'test'
+  ...
+# Subtest: EvidenceCell stays local and excludes distant unrelated note
+ok 8 - EvidenceCell stays local and excludes distant unrelated note
+  ---
+  duration_ms: 14.9441
+  type: 'test'
+  ...
+# Subtest: deterministic resolution prioritizes project definitions and does not invent thickness
+ok 9 - deterministic resolution prioritizes project definitions and does not invent thickness
+  ---
+  duration_ms: 5.4368
+  type: 'test'
+  ...
+# Subtest: semantic contract rejects plan vertices and evidence outside the cell
+ok 10 - semantic contract rejects plan vertices and evidence outside the cell
+  ---
+  duration_ms: 20.9039
+  type: 'test'
+  ...
+# Subtest: neighboring project definitions cannot override an explicit seed
+ok 11 - neighboring project definitions cannot override an explicit seed
+  ---
+  duration_ms: 1.4571
+  type: 'test'
+  ...
+# Subtest: whole-phrase reinforcement text is evidence, not a slab assembly seed
+ok 12 - whole-phrase reinforcement text is evidence, not a slab assembly seed
+  ---
+  duration_ms: 1.859
+  type: 'test'
+  ...
+# Subtest: linked target detail type outranks the source leader note without discarding review evidence
+ok 13 - linked target detail type outranks the source leader note without discarding review evidence
+  ---
+  duration_ms: 3.0549
+  type: 'test'
+  ...
+# Subtest: carrier graph excludes faded strokes while retaining strong structural dashed boundaries
+ok 14 - carrier graph excludes faded strokes while retaining strong structural dashed boundaries
+  ---
+  duration_ms: 13.0073
+  type: 'test'
+  ...
+# Subtest: vertically stacked plan captions split after the upper caption
+ok 15 - vertically stacked plan captions split after the upper caption
+  ---
+  duration_ms: 11.1618
+  type: 'test'
+  ...
+# Subtest: configured adapter sends a compact strict schema and never plan vertices
+ok 16 - configured adapter sends a compact strict schema and never plan vertices
+  ---
+  duration_ms: 85.1477
+  type: 'test'
+  ...
+# Subtest: coverage overlap holds additive volume instead of double-counting
+ok 17 - coverage overlap holds additive volume instead of double-counting
+  ---
+  duration_ms: 42.4812
+  type: 'test'
+  ...
+# Subtest: API key absence never requires an API and deterministic results bypass configured model
+ok 18 - API key absence never requires an API and deterministic results bypass configured model
+  ---
+  duration_ms: 0.6679
+  type: 'test'
+  ...
+# Subtest: unchanged EvidenceCell resolution is cached, model failure leaves reviewable deterministic result
+ok 19 - unchanged EvidenceCell resolution is cached, model failure leaves reviewable deterministic result
+  ---
+  duration_ms: 1.3556
+  type: 'test'
+  ...
+# Subtest: seeded solver finds the containing native face, never an unrelated room
+ok 20 - seeded solver finds the containing native face, never an unrelated room
+  ---
+  duration_ms: 11.8871
+  type: 'test'
+  ...
+# Subtest: a native white CAD text mask cannot become a slab carrier
+ok 21 - a native white CAD text mask cannot become a slab carrier
+  ---
+  duration_ms: 34.857
+  type: 'test'
+  ...
+# Subtest: seeded path derives a centerline from paired connected native wall strokes
+ok 22 - seeded path derives a centerline from paired connected native wall strokes
+  ---
+  duration_ms: 53.8915
+  type: 'test'
+  ...
+# Subtest: explicit pad depths produce proposed region drafts, title-block text does not
+ok 23 - explicit pad depths produce proposed region drafts, title-block text does not
+  ---
+  duration_ms: 29.9018
+  type: 'test'
+  ...
+# Subtest: draft metadata round-trips through the existing storage contract
+ok 24 - draft metadata round-trips through the existing storage contract
+  ---
+  duration_ms: 183.2825
+  type: 'test'
+  ...
+# Subtest: repeated-pattern propagation retains own evidence and cancels on conflict
+ok 25 - repeated-pattern propagation retains own evidence and cancels on conflict
+  ---
+  duration_ms: 1.7963
+  type: 'test'
+  ...
+# Subtest: canonical cross-view reference supplies profile without a detail carrier or nearby-reference substitution
+ok 26 - canonical cross-view reference supplies profile without a detail carrier or nearby-reference substitution
+  ---
+  duration_ms: 53.3111
+  type: 'test'
+  ...
+# Subtest: draft pipeline serializes editor primitives and preserves manual items across reruns and edits
+ok 27 - draft pipeline serializes editor primitives and preserves manual items across reruns and edits
+  ---
+  duration_ms: 29.0889
+  type: 'test'
+  ...
+# Subtest: rerun supersedes stale system-accepted automatic assemblies
+ok 28 - rerun supersedes stale system-accepted automatic assemblies
+  ---
+  duration_ms: 18.2932
+  type: 'test'
+  ...
+# Subtest: globally competing boundary annotation stays unresolved instead of inheriting nearest-view ownership
+ok 29 - globally competing boundary annotation stays unresolved instead of inheriting nearest-view ownership
+  ---
+  duration_ms: 63.2232
+  type: 'test'
+  ...
+# Subtest: stacked unrelated words share a topology-backed DimensionSpec while retaining both text primitives
+ok 30 - stacked unrelated words share a topology-backed DimensionSpec while retaining both text primitives
+  ---
+  duration_ms: 9.5957
+  type: 'test'
+  ...
+# Subtest: whole-sheet header assignment connects a title, number and scale to one detail view
+ok 31 - whole-sheet header assignment connects a title, number and scale to one detail view
+  ---
+  duration_ms: 6.64
+  type: 'test'
+  ...
+# Subtest: one-to-many cross-sheet reference creates explicit edges to both target details
+ok 32 - one-to-many cross-sheet reference creates explicit edges to both target details
+  ---
+  duration_ms: 23.5984
+  type: 'test'
+  ...
+# Subtest: schedule qualifier retains a local cell with an unresolved graph edge when target is missing
+ok 33 - schedule qualifier retains a local cell with an unresolved graph edge when target is missing
+  ---
+  duration_ms: 13.5597
+  type: 'test'
+  ...
+# Subtest: composition is idempotent and primitive-to-parent lookup is stable
+ok 34 - composition is idempotent and primitive-to-parent lookup is stable
+  ---
+  duration_ms: 2.2136
+  type: 'test'
+  ...
+# Subtest: a rotated header uses common orientation and stays attached to its own view
+ok 35 - a rotated header uses common orientation and stays attached to its own view
+  ---
+  duration_ms: 2.9642
+  type: 'test'
+  ...
+# Subtest: two nearby labels without terminal geometry do not become a dimension
+ok 36 - two nearby labels without terminal geometry do not become a dimension
+  ---
+  duration_ms: 3.1693
+  type: 'test'
+  ...
+# Subtest: connected reinforcement leader survives nearby unrelated text without claiming it
+ok 37 - connected reinforcement leader survives nearby unrelated text without claiming it
+  ---
+  duration_ms: 3.5362
+  type: 'test'
+  ...
+# Subtest: repeated pattern relation is retained between contextual reinforcement cells
+ok 38 - repeated pattern relation is retained between contextual reinforcement cells
+  ---
+  duration_ms: 2.3472
+  type: 'test'
+  ...
+# Subtest: a unique schedule view resolves a generic schedule qualifier without a value guess
+ok 39 - a unique schedule view resolves a generic schedule qualifier without a value guess
+  ---
+  duration_ms: 1.5078
+  type: 'test'
+  ...
+# Subtest: disagreeing title and detail paths record a conflict instead of a false resolved view
+ok 40 - disagreeing title and detail paths record a conflict instead of a false resolved view
+  ---
+  duration_ms: 1.954
+  type: 'test'
+  ...
+# Subtest: Face selects analytic curved lateral/end surfaces; Surface Area and Solid Volume select one instance
+ok 41 - Face selects analytic curved lateral/end surfaces; Surface Area and Solid Volume select one instance
+  ---
+  duration_ms: 10.3152
+  type: 'test'
+  ...
+# Subtest: canonical cylinder/chamfer and torus faces sum to exact physical surface, without triangle identity
+ok 42 - canonical cylinder/chamfer and torus faces sum to exact physical surface, without triangle identity
+  ---
+  duration_ms: 2.4118
+  type: 'test'
+  ...
+# Subtest: marker size is independent of line thickness and extrusion starts with a direct planar Face
+ok 43 - marker size is independent of line thickness and extrusion starts with a direct planar Face
+  ---
+  duration_ms: 6.3476
+  type: 'test'
+  ...
+# Subtest: versioned reinforcing provider supports every intended designation and fails explicitly outside its range
+ok 44 - versioned reinforcing provider supports every intended designation and fails explicitly outside its range
+  ---
+  duration_ms: 4.2145
+  type: 'test'
+  ...
+# Subtest: real-output audit rejects whole-table highlighting or incorrect semantic row/column even with a resolved value
+ok 45 - real-output audit rejects whole-table highlighting or incorrect semantic row/column even with a resolved value
+  ---
+  duration_ms: 95.5688
+  type: 'test'
+  ...
+# Subtest: holdout selection is caption-only, order-independent, diverse and never reuses previously worked targets
+ok 46 - holdout selection is caption-only, order-independent, diverse and never reuses previously worked targets
+  ---
+  duration_ms: 34.0664
+  type: 'test'
+  ...
+# Subtest: development signatures are key-order stable and tolerate harmless jitter without erasing provenance or path order
+ok 47 - development signatures are key-order stable and tolerate harmless jitter without erasing provenance or path order
+  ---
+  duration_ms: 1.7593
+  type: 'test'
+  ...
+# Subtest: parenthetical counts bind construction expressions across split/order/font/position mutations
+ok 48 - parenthetical counts bind construction expressions across split/order/font/position mutations
+  ---
+  duration_ms: 134.5395
+  type: 'test'
+  ...
+# Subtest: balanced multiline delimiters retain scope under rotated placement
+ok 49 - balanced multiline delimiters retain scope under rotated placement
+  ---
+  duration_ms: 13.9522
+  type: 'test'
+  ...
+# Subtest: arbitrary colon prefixes bind same-line phrases and preserve punctuation/raw spans
+ok 50 - arbitrary colon prefixes bind same-line phrases and preserve punctuation/raw spans
+  ---
+  duration_ms: 8.5055
+  type: 'test'
+  ...
+# Subtest: native enclosure preserves a complete paragraph without absorbing nearby independent notes
+ok 51 - native enclosure preserves a complete paragraph without absorbing nearby independent notes
+  ---
+  duration_ms: 19.2491
+  type: 'test'
+  ...
+# Subtest: held bar quantities retain host-bounded oriented axes with no asserted endpoint or measurable length
+ok 52 - held bar quantities retain host-bounded oriented axes with no asserted endpoint or measurable length
+  ---
+  duration_ms: 126.451
+  type: 'test'
+  ...
+# Subtest: triangulated hooked silhouette retains its boundary and is invariant to vector segmentation
+ok 53 - triangulated hooked silhouette retains its boundary and is invariant to vector segmentation
+  ---
+  duration_ms: 8.3734
+  type: 'test'
+  ...
+# Subtest: split spacing operands preserve punctuation and cannot cross schedule grid boundaries
+ok 54 - split spacing operands preserve punctuation and cannot cross schedule grid boundaries
+  ---
+  duration_ms: 22.2484
+  type: 'test'
+  ...
+# Subtest: optional manufacturer instruction is not an installed component or procedural concrete fact
+ok 55 - optional manufacturer instruction is not an installed component or procedural concrete fact
+  ---
+  duration_ms: 11.8239
+  type: 'test'
+  ...
+# Subtest: source anchor topology stays partial and held regardless of the displayed host envelope
+ok 56 - source anchor topology stays partial and held regardless of the displayed host envelope
+  ---
+  duration_ms: 12.4995
+  type: 'test'
+  ...
+# Subtest: known clearance outside an otherwise partial bar envelope fails closed without reversed axes
+ok 57 - known clearance outside an otherwise partial bar envelope fails closed without reversed axes
+  ---
+  duration_ms: 14.7382
+  type: 'test'
+  ...
+# Subtest: native fill metadata reflects actual paint operation without changing source coordinates or identity
+ok 58 - native fill metadata reflects actual paint operation without changing source coordinates or identity
+  ---
+  duration_ms: 29.0903
+  type: 'test'
+  ...
+# Subtest: central model interaction state reserves right input for orbit and explicit left measurement
+ok 59 - central model interaction state reserves right input for orbit and explicit left measurement
+  ---
+  duration_ms: 22.6253
+  type: 'test'
+  ...
+# Subtest: plate keeps native middle autoscroll outside Distance while preserving left Pan/Space
+ok 60 - plate keeps native middle autoscroll outside Distance while preserving left Pan/Space
+  ---
+  duration_ms: 78.9343
+  type: 'test'
+  ...
+# Subtest: source/model dimension reports detect corrupted geometry and share surface Ruler coordinates
+ok 61 - source/model dimension reports detect corrupted geometry and share surface Ruler coordinates
+  ---
+  duration_ms: 33.372
+  type: 'test'
+  ...
+# Subtest: verification treats zone and clearance bounds as bounds, not invented exact placement
+ok 62 - verification treats zone and clearance bounds as bounds, not invented exact placement
+  ---
+  duration_ms: 48.2038
+  type: 'test'
+  ...
+# Subtest: real regression corpus: ACTIVE SD102/A · Typical Light Pole Pier Detail
+ok 63 - real regression corpus: ACTIVE SD102/A · Typical Light Pole Pier Detail
+  ---
+  duration_ms: 13096.387
+  type: 'test'
+  ...
+# Subtest: real regression corpus: HOLDOUT SD101/D · Typical Thickened Slab Construction Detail
+ok 64 - real regression corpus: HOLDOUT SD101/D · Typical Thickened Slab Construction Detail
+  ---
+  duration_ms: 5865.0129
+  type: 'test'
+  ...
+# Subtest: repeated dimension roles need source-case ownership, not a guessed number of cases; duplicate claims are not separate views
+ok 65 - repeated dimension roles need source-case ownership, not a guessed number of cases; duplicate claims are not separate views
+  ---
+  duration_ms: 3.7217
+  type: 'test'
+  ...
+# Subtest: unresolved cases retain typed components and written facts but never mix them into geometry, projections or released quantities
+ok 66 - unresolved cases retain typed components and written facts but never mix them into geometry, projections or released quantities
+  ---
+  duration_ms: 71.1914
+  type: 'test'
+  ...
+# Subtest: detail number, title, and scale yield a whole DetailView independent of header side and rotation
+ok 67 - detail number, title, and scale yield a whole DetailView independent of header side and rotation
+  ---
+  duration_ms: 82.1829
+  type: 'test'
+  ...
+# Subtest: two nearby details retain separate scales and ambiguous duplicate identity stays reviewable
+ok 68 - two nearby details retain separate scales and ambiguous duplicate identity stays reviewable
+  ---
+  duration_ms: 15.7705
+  type: 'test'
+  ...
+# Subtest: detail without a profile is detected without manufacturing quantity geometry
+ok 69 - detail without a profile is detected without manufacturing quantity geometry
+  ---
+  duration_ms: 5.5069
+  type: 'test'
+  ...
+# Subtest: connected arrowhead targets structural stroke across unrelated text and supports two targets
+ok 70 - connected arrowhead targets structural stroke across unrelated text and supports two targets
+  ---
+  duration_ms: 7.9821
+  type: 'test'
+  ...
+# Subtest: leader with no terminal structural stroke remains unresolved
+ok 71 - leader with no terminal structural stroke remains unresolved
+  ---
+  duration_ms: 1.7969
+  type: 'test'
+  ...
+# Subtest: two profile regions remain children of one DetailView and continuation prevents hard closure
+ok 72 - two profile regions remain children of one DetailView and continuation prevents hard closure
+  ---
+  duration_ms: 25.6055
+  type: 'test'
+  ...
+# Subtest: same evidence is idempotent and unresolved scale is a hard closure failure
+ok 73 - same evidence is idempotent and unresolved scale is a hard closure failure
+  ---
+  duration_ms: 4.4974
+  type: 'test'
+  ...
+# Subtest: exact cross-sheet reference terminates at the whole DetailView, not its number token
+ok 74 - exact cross-sheet reference terminates at the whole DetailView, not its number token
+  ---
+  duration_ms: 6.5426
+  type: 'test'
+  ...
+# Subtest: missing schedule leaves DetailView and AssemblySpec intact but dependency open
+ok 75 - missing schedule leaves DetailView and AssemblySpec intact but dependency open
+  ---
+  duration_ms: 4.5289
+  type: 'test'
+  ...
+# Subtest: atomic ledger accounts for unlinked native text and graphics explicitly
+ok 76 - atomic ledger accounts for unlinked native text and graphics explicitly
+  ---
+  duration_ms: 14.5683
+  type: 'test'
+  ...
+# Subtest: typed detail reference rejects duplicate generic numeral and targets whole cell
+ok 77 - typed detail reference rejects duplicate generic numeral and targets whole cell
+  ---
+  duration_ms: 7.5088
+  type: 'test'
+  ...
+# Subtest: leader-free crossing strokes do not create unresolved leader relations
+ok 78 - leader-free crossing strokes do not create unresolved leader relations
+  ---
+  duration_ms: 1.1962
+  type: 'test'
+  ...
+# Subtest: vector-aligned schedule retains rows and RE:SCHEDULE dependency is explicit
+ok 79 - vector-aligned schedule retains rows and RE:SCHEDULE dependency is explicit
+  ---
+  duration_ms: 15.0804
+  type: 'test'
+  ...
+# Subtest: adjacent annotation lines with independent attached leaders remain separate
+ok 80 - adjacent annotation lines with independent attached leaders remain separate
+  ---
+  duration_ms: 14.9603
+  type: 'test'
+  ...
+# Subtest: generated translations and scales preserve leader topology and target identity
+ok 81 - generated translations and scales preserve leader topology and target identity
+  ---
+  duration_ms: 22.2967
+  type: 'test'
+  ...
+# Subtest: interior texture stays separate from physical enclosing edges
+ok 82 - interior texture stays separate from physical enclosing edges
+  ---
+  duration_ms: 9.3391
+  type: 'test'
+  ...
+# Subtest: native schedule rows survive multiline composition and quarter-turn rotations
+ok 83 - native schedule rows survive multiline composition and quarter-turn rotations
+  ---
+  duration_ms: 76.5978
+  type: 'test'
+  ...
+# Subtest: raster operators are accounted as unresolved and repeated closure is idempotent
+ok 84 - raster operators are accounted as unresolved and repeated closure is idempotent
+  ---
+  duration_ms: 3.8148
+  type: 'test'
+  ...
+# Subtest: compiles a linear footing/stem into concrete, physical reinforcement, embeds and unit quantities
+ok 85 - compiles a linear footing/stem into concrete, physical reinforcement, embeds and unit quantities
+  ---
+  duration_ms: 60.6465
+  type: 'test'
+  ...
+# Subtest: models a point/axial assembly and honors explicit dimensions even when the detail is NTS
+ok 86 - models a point/axial assembly and honors explicit dimensions even when the detail is NTS
+  ---
+  duration_ms: 8.3724
+  type: 'test'
+  ...
+# Subtest: resolves schedule-driven area thickness but preserves a missing referenced edge condition
+ok 87 - resolves schedule-driven area thickness but preserves a missing referenced edge condition
+  ---
+  duration_ms: 3.3956
+  type: 'test'
+  ...
+# Subtest: fails closed on equal-precedence conflicts and does not average claims
+ok 88 - fails closed on equal-precedence conflicts and does not average claims
+  ---
+  duration_ms: 2.266
+  type: 'test'
+  ...
+# Subtest: a visible user override retains original claims and unblocks only its dependent value
+ok 89 - a visible user override retains original claims and unblocks only its dependent value
+  ---
+  duration_ms: 1.0749
+  type: 'test'
+  ...
+# Subtest: spacing-based linear reinforcement becomes a per-carrier quantity when its length is resolved
+ok 90 - spacing-based linear reinforcement becomes a per-carrier quantity when its length is resolved
+  ---
+  duration_ms: 2.0437
+  type: 'test'
+  ...
+# Subtest: instantiates structured unit quantities only with a compatible later plan carrier
+ok 91 - instantiates structured unit quantities only with a compatible later plan carrier
+  ---
+  duration_ms: 2.3242
+  type: 'test'
+  ...
+# Subtest: moving evidence boxes or changing text presentation does not change structured interpretation
+ok 92 - moving evidence boxes or changing text presentation does not change structured interpretation
+  ---
+  duration_ms: 5.0216
+  type: 'test'
+  ...
+# Subtest: schedule outranks reference defaults but contradictory direct local evidence requires review
+ok 93 - schedule outranks reference defaults but contradictory direct local evidence requires review
+  ---
+  duration_ms: 2.6932
+  type: 'test'
+  ...
+# Subtest: every recognized fixture evidence item has an explicit closure disposition
+ok 94 - every recognized fixture evidence item has an explicit closure disposition
+  ---
+  duration_ms: 7.3958
+  type: 'test'
+  ...
+# Subtest: support envelope preserves a thickened-edge vertical step, uniform base and planar cut faces
+ok 95 - support envelope preserves a thickened-edge vertical step, uniform base and planar cut faces
+  ---
+  duration_ms: 61.0721
+  type: 'test'
+  ...
+# Subtest: source-owned Drop/Slope selection drives the same geometry, projection and held quantities, not Site
+ok 96 - source-owned Drop/Slope selection drives the same geometry, projection and held quantities, not Site
+  ---
+  duration_ms: 6689.087
+  type: 'test'
+  ...
+# Subtest: under-slab support follows the host underside and remains outside physical measuring/quantity contracts
+ok 97 - under-slab support follows the host underside and remains outside physical measuring/quantity contracts
+  ---
+  duration_ms: 12175.3647
+  type: 'test'
+  ...
+# Subtest: display tie tessellation is lighter without changing canonical geometry or attachment semantics
+ok 98 - display tie tessellation is lighter without changing canonical geometry or attachment semantics
+  ---
+  duration_ms: 127.2305
+  type: 'test'
+  ...
+# Subtest: exact-source memo reuses only unchanged text/vector/raster/source identity and stays bounded
+ok 99 - exact-source memo reuses only unchanged text/vector/raster/source identity and stays bounded
+  ---
+  duration_ms: 2.1061
+  type: 'test'
+  ...
+# Subtest: paving thickness comes from owned source outline/scale, never a standard assumed dimension
+ok 100 - paving thickness comes from owned source outline/scale, never a standard assumed dimension
+  ---
+  duration_ms: 2848.5636
+  type: 'test'
+  ...
+# Subtest: generic host/WHERE, WITH, UNO and reference-target fragments bind with source identities and rules intact
+ok 101 - generic host/WHERE, WITH, UNO and reference-target fragments bind with source identities and rules intact
+  ---
+  duration_ms: 53.2862
+  type: 'test'
+  ...
+# Subtest: topology, orientation, source lane, enclosure/grid identity and competing hosts prevent false dependency merges
+ok 102 - topology, orientation, source lane, enclosure/grid identity and competing hosts prevent false dependency merges
+  ---
+  duration_ms: 15.8493
+  type: 'test'
+  ...
+# Subtest: abbreviation semantics and display normalization are centralized and do not rewrite source
+ok 103 - abbreviation semantics and display normalization are centralized and do not rewrite source
+  ---
+  duration_ms: 7.9633
+  type: 'test'
+  ...
+# Subtest: finished chains retain anchors, suppress preview, and never connect to a new measurement
+ok 104 - finished chains retain anchors, suppress preview, and never connect to a new measurement
+  ---
+  duration_ms: 6.7557
+  type: 'test'
+  ...
+# Subtest: source chains preserve native attachments and sum only actual segments across breaks
+ok 105 - source chains preserve native attachments and sum only actual segments across breaks
+  ---
+  duration_ms: 15.1831
+  type: 'test'
+  ...
+# Subtest: model Distance uses the same disconnected semantics without changing geometry/provenance
+ok 106 - model Distance uses the same disconnected semantics without changing geometry/provenance
+  ---
+  duration_ms: 3.3083
+  type: 'test'
+  ...
+# Subtest: stationary right-click opens Distance actions but orbit and other tools remain intact
+ok 107 - stationary right-click opens Distance actions but orbit and other tools remain intact
+  ---
+  duration_ms: 0.7628
+  type: 'test'
+  ...
+# Subtest: both viewers share the compact numeric pill, S labels and rigid segment columns; provenance remains out of the value
+ok 108 - both viewers share the compact numeric pill, S labels and rigid segment columns; provenance remains out of the value
+  ---
+  duration_ms: 76.3771
+  type: 'test'
+  ...
+# Subtest: direct written local dimension vs schedule remains conflicting across precedence; graphical candidate never replaces the schedule
+ok 109 - direct written local dimension vs schedule remains conflicting across precedence; graphical candidate never replaces the schedule
+  ---
+  duration_ms: 19.2134
+  type: 'test'
+  ...
+# Subtest: semantic cylinder/chamfer anchors ignore renderer triangle IDs and follow source parameter changes
+ok 110 - semantic cylinder/chamfer anchors ignore renderer triangle IDs and follow source parameter changes
+  ---
+  duration_ms: 98.4821
+  type: 'test'
+  ...
+# Subtest: same four semantic measurements survive 180-degree horizontal/vertical orbit, pan, zoom and presets
+ok 111 - same four semantic measurements survive 180-degree horizontal/vertical orbit, pan, zoom and presets
+  ---
+  duration_ms: 14.2631
+  type: 'test'
+  ...
+# Subtest: screen proximity and selected/locked component prevent concrete-first rebar snap
+ok 112 - screen proximity and selected/locked component prevent concrete-first rebar snap
+  ---
+  duration_ms: 46.4769
+  type: 'test'
+  ...
+# Subtest: unified area/volume core preserves analytic circles, optional curved sketch edges and chamfer volume
+ok 113 - unified area/volume core preserves analytic circles, optional curved sketch edges and chamfer volume
+  ---
+  duration_ms: 14.0966
+  type: 'test'
+  ...
+# Subtest: extrusion faces/edges/vertices derive from canonical profile rather than mesh tessellation
+ok 114 - extrusion faces/edges/vertices derive from canonical profile rather than mesh tessellation
+  ---
+  duration_ms: 7.8093
+  type: 'test'
+  ...
+# Subtest: generic painted hooked profiles become bent medial rods under rotation, scale and vector decomposition
+ok 115 - generic painted hooked profiles become bent medial rods under rotation, scale and vector decomposition
+  ---
+  duration_ms: 2171.3089
+  type: 'test'
+  ...
+# Subtest: NOTE heading owns numbered native enclosure children under content, font and position mutations
+ok 116 - NOTE heading owns numbered native enclosure children under content, font and position mutations
+  ---
+  duration_ms: 99.7627
+  type: 'test'
+  ...
+# Subtest: multiline table headers use cell/ruling topology and cannot absorb neighboring column/data
+ok 117 - multiline table headers use cell/ruling topology and cannot absorb neighboring column/data
+  ---
+  duration_ms: 19.4573
+  type: 'test'
+  ...
+# Subtest: detail heading composes bubble identifier, title and underline without arbitrary circled text
+ok 118 - detail heading composes bubble identifier, title and underline without arbitrary circled text
+  ---
+  duration_ms: 26.0719
+  type: 'test'
+  ...
+# Subtest: complete parenthetical qualifiers bind backward after split delimiter closure, not to a nearby independent note
+ok 119 - complete parenthetical qualifiers bind backward after split delimiter closure, not to a nearby independent note
+  ---
+  duration_ms: 17.6463
+  type: 'test'
+  ...
+# Subtest: explicit measurement controls cannot interpret a right-click as a measurement or a middle gesture as orbit
+ok 120 - explicit measurement controls cannot interpret a right-click as a measurement or a middle gesture as orbit
+  ---
+  duration_ms: 32.0704
+  type: 'test'
+  ...
+# Subtest: source rod display thickness permits only candidate path snaps, never surface area or solid volume
+ok 121 - source rod display thickness permits only candidate path snaps, never surface area or solid volume
+  ---
+  duration_ms: 11.6562
+  type: 'test'
+  ...
+# Subtest: real active plate: both anchor rod meshes, four hierarchy closures and unapproved parameter candidates survive generic mutations
+ok 122 - real active plate: both anchor rod meshes, four hierarchy closures and unapproved parameter candidates survive generic mutations
+  ---
+  duration_ms: 21152.6975
+  type: 'test'
+  ...
+# Subtest: fact provenance and continuous candidate bars stay separate from explicit values and approval
+ok 123 - fact provenance and continuous candidate bars stay separate from explicit values and approval
+  ---
+  duration_ms: 245.2882
+  type: 'test'
+  ...
+# Subtest: complete special-zone cage has bounded inferred positions and no duplicate regime boundary
+ok 124 - complete special-zone cage has bounded inferred positions and no duplicate regime boundary
+  ---
+  duration_ms: 102.9916
+  type: 'test'
+  ...
+# Subtest: unavailable and conflicting candidate constraints fail closed
+ok 125 - unavailable and conflicting candidate constraints fail closed
+  ---
+  duration_ms: 11.3918
+  type: 'test'
+  ...
+# Subtest: global material stack and conditional clauses preserve rotated/translated/split annotations
+ok 126 - global material stack and conditional clauses preserve rotated/translated/split annotations
+  ---
+  duration_ms: 24.8811
+  type: 'test'
+  ...
+# Subtest: material grammar cannot cross independent enclosures or competing leader ownership
+ok 127 - material grammar cannot cross independent enclosures or competing leader ownership
+  ---
+  duration_ms: 11.7313
+  type: 'test'
+  ...
+# Subtest: logical hidden run is invariant to dash decomposition and retains every source ID
+ok 128 - logical hidden run is invariant to dash decomposition and retains every source ID
+  ---
+  duration_ms: 9.306
+  type: 'test'
+  ...
+# Subtest: orbit keeps assembly pivot invariant after pan/zoom and reverses without roll or drift
+ok 129 - orbit keeps assembly pivot invariant after pan/zoom and reverses without roll or drift
+  ---
+  duration_ms: 5.5696
+  type: 'test'
+  ...
+# Subtest: activation map gates wheel, preserves right orbit and requires explicit left measurement
+ok 130 - activation map gates wheel, preserves right orbit and requires explicit left measurement
+  ---
+  duration_ms: 60.248
+  type: 'test'
+  ...
+# Subtest: temporary empty and invalid numeric edits do not replace source/effective values
+ok 131 - temporary empty and invalid numeric edits do not replace source/effective values
+  ---
+  duration_ms: 24.1284
+  type: 'test'
+  ...
+# Subtest: measurement canvas replacement does not turn an inside pointer into outside release
+ok 132 - measurement canvas replacement does not turn an inside pointer into outside release
+  ---
+  duration_ms: 18.0512
+  type: 'test'
+  ...
+# Subtest: surface anchors measure actual geometry, survive camera transformations and follow changed depth
+ok 133 - surface anchors measure actual geometry, survive camera transformations and follow changed depth
+  ---
+  duration_ms: 57.4797
+  type: 'test'
+  ...
+# Subtest: analytic planar faces, snapped polygons and solid/area extrusion volumes are model-space
+ok 134 - analytic planar faces, snapped polygons and solid/area extrusion volumes are model-space
+  ---
+  duration_ms: 45.9904
+  type: 'test'
+  ...
+# Subtest: normal component facts show provenance, not implementation readiness labels
+ok 135 - normal component facts show provenance, not implementation readiness labels
+  ---
+  duration_ms: 45.3995
+  type: 'test'
+  ...
+# Subtest: candidate bar weight uses its own designation, not the outer tie parameter order
+ok 136 - candidate bar weight uses its own designation, not the outer tie parameter order
+  ---
+  duration_ms: 8.2985
+  type: 'test'
+  ...
+# Subtest: conditional relation edges cannot skip an intervening construction noun
+ok 137 - conditional relation edges cannot skip an intervening construction noun
+  ---
+  duration_ms: 4.6337
+  type: 'test'
+  ...
+# Subtest: candidate ties cannot collide across the ordinary/special regime boundary
+ok 138 - candidate ties cannot collide across the ordinary/special regime boundary
+  ---
+  duration_ms: 176.9116
+  type: 'test'
+  ...
+# Subtest: candidate quantities scale only on compatible carriers without becoming approved
+ok 139 - candidate quantities scale only on compatible carriers without becoming approved
+  ---
+  duration_ms: 14.3738
+  type: 'test'
+  ...
+# Subtest: verifier checks candidate math without treating a passing check as approval
+ok 140 - verifier checks candidate math without treating a passing check as approval
+  ---
+  duration_ms: 30.853
+  type: 'test'
+  ...
+# Subtest: unknown host depth is not promoted to a measurable physical candidate
+ok 141 - unknown host depth is not promoted to a measurable physical candidate
+  ---
+  duration_ms: 5.601
+  type: 'test'
+  ...
+# Subtest: fidelity real ACTIVE: independent source and schedule switch invariants
+ok 142 - fidelity real ACTIVE: independent source and schedule switch invariants
+  ---
+  duration_ms: 20602.0431
+  type: 'test'
+  ...
+# Subtest: fidelity real HOLDOUT: independent source and schedule switch invariants
+ok 143 - fidelity real HOLDOUT: independent source and schedule switch invariants
+  ---
+  duration_ms: 4300.066
+  type: 'test'
+  ...
+# Subtest: shared parser retains runtime precision, source indices and identity-independent page content hash
+ok 144 - shared parser retains runtime precision, source indices and identity-independent page content hash
+  ---
+  duration_ms: 81.0392
+  type: 'test'
+  ...
+# Subtest: grammar accepts alternate values, metric units, reversed qualifiers and delegation syntax
+ok 145 - grammar accepts alternate values, metric units, reversed qualifiers and delegation syntax
+  ---
+  duration_ms: 39.0838
+  type: 'test'
+  ...
+# Subtest: tiny tokens survive capture and split / joined annotations preserve claims
+ok 146 - tiny tokens survive capture and split / joined annotations preserve claims
+  ---
+  duration_ms: 89.5825
+  type: 'test'
+  ...
+# Subtest: ambiguous clearance grouping retains alternatives instead of selecting a value
+ok 147 - ambiguous clearance grouping retains alternatives instead of selecting a value
+  ---
+  duration_ms: 6.509
+  type: 'test'
+  ...
+# Subtest: capture retains blank spans, native style/operator metadata and canonical relation identities
+ok 148 - capture retains blank spans, native style/operator metadata and canonical relation identities
+  ---
+  duration_ms: 4.6326
+  type: 'test'
+  ...
+# Subtest: the identical core compiles a second rectangular evidence case with no registration
+ok 149 - the identical core compiles a second rectangular evidence case with no registration
+  ---
+  duration_ms: 58.6791
+  type: 'test'
+  ...
+# Subtest: production grammar and solver contain no regression sheet/title/value branch
+ok 150 - production grammar and solver contain no regression sheet/title/value branch
+  ---
+  duration_ms: 76.826
+  type: 'test'
+  ...
+# Subtest: source parameters remain overrideable and reset restores provenance and quantity
+ok 151 - source parameters remain overrideable and reset restores provenance and quantity
+  ---
+  duration_ms: 77.676
+  type: 'test'
+  ...
+# Subtest: quantity ownership retains namespaced component identity and validates its own dependent values
+ok 152 - quantity ownership retains namespaced component identity and validates its own dependent values
+  ---
+  duration_ms: 37.6734
+  type: 'test'
+  ...
+# Subtest: diameter/depth/chamfer changes update the same solid and its volume across a parameter grid
+ok 153 - diameter/depth/chamfer changes update the same solid and its volume across a parameter grid
+  ---
+  duration_ms: 117.1097
+  type: 'test'
+  ...
+# Subtest: equivalent units and modest font/span order changes preserve evidence semantics
+ok 154 - equivalent units and modest font/span order changes preserve evidence semantics
+  ---
+  duration_ms: 43.6032
+  type: 'test'
+  ...
+# Subtest: outer tie cover, inner bars, axial offsets, count and spacing derive physical coordinates
+ok 155 - outer tie cover, inner bars, axial offsets, count and spacing derive physical coordinates
+  ---
+  duration_ms: 53.0226
+  type: 'test'
+  ...
+# Subtest: unknown endpoints preserve bounded axes, never asserted flush bars, and hold quantities
+ok 156 - unknown endpoints preserve bounded axes, never asserted flush bars, and hold quantities
+  ---
+  duration_ms: 19.9331
+  type: 'test'
+  ...
+# Subtest: impossible or nonfinite overrides preserve reviewer values and fail closed without crashes
+ok 157 - impossible or nonfinite overrides preserve reviewer values and fail closed without crashes
+  ---
+  duration_ms: 49.2533
+  type: 'test'
+  ...
+# Subtest: surface raycasting and model-space measurements share the rendered solid and real units
+ok 158 - surface raycasting and model-space measurements share the rendered solid and real units
+  ---
+  duration_ms: 25.5574
+  type: 'test'
+  ...
+# Subtest: opaque concrete writes depth and occludes internal steel while translucent passes remain see-through
+ok 159 - opaque concrete writes depth and occludes internal steel while translucent passes remain see-through
+  ---
+  duration_ms: 0.8684
+  type: 'test'
+  ...
+# Subtest: navigation modes use semantic left, middle pan, right orbit and explicitly activated left measurement
+ok 160 - navigation modes use semantic left, middle pan, right orbit and explicitly activated left measurement
+  ---
+  duration_ms: 1.3525
+  type: 'test'
+  ...
+# Subtest: human labels, cubic-yard typography and versioned development reference are explicit
+ok 161 - human labels, cubic-yard typography and versioned development reference are explicit
+  ---
+  duration_ms: 15.4161
+  type: 'test'
+  ...
+# Subtest: Details sample selection cannot remove foundation documents or underlying sheets
+ok 162 - Details sample selection cannot remove foundation documents or underlying sheets
+  ---
+  duration_ms: 20.1059
+  type: 'test'
+  ...
+# Subtest: source overlay cannot inherit a fixed-height clamp independent of the PDF canvas
+ok 163 - source overlay cannot inherit a fixed-height clamp independent of the PDF canvas
+  ---
+  duration_ms: 29.8999
+  type: 'test'
+  ...
+# Subtest: material legend is an abutting bottom panel, not a canvas overlay, and tools stay grouped
+ok 164 - material legend is an abutting bottom panel, not a canvas overlay, and tools stay grouped
+  ---
+  duration_ms: 27.3045
+  type: 'test'
+  ...
+# Subtest: site and physical legend styles share a central source-class registry without changing existing semantic colors
+ok 165 - site and physical legend styles share a central source-class registry without changing existing semantic colors
+  ---
+  duration_ms: 9.0377
+  type: 'test'
+  ...
+# Subtest: legend size designation stays with its qualifier and formal heading is responsive
+ok 166 - legend size designation stays with its qualifier and formal heading is responsive
+  ---
+  duration_ms: 9.1101
+  type: 'test'
+  ...
+# Subtest: paving swatch and renderer share an illustrative finish without inferring asphalt or changing source class
+ok 167 - paving swatch and renderer share an illustrative finish without inferring asphalt or changing source class
+  ---
+  duration_ms: 0.9491
+  type: 'test'
+  ...
+# Subtest: one model interaction state preserves semantic left, middle pan, right orbit and wheel in each tool
+ok 168 - one model interaction state preserves semantic left, middle pan, right orbit and wheel in each tool
+  ---
+  duration_ms: 60.2025
+  type: 'test'
+  ...
+# Subtest: canonical surface/solid metrics include round caps, swept bends, torus and actual chamfer
+ok 169 - canonical surface/solid metrics include round caps, swept bends, torus and actual chamfer
+  ---
+  duration_ms: 277.546
+  type: 'test'
+  ...
+# Subtest: extrusion mesh winding and physical metrics survive reversed profiles and skewed/negative vectors
+ok 170 - extrusion mesh winding and physical metrics survive reversed profiles and skewed/negative vectors
+  ---
+  duration_ms: 13.181
+  type: 'test'
+  ...
+# Subtest: round end faces and recognized whole loops are analytic, independent of triangle IDs
+ok 171 - round end faces and recognized whole loops are analytic, independent of triangle IDs
+  ---
+  duration_ms: 12.1366
+  type: 'test'
+  ...
+# Subtest: physical anchor overrides propagate through path, mesh, measurements, quantities and carriers without inventing count placement
+ok 172 - physical anchor overrides propagate through path, mesh, measurements, quantities and carriers without inventing count placement
+  ---
+  duration_ms: 62.6167
+  type: 'test'
+  ...
+# Subtest: schedule row association, custom overrides and reset preserve documentary rows and unrelated overrides
+ok 173 - schedule row association, custom overrides and reset preserve documentary rows and unrelated overrides
+  ---
+  duration_ms: 3.9686
+  type: 'test'
+  ...
+# Subtest: distance/face/surface/solid/extrusion values stay attached across camera navigation and presets
+ok 174 - distance/face/surface/solid/extrusion values stay attached across camera navigation and presets
+  ---
+  duration_ms: 16.199
+  type: 'test'
+  ...
+# Subtest: P1 manifest locks real source groups, facts, schedule, physical cage, anchors and override/reset semantics
+ok 175 - P1 manifest locks real source groups, facts, schedule, physical cage, anchors and override/reset semantics
+  ---
+  duration_ms: 21000.5272
+  type: 'test'
+  ...
+# Subtest: real P1 effective candidates, equipartition, projection and designation overrides propagate without approval
+ok 176 - real P1 effective candidates, equipartition, projection and designation overrides propagate without approval
+  ---
+  duration_ms: 8707.7681
+  type: 'test'
+  ...
+# Subtest: unsupported/empty physical assemblies cannot be COMPLETE or manufacture quantities under identity mutations
+ok 177 - unsupported/empty physical assemblies cannot be COMPLETE or manufacture quantities under identity mutations
+  ---
+  duration_ms: 17.912
+  type: 'test'
+  ...
+# Subtest: active real P2 retains unmodeled source for review without hand-building the section
+ok 178 - active real P2 retains unmodeled source for review without hand-building the section
+  ---
+  duration_ms: 10395.7949
+  type: 'test'
+  ...
+# Subtest: real active P2 compiles a connected linear candidate with complete callouts and independent per-LF checks
+ok 179 - real active P2 compiles a connected linear candidate with complete callouts and independent per-LF checks
+  ---
+  duration_ms: 7864.3857
+  type: 'test'
+  ...
+# Subtest: P2 carrier/profile/bar interpretation survives renamed identity, translated page and split native strokes
+ok 180 - P2 carrier/profile/bar interpretation survives renamed identity, translated page and split native strokes
+  ---
+  duration_ms: 11443.2771
+  type: 'test'
+  ...
+# Subtest: P2 display extrusion length changes instance inventory, never per-LF quantity basis
+ok 181 - P2 display extrusion length changes instance inventory, never per-LF quantity basis
+  ---
+  duration_ms: 3567.059
+  type: 'test'
+  ...
+# Subtest: P2 physical parameters propagate to profile, shared bar placement, hook angle, instance count and candidate quantities
+ok 182 - P2 physical parameters propagate to profile, shared bar placement, hook angle, instance count and candidate quantities
+  ---
+  duration_ms: 2907.888
+  type: 'test'
+  ...
+# Subtest: P2 incompatible or conflicting intervals fail closed, including candidate quantity regeneration
+ok 183 - P2 incompatible or conflicting intervals fail closed, including candidate quantity regeneration
+  ---
+  duration_ms: 2533.2159
+  type: 'test'
+  ...
+# Subtest: P2 canonical measurements identify one rod, one curved face and a planar native section
+ok 184 - P2 canonical measurements identify one rod, one curved face and a planar native section
+  ---
+  duration_ms: 2429.7959
+  type: 'test'
+  ...
+# Subtest: P2 unknown scale and mismatched physical diameter cannot manufacture adopted geometry or steel weight
+ok 185 - P2 unknown scale and mismatched physical diameter cannot manufacture adopted geometry or steel weight
+  ---
+  duration_ms: 2837.0217
+  type: 'test'
+  ...
+# Subtest: conditional/datum/limit syntax retains source zero and qualifiers without manufacturing an exact geometry dimension
+ok 186 - conditional/datum/limit syntax retains source zero and qualifiers without manufacturing an exact geometry dimension
+  ---
+  duration_ms: 163.5081
+  type: 'test'
+  ...
+# Subtest: P3 two independent schedule witnesses support a native concrete section without a required bar callout
+ok 187 - P3 two independent schedule witnesses support a native concrete section without a required bar callout
+  ---
+  duration_ms: 3746.5302
+  type: 'test'
+  ...
+# Subtest: P3 physical support survives renamed title/sheet, translation and split native paint operations
+ok 188 - P3 physical support survives renamed title/sheet, translation and split native paint operations
+  ---
+  duration_ms: 3611.7366
+  type: 'test'
+  ...
+# Subtest: P3 candidate per-LF quantities are independent of preview length; override/reset and limits preserve immutable source
+ok 189 - P3 candidate per-LF quantities are independent of preview length; override/reset and limits preserve immutable source
+  ---
+  duration_ms: 892.7781
+  type: 'test'
+  ...
+# Subtest: P3 refuses unsupported single-axis/caption-only geometry and unknown/NTS scale
+ok 190 - P3 refuses unsupported single-axis/caption-only geometry and unknown/NTS scale
+  ---
+  duration_ms: 849.8301
+  type: 'test'
+  ...
+# Subtest: unlabelled contacting native contour stays quarantined with source identity and holds, under position/rotation/paint mutations
+ok 191 - unlabelled contacting native contour stays quarantined with source identity and holds, under position/rotation/paint mutations
+  ---
+  duration_ms: 43.3992
+  type: 'test'
+  ...
+# Subtest: known source ownership and typed drafting boundaries prevent duplicate physical inventory; detached contours are not invented objects
+ok 192 - known source ownership and typed drafting boundaries prevent duplicate physical inventory; detached contours are not invented objects
+  ---
+  duration_ms: 3.2595
+  type: 'test'
+  ...
+# Subtest: rotation-independent filled slash/tick paint is not a new physical component
+ok 193 - rotation-independent filled slash/tick paint is not a new physical component
+  ---
+  duration_ms: 1.245
+  type: 'test'
+  ...
+# Subtest: coplanar drafting stations select one full physical face independent of transient triangle ID
+ok 194 - coplanar drafting stations select one full physical face independent of transient triangle ID
+  ---
+  duration_ms: 47.7692
+  type: 'test'
+  ...
+# Subtest: real turns, explicit physical seams and separate materials/components preserve boundaries
+ok 195 - real turns, explicit physical seams and separate materials/components preserve boundaries
+  ---
+  duration_ms: 36.0407
+  type: 'test'
+  ...
+# Subtest: real P3 formerly narrow strip aliases the whole coplanar side including wraparound source stations
+ok 196 - real P3 formerly narrow strip aliases the whole coplanar side including wraparound source stations
+  ---
+  duration_ms: 6286.4404
+  type: 'test'
+  ...
+# Subtest: carrier ownership retains full caption/scale/footnote and connected body without schedule or neighbour contamination
+ok 197 - carrier ownership retains full caption/scale/footnote and connected body without schedule or neighbour contamination
+  ---
+  duration_ms: 35.6862
+  type: 'test'
+  ...
+# Subtest: an unclassified neighbouring title/printed-scale pair competes without manufacturing a selectable plate
+ok 198 - an unclassified neighbouring title/printed-scale pair competes without manufacturing a selectable plate
+  ---
+  duration_ms: 6.5439
+  type: 'test'
+  ...
+# Subtest: a shared caption rule owns far-side diagrams but cannot pull annotations upward from the next row
+ok 199 - a shared caption rule owns far-side diagrams but cannot pull annotations upward from the next row
+  ---
+  duration_ms: 7.4517
+  type: 'test'
+  ...
+# Subtest: caption number glyph remains closed beyond its text/scale boxes, including translated source coordinates
+ok 200 - caption number glyph remains closed beyond its text/scale boxes, including translated source coordinates
+  ---
+  duration_ms: 8.9523
+  type: 'test'
+  ...
+# Subtest: a rectangular envelope may exclude a proved competing footer without erasing unowned body evidence or source
+ok 201 - a rectangular envelope may exclude a proved competing footer without erasing unowned body evidence or source
+  ---
+  duration_ms: 5.5279
+  type: 'test'
+  ...
+# Subtest: native endpoints, crossings and curve-flattened segment edges snap in screen tolerance but retain source coordinates
+ok 202 - native endpoints, crossings and curve-flattened segment edges snap in screen tolerance but retain source coordinates
+  ---
+  duration_ms: 8.9991
+  type: 'test'
+  ...
+# Subtest: source polyline keeps all segments and cumulative calibrated length, independent of zoom/pan; unresolved scale gives no invented units
+ok 203 - source polyline keeps all segments and cumulative calibrated length, independent of zoom/pan; unresolved scale gives no invented units
+  ---
+  duration_ms: 5.802
+  type: 'test'
+  ...
+# Subtest: live source-distance preview does not commit anchors and undo removes only the last point
+ok 204 - live source-distance preview does not commit anchors and undo removes only the last point
+  ---
+  duration_ms: 0.7147
+  type: 'test'
+  ...
+# Subtest: two-point reviewer calibration enables unscaled source Distance without inventing a scale or mutating evidence
+ok 205 - two-point reviewer calibration enables unscaled source Distance without inventing a scale or mutating evidence
+  ---
+  duration_ms: 2.2414
+  type: 'test'
+  ...
+# Subtest: source Distance gets temporary middle pan while existing native navigation is retained outside the tool
+ok 206 - source Distance gets temporary middle pan while existing native navigation is retained outside the tool
+  ---
+  duration_ms: 0.8255
+  type: 'test'
+  ...
+# Subtest: source Distance footer is bounded and scrollable, and active styling shares the model selector
+ok 207 - source Distance footer is bounded and scrollable, and active styling shares the model selector
+  ---
+  duration_ms: 26.793
+  type: 'test'
+  ...
+# Subtest: plate endpoints remain magnetic within screen tolerance without excluding other source lines or free points
+ok 208 - plate endpoints remain magnetic within screen tolerance without excluding other source lines or free points
+  ---
+  duration_ms: 2.5996
+  type: 'test'
+  ...
+# Subtest: architectural scale handles ordinary fractions/mixed values and punctuation with dimensionless units
+ok 209 - architectural scale handles ordinary fractions/mixed values and punctuation with dimensionless units
+  ---
+  duration_ms: 11.3696
+  type: 'test'
+  ...
+# Subtest: local scale owns measurement ahead of verified calibration/inheritance; conflict and NTS fail closed
+ok 210 - local scale owns measurement ahead of verified calibration/inheritance; conflict and NTS fail closed
+  ---
+  duration_ms: 5.2939
+  type: 'test'
+  ...
+# Subtest: plate point and tight text rectangle stay aligned through crop, zoom, pan and resize
+ok 211 - plate point and tight text rectangle stay aligned through crop, zoom, pan and resize
+  ---
+  duration_ms: 4.6596
+  type: 'test'
+  ...
+# Subtest: authoritative profile volume supports rectangular, stepped and tapered solids
+ok 212 - authoritative profile volume supports rectangular, stepped and tapered solids
+  ---
+  duration_ms: 3.4623
+  type: 'test'
+  ...
+# Subtest: model input activates wheel capture explicitly and reverses former drag direction
+ok 213 - model input activates wheel capture explicitly and reverses former drag direction
+  ---
+  duration_ms: 1.1586
+  type: 'test'
+  ...
+# Subtest: SD102 actual native PDF text crosses plate, schedule, assembly and quantity boundaries
+ok 214 - SD102 actual native PDF text crosses plate, schedule, assembly and quantity boundaries
+  ---
+  duration_ms: 17759.8026
+  type: 'test'
+  ...
+# Subtest: Distance chains keep every canonical anchor, sum segments, remove and fail stale without retargeting
+ok 215 - Distance chains keep every canonical anchor, sum segments, remove and fail stale without retargeting
+  ---
+  duration_ms: 9.1338
+  type: 'test'
+  ...
+# Subtest: endpoint shader has fixed CSS/device size independent of depth, line thickness or camera
+ok 216 - endpoint shader has fixed CSS/device size independent of depth, line thickness or camera
+  ---
+  duration_ms: 41.0733
+  type: 'test'
+  ...
+# Subtest: engineering presentation removes float garbage without changing canonical value or creating an override on unchanged blur
+ok 217 - engineering presentation removes float garbage without changing canonical value or creating an override on unchanged blur
+  ---
+  duration_ms: 22.4359
+  type: 'test'
+  ...
+# Subtest: reference grammar normalizes schedule/detail/sheet/discipline/manufacturer forms
+ok 218 - reference grammar normalizes schedule/detail/sheet/discipline/manufacturer forms
+  ---
+  duration_ms: 6.604
+  type: 'test'
+  ...
+# Subtest: indexed schedule resolves exact row/cell and source value supersedes scale candidate without mutating evidence
+ok 219 - indexed schedule resolves exact row/cell and source value supersedes scale candidate without mutating evidence
+  ---
+  duration_ms: 23.1423
+  type: 'test'
+  ...
+# Subtest: unresolved/ambiguous references retain candidates and a reasoned user correction without inventing row selection
+ok 220 - unresolved/ambiguous references retain candidates and a reasoned user correction without inventing row selection
+  ---
+  duration_ms: 45.8301
+  type: 'test'
+  ...
+# Subtest: equal schedule precedence conflicts stay reviewable rather than averaging or adopting a candidate
+ok 221 - equal schedule precedence conflicts stay reviewable rather than averaging or adopting a candidate
+  ---
+  duration_ms: 11.7234
+  type: 'test'
+  ...
+# Subtest: indexed schedule crops transform through intrinsic page rotation rather than highlighting an unrelated region
+ok 222 - indexed schedule crops transform through intrinsic page rotation rather than highlighting an unrelated region
+  ---
+  duration_ms: 15.6687
+  type: 'test'
+  ...
+# Subtest: derived standard diameter hides normally; unknown designation, advanced mode and active overrides remain visible
+ok 223 - derived standard diameter hides normally; unknown designation, advanced mode and active overrides remain visible
+  ---
+  duration_ms: 12.6955
+  type: 'test'
+  ...
+# Subtest: shared semantic colors encode designation, not bar orientation or plate identity
+ok 224 - shared semantic colors encode designation, not bar orientation or plate identity
+  ---
+  duration_ms: 2.4665
+  type: 'test'
+  ...
+# Subtest: linear section projection retains concrete and bar IDs, continuation ports carry the axis, and break paint is not a physical notch
+ok 225 - linear section projection retains concrete and bar IDs, continuation ports carry the axis, and break paint is not a physical notch
+  ---
+  duration_ms: 10.4107
+  type: 'test'
+  ...
+# Subtest: normal Issues aggregate missing references while raw harmless evidence and material blockers remain retained
+ok 226 - normal Issues aggregate missing references while raw harmless evidence and material blockers remain retained
+  ---
+  duration_ms: 1.6554
+  type: 'test'
+  ...
+# Subtest: PT is a separate typed family; explicit count/diameter/spacing survive without rebar assumptions
+ok 227 - PT is a separate typed family; explicit count/diameter/spacing survive without rebar assumptions
+  ---
+  duration_ms: 19.7008
+  type: 'test'
+  ...
+# Subtest: dependent dimensions retain operators and unknown dependencies, never promote an offset into an absolute depth
+ok 228 - dependent dimensions retain operators and unknown dependencies, never promote an offset into an absolute depth
+  ---
+  duration_ms: 13.6092
+  type: 'test'
+  ...
+# Subtest: unresolved prestressing retains source identity/candidates, produces no fake physical route, and cannot release estimates
+ok 229 - unresolved prestressing retains source identity/candidates, produces no fake physical route, and cannot release estimates
+  ---
+  duration_ms: 106.6529
+  type: 'test'
+  ...
+# Subtest: documentary scale remains explicit without a supported profile and conflicting/NTS evidence fails closed
+ok 230 - documentary scale remains explicit without a supported profile and conflicting/NTS evidence fails closed
+  ---
+  duration_ms: 52.0264
+  type: 'test'
+  ...
+# Subtest: concave planar extrusion caps/metrics do not depend on first three points, starting vertex, winding or plane
+ok 231 - concave planar extrusion caps/metrics do not depend on first three points, starting vertex, winding or plane
+  ---
+  duration_ms: 62.3333
+  type: 'test'
+  ...
+# Subtest: transparent host contacts are separated in display context only, including the vertical thickened edge
+ok 232 - transparent host contacts are separated in display context only, including the vertical thickened edge
+  ---
+  duration_ms: 41.6857
+  type: 'test'
+  ...
+# Subtest: coplanar audit excludes shared edges and disjoint caps despite overlapping AABBs
+ok 233 - coplanar audit excludes shared edges and disjoint caps despite overlapping AABBs
+  ---
+  duration_ms: 1.083
+  type: 'test'
+  ...
+# Subtest: closed display topology repairs winding, welds faces and removes duplicate/zero triangles
+ok 234 - closed display topology repairs winding, welds faces and removes duplicate/zero triangles
+  ---
+  duration_ms: 7.6991
+  type: 'test'
+  ...
+# Subtest: Site materials are opaque, shared per source class, and explicit soil subtypes are not hatch guesses
+ok 235 - Site materials are opaque, shared per source class, and explicit soil subtypes are not hatch guesses
+  ---
+  duration_ms: 13.5759
+  type: 'test'
+  ...
+# Subtest: same-material outboard soil and host support use one shared lateral crop without a display gap
+ok 236 - same-material outboard soil and host support use one shared lateral crop without a display gap
+  ---
+  duration_ms: 4.1911
+  type: 'test'
+  ...
+# Subtest: graphic finishes have distinct overview-scale mottling/grain, continuous coordinates and pixel filtering with only two noise samples
+ok 237 - graphic finishes have distinct overview-scale mottling/grain, continuous coordinates and pixel filtering with only two noise samples
+  ---
+  duration_ms: 1.3663
+  type: 'test'
+  ...
+# Subtest: screened grain relief follows the installed standard normal contract, is tilt-bounded and never displaces vertices
+ok 238 - screened grain relief follows the installed standard normal contract, is tilt-bounded and never displaces vertices
+  ---
+  duration_ms: 1.0507
+  type: 'test'
+  ...
+# Subtest: graphic flecks are jittered in three dimensions, pixel-filtered and cannot leave hard cell-boundary seams
+ok 239 - graphic flecks are jittered in three dimensions, pixel-filtered and cannot leave hard cell-boundary seams
+  ---
+  duration_ms: 2.8109
+  type: 'test'
+  ...
+# Subtest: source-owned slab/haunch candidates remain separate from a changed host schedule depth
+ok 240 - source-owned slab/haunch candidates remain separate from a changed host schedule depth
+  ---
+  duration_ms: 10.6849
+  type: 'test'
+  ...
+# Subtest: exact source noun phrase plus witnessed physical ownership resolves the applicable cell, not a scored title or row order
+ok 241 - exact source noun phrase plus witnessed physical ownership resolves the applicable cell, not a scored title or row order
+  ---
+  duration_ms: 201.5974
+  type: 'test'
+  ...
+# Subtest: manual title, absent physical ownership, non-exact terminology and duplicated class rows do not authorize row selection
+ok 242 - manual title, absent physical ownership, non-exact terminology and duplicated class rows do not authorize row selection
+  ---
+  duration_ms: 13.4433
+  type: 'test'
+  ...
+# Subtest: resolved source viewer cannot fill every cell in the column as if each row applied
+ok 243 - resolved source viewer cannot fill every cell in the column as if each row applied
+  ---
+  duration_ms: 114.6457
+  type: 'test'
+  ...
+# Subtest: standard source abbreviations bind the unique host row and exact cell across values, order and identities
+ok 244 - standard source abbreviations bind the unique host row and exact cell across values, order and identities
+  ---
+  duration_ms: 6.7951
+  type: 'test'
+  ...
+# Subtest: geometric adjectives retain the full unique schedule host class; condition or different-object prefixes do not
+ok 245 - geometric adjectives retain the full unique schedule host class; condition or different-object prefixes do not
+  ---
+  duration_ms: 5.166
+  type: 'test'
+  ...
+# Subtest: documentary exact-cell targets retain the same row/column binding as ordinary source resolution
+ok 246 - documentary exact-cell targets retain the same row/column binding as ordinary source resolution
+  ---
+  duration_ms: 1.7428
+  type: 'test'
+  ...
+# Subtest: documentary binding uses the target column role even when the source note names a selection key
+ok 247 - documentary binding uses the target column role even when the source note names a selection key
+  ---
+  duration_ms: 1.4778
+  type: 'test'
+  ...
+# Subtest: known cell identity with missing cell coordinates never pretends the entire table is the exact cell
+ok 248 - known cell identity with missing cell coordinates never pretends the entire table is the exact cell
+  ---
+  duration_ms: 0.8772
+  type: 'test'
+  ...
+# Subtest: a local attribute subject binds only its native witnessed interval, independently of a compound heading or row order
+ok 249 - a local attribute subject binds only its native witnessed interval, independently of a compound heading or row order
+  ---
+  duration_ms: 11.9781
+  type: 'test'
+  ...
+# Subtest: with/without condition complements are not Width abbreviations and cannot change the header role
+ok 250 - with/without condition complements are not Width abbreviations and cannot change the header role
+  ---
+  duration_ms: 5.4736
+  type: 'test'
+  ...
+# Subtest: centered subject/attribute/complement clauses survive translation, rotation, spacing, capitalization, segmentation and distractors
+ok 251 - centered subject/attribute/complement clauses survive translation, rotation, spacing, capitalization, segmentation and distractors
+  ---
+  duration_ms: 197.4395
+  type: 'test'
+  ...
+# Subtest: dependent reference punctuation normalizes only the parsing view and refuses arbitrary or completed neighboring clauses
+ok 252 - dependent reference punctuation normalizes only the parsing view and refuses arbitrary or completed neighboring clauses
+  ---
+  duration_ms: 5.4679
+  type: 'test'
+  ...
+# Subtest: semantic curriculum selection is deterministic caption-only and excludes known/contact-sheet training targets
+ok 253 - semantic curriculum selection is deterministic caption-only and excludes known/contact-sheet training targets
+  ---
+  duration_ms: 31.2443
+  type: 'test'
+  ...
+# Subtest: stage scorecard does not promote a held contour or locator into a resolved physical component/quantity
+ok 254 - stage scorecard does not promote a held contour or locator into a resolved physical component/quantity
+  ---
+  duration_ms: 3.7838
+  type: 'test'
+  ...
+# Subtest: SiteContext distinguishes stated material from candidate boundary and retains actual PDF points/identity
+ok 255 - SiteContext distinguishes stated material from candidate boundary and retains actual PDF points/identity
+  ---
+  duration_ms: 12.1141
+  type: 'test'
+  ...
+# Subtest: hatch alone never invents geology; unspecified earth stays unknown and incompatible patches are not unioned
+ok 256 - hatch alone never invents geology; unspecified earth stays unknown and incompatible patches are not unioned
+  ---
+  duration_ms: 1.2746
+  type: 'test'
+  ...
+# Subtest: effective host parameter changes update context binding without adding physical geometry, ports or quantities
+ok 257 - effective host parameter changes update context binding without adding physical geometry, ports or quantities
+  ---
+  duration_ms: 18.5688
+  type: 'test'
+  ...
+# Subtest: site renderer starts hidden with distinct context picks and a bounded active-model mesh budget
+ok 258 - site renderer starts hidden with distinct context picks and a bounded active-model mesh budget
+  ---
+  duration_ms: 35.4942
+  type: 'test'
+  ...
+# Subtest: radial cutaway abuts the circular host without entering its physical volume, and roughness is outer-display-only
+ok 259 - radial cutaway abuts the circular host without entering its physical volume, and roughness is outer-display-only
+  ---
+  duration_ms: 8.822
+  type: 'test'
+  ...
+# Subtest: real P1 cutaway, P2 adjacent unknown hatch and P3 conditional slope use local proof without approving Civil/Architectural facts
+ok 260 - real P1 cutaway, P2 adjacent unknown hatch and P3 conditional slope use local proof without approving Civil/Architectural facts
+  ---
+  duration_ms: 11574.2219
+  type: 'test'
+  ...
+# Subtest: project hatch keys require all directions and compatible pitch; absent or conflicting keys do not invent a class
+ok 261 - project hatch keys require all directions and compatible pitch; absent or conflicting keys do not invent a class
+  ---
+  duration_ms: 39.6989
+  type: 'test'
+  ...
+# Subtest: actual cross-hatched P2 region uses the source-labelled P1 soil key, preserving the key note and not changing physical quantities
+ok 262 - actual cross-hatched P2 region uses the source-labelled P1 soil key, preserving the key note and not changing physical quantities
+  ---
+  duration_ms: 28876.6096
+  type: 'test'
+  ...
+# Subtest: title case preserves engineering identifiers and is presentation-only; orphan operators remain raw evidence
+ok 263 - title case preserves engineering identifiers and is presentation-only; orphan operators remain raw evidence
+  ---
+  duration_ms: 7.4724
+  type: 'test'
+  ...
+# Subtest: multiline schedule sub-options survive scrambled OCR emission and remain held, not merged into installed rebar
+ok 264 - multiline schedule sub-options survive scrambled OCR emission and remain held, not merged into installed rebar
+  ---
+  duration_ms: 11.406
+  type: 'test'
+  ...
+# Subtest: schedule discovery does not depend on detail callouts and retains title/grid/cell identity under translation
+ok 265 - schedule discovery does not depend on detail callouts and retains title/grid/cell identity under translation
+  ---
+  duration_ms: 266.4437
+  type: 'test'
+  ...
+# Subtest: source hydration replaces stale derived targets using the actual opened page without changing stored project state
+ok 266 - source hydration replaces stale derived targets using the actual opened page without changing stored project state
+  ---
+  duration_ms: 88.4905
+  type: 'test'
+  ...
+# Subtest: schedule/column discovery is separate from applicable-row authority; row reordering cannot authorize a choice
+ok 267 - schedule/column discovery is separate from applicable-row authority; row reordering cannot authorize a choice
+  ---
+  duration_ms: 78.9497
+  type: 'test'
+  ...
+# Subtest: referenced minimum is a bound, never an exact approved extent, and source provenance survives
+ok 268 - referenced minimum is a bound, never an exact approved extent, and source provenance survives
+  ---
+  duration_ms: 34.4166
+  type: 'test'
+  ...
+# Subtest: schedule identity remains known when the requested semantic column is absent
+ok 269 - schedule identity remains known when the requested semantic column is absent
+  ---
+  duration_ms: 26.6922
+  type: 'test'
+  ...
+# Subtest: available unapproved anchor values agree in parameter and assembly views; unknown count stays unknown
+ok 270 - available unapproved anchor values agree in parameter and assembly views; unknown count stays unknown
+  ---
+  duration_ms: 15.2336
+  type: 'test'
+  ...
+# Subtest: labels preserve technical acronyms and raw evidence capitalization
+ok 271 - labels preserve technical acronyms and raw evidence capitalization
+  ---
+  duration_ms: 2.2967
+  type: 'test'
+  ...
+# Subtest: complete canonical profile boundary includes the closing back edge; every artificial connected solid gets ports
+ok 272 - complete canonical profile boundary includes the closing back edge; every artificial connected solid gets ports
+  ---
+  duration_ms: 5.872
+  type: 'test'
+  ...
+# Subtest: popover/legend structures isolate typography, support outside/Escape, and stay outside toolbar geometry
+ok 273 - popover/legend structures isolate typography, support outside/Escape, and stay outside toolbar geometry
+  ---
+  duration_ms: 59.6461
+  type: 'test'
+  ...
+# Subtest: real raster Foundation Schedule is the source region for P2 width/embedment, not a detail crop
+ok 274 - real raster Foundation Schedule is the source region for P2 width/embedment, not a detail crop # SKIP
+  ---
+  duration_ms: 1.9915
+  type: 'test'
+  ...
+# Subtest: source checks retain actual native coordinates and bounded stroke tolerance; written depth governs despite graphic disagreement
+ok 275 - source checks retain actual native coordinates and bounded stroke tolerance; written depth governs despite graphic disagreement
+  ---
+  duration_ms: 7.678
+  type: 'test'
+  ...
+# Subtest: reviewer overrides change model stations without rewriting the written source check
+ok 276 - reviewer overrides change model stations without rewriting the written source check
+  ---
+  duration_ms: 163.1703
+  type: 'test'
+  ...
+# Subtest: endpoint-connected section intervals resolve from either datum, independent of input order
+ok 277 - endpoint-connected section intervals resolve from either datum, independent of input order
+  ---
+  duration_ms: 8.76
+  type: 'test'
+  ...
+# Subtest: crop rendering allocates only the crop and retains the displayed viewport/coordinate transform
+ok 278 - crop rendering allocates only the crop and retains the displayed viewport/coordinate transform
+  ---
+  duration_ms: 5.6636
+  type: 'test'
+  ...
+# Subtest: readouts remain readable and consistent; disabled buttons never use a busy cursor and menus fit their labels
+ok 279 - readouts remain readable and consistent; disabled buttons never use a busy cursor and menus fit their labels
+  ---
+  duration_ms: 50.965
+  type: 'test'
+  ...
+# Subtest: semantic footer display exclusions are applied only after render, retain crop coordinates and forward cancellation
+ok 280 - semantic footer display exclusions are applied only after render, retain crop coordinates and forward cancellation
+  ---
+  duration_ms: 2.8872
+  type: 'test'
+  ...
+# Subtest: plate/model publication waits for the cropped render; rapid switching cancels stale work and reuses identity-keyed parsed pages
+ok 281 - plate/model publication waits for the cropped render; rapid switching cancels stale work and reuses identity-keyed parsed pages
+  ---
+  duration_ms: 56.778
+  type: 'test'
+  ...
+# Subtest: canvas resizing is coalesced, size-guarded and repainting; source scrollbar changes cannot shift snapping width
+ok 282 - canvas resizing is coalesced, size-guarded and repainting; source scrollbar changes cannot shift snapping width
+  ---
+  duration_ms: 95.9542
+  type: 'test'
+  ...
+# Subtest: Distance reserves a stable footer before any point; hovering cannot add/remove the segment slot or resize the canvases
+ok 283 - Distance reserves a stable footer before any point; hovering cannot add/remove the segment slot or resize the canvases
+  ---
+  duration_ms: 52.9519
+  type: 'test'
+  ...
+# Subtest: Distance extends the split viewer without reducing its normal viewing height or growing the readout
+ok 284 - Distance extends the split viewer without reducing its normal viewing height or growing the readout
+  ---
+  duration_ms: 2.2874
+  type: 'test'
+  ...
+# Subtest: unscaled source Distance allows explicit local calibration without changing model input or borrowing a schedule scale
+ok 285 - unscaled source Distance allows explicit local calibration without changing model input or borrowing a schedule scale
+  ---
+  duration_ms: 2.6478
+  type: 'test'
+  ...
+# Subtest: stacked viewers also extend below their normal viewport instead of shrinking on Distance activation
+ok 286 - stacked viewers also extend below their normal viewport instead of shrinking on Distance activation
+  ---
+  duration_ms: 11.5298
+  type: 'test'
+  ...
+# Subtest: discipline targets require explicit sheet title evidence, not references or incidental substrings
+ok 287 - discipline targets require explicit sheet title evidence, not references or incidental substrings
+  ---
+  duration_ms: 6.2879
+  type: 'test'
+  ...
+# Subtest: SHA-256 falls back when crypto.subtle is unavailable
+ok 288 - SHA-256 falls back when crypto.subtle is unavailable
+  ---
+  duration_ms: 27.366
+  type: 'test'
+  ...
+# Subtest: PDF import preserves hashing, storage, and deterministic identity without Web Crypto
+ok 289 - PDF import preserves hashing, storage, and deterministic identity without Web Crypto
+  ---
+  duration_ms: 3.3059
+  type: 'test'
+  ...
+# Subtest: PDF import reports storage failures without exposing raw JavaScript errors
+ok 290 - PDF import reports storage failures without exposing raw JavaScript errors
+  ---
+  duration_ms: 7.6744
+  type: 'test'
+  ...
+# Subtest: local PDF OCR permits only same-origin private-LAN development requests
+ok 291 - local PDF OCR permits only same-origin private-LAN development requests
+  ---
+  duration_ms: 1.7749
+  type: 'test'
+  ...
+# Subtest: three-plus fragments retain all earlier tokens and fractional dimensions
+ok 292 - three-plus fragments retain all earlier tokens and fractional dimensions
+  ---
+  duration_ms: 16.6361
+  type: 'test'
+  ...
+# Subtest: multiline property annotation compiles as one semantic cell without becoming assembly identity
+ok 293 - multiline property annotation compiles as one semantic cell without becoming assembly identity
+  ---
+  duration_ms: 13.2705
+  type: 'test'
+  ...
+# Subtest: schedule headings stay independent of nearby schedule references
+ok 294 - schedule headings stay independent of nearby schedule references
+  ---
+  duration_ms: 14.5711
+  type: 'test'
+  ...
+# Subtest: compound sheet and detail identity resolves one-to-one to its compiled detail definition
+ok 295 - compound sheet and detail identity resolves one-to-one to its compiled detail definition
+  ---
+  duration_ms: 128.8103
+  type: 'test'
+  ...
+# Subtest: stacked composite 12/S401 consumes both tokens before classification
+ok 296 - stacked composite 12/S401 consumes both tokens before classification
+  ---
+  duration_ms: 2.0792
+  type: 'test'
+  ...
+# Subtest: stacked composite 7/A302 consumes both tokens before classification
+ok 297 - stacked composite 7/A302 consumes both tokens before classification
+  ---
+  duration_ms: 0.8495
+  type: 'test'
+  ...
+# Subtest: stacked composite A4/A-502 consumes both tokens before classification
+ok 298 - stacked composite A4/A-502 consumes both tokens before classification
+  ---
+  duration_ms: 0.8041
+  type: 'test'
+  ...
+# Subtest: stacked composite 8/A401 consumes both tokens before classification
+ok 299 - stacked composite 8/A401 consumes both tokens before classification
+  ---
+  duration_ms: 0.6025
+  type: 'test'
+  ...
+# Subtest: stacked composite C3/S6.2 consumes both tokens before classification
+ok 300 - stacked composite C3/S6.2 consumes both tokens before classification
+  ---
+  duration_ms: 1.3131
+  type: 'test'
+  ...
+# Subtest: stacked composite 12/M201 consumes both tokens before classification
+ok 301 - stacked composite 12/M201 consumes both tokens before classification
+  ---
+  duration_ms: 2.2941
+  type: 'test'
+  ...
+# Subtest: a duplicated upper text operator is consumed by its stacked sheet reference
+ok 302 - a duplicated upper text operator is consumed by its stacked sheet reference
+  ---
+  duration_ms: 1.8272
+  type: 'test'
+  ...
+# Subtest: rotated stacked and fragmented callout groups in its own text axes
+ok 303 - rotated stacked and fragmented callout groups in its own text axes
+  ---
+  duration_ms: 1.0253
+  type: 'test'
+  ...
+# Subtest: opposite-direction rotated stacked reference consumes both fragments
+ok 304 - opposite-direction rotated stacked reference consumes both fragments
+  ---
+  duration_ms: 0.814
+  type: 'test'
+  ...
+# Subtest: clipped target retains raw text and remains reviewable; missing sheets do not disappear
+ok 305 - clipped target retains raw text and remains reviewable; missing sheets do not disappear
+  ---
+  duration_ms: 12.7754
+  type: 'test'
+  ...
+# Subtest: arbitrary abbreviations, instructions and reinforcement retain evidence without semantic guesses
+ok 306 - arbitrary abbreviations, instructions and reinforcement retain evidence without semantic guesses
+  ---
+  duration_ms: 27.3593
+  type: 'test'
+  ...
+# Subtest: project-wide explicit definitions retain provenance and conflicting definitions need review
+ok 307 - project-wide explicit definitions retain provenance and conflicting definitions need review
+  ---
+  duration_ms: 19.3776
+  type: 'test'
+  ...
+# Subtest: short ordinary line beside a dimension never calibrates a view
+ok 308 - short ordinary line beside a dimension never calibrates a view
+  ---
+  duration_ms: 12.6752
+  type: 'test'
+  ...
+# Subtest: robust calibration rejects a local outlier and keeps spatially separate same-scale views
+ok 309 - robust calibration rejects a local outlier and keeps spatially separate same-scale views
+  ---
+  duration_ms: 1.4934
+  type: 'test'
+  ...
+# Subtest: small triangle labels and hatch indexing retain provenance without physical regions
+ok 310 - small triangle labels and hatch indexing retain provenance without physical regions
+  ---
+  duration_ms: 94.1246
+  type: 'test'
+  ...
+# Subtest: normalizes duplicate contiguous and repeated dashed edges without losing source ids
+ok 311 - normalizes duplicate contiguous and repeated dashed edges without losing source ids
+  ---
+  duration_ms: 2.4587
+  type: 'test'
+  ...
+# Subtest: local intersections and screen-space snapping preserve manual style
+ok 312 - local intersections and screen-space snapping preserve manual style
+  ---
+  duration_ms: 4.9808
+  type: 'test'
+  ...
+# Subtest: solid structural line wins over nearby dotted line without making dotted lines unsnappable
+ok 313 - solid structural line wins over nearby dotted line without making dotted lines unsnappable
+  ---
+  duration_ms: 1.6258
+  type: 'test'
+  ...
+# Subtest: rapid zoom sequences preserve one source point with centering changes and discard stale renders
+ok 314 - rapid zoom sequences preserve one source point with centering changes and discard stale renders
+  ---
+  duration_ms: 1.0605
+  type: 'test'
+  ...
+# Subtest: plan viewport leaves middle-button autoscroll to the native scroll container
+ok 315 - plan viewport leaves middle-button autoscroll to the native scroll container
+  ---
+  duration_ms: 41.7248
+  type: 'test'
+  ...
+# Subtest: preview and print share the exact legend layout, bounded after resize
+ok 316 - preview and print share the exact legend layout, bounded after resize
+  ---
+  duration_ms: 4.5269
+  type: 'test'
+  ...
+# Subtest: source and vector markup survive preview and export at rotation 0
+ok 317 - source and vector markup survive preview and export at rotation 0
+  ---
+  duration_ms: 171.8513
+  type: 'test'
+  ...
+# Subtest: source and vector markup survive preview and export at rotation 90
+ok 318 - source and vector markup survive preview and export at rotation 90
+  ---
+  duration_ms: 46.6079
+  type: 'test'
+  ...
+# Subtest: source and vector markup survive preview and export at rotation 180
+ok 319 - source and vector markup survive preview and export at rotation 180
+  ---
+  duration_ms: 39.4349
+  type: 'test'
+  ...
+# Subtest: source and vector markup survive preview and export at rotation 270
+ok 320 - source and vector markup survive preview and export at rotation 270
+  ---
+  duration_ms: 36.2321
+  type: 'test'
+  ...
+# Subtest: any indexed detail is selectable using source identity/rotation, not a plate title/hash special case
+ok 321 - any indexed detail is selectable using source identity/rotation, not a plate title/hash special case
+  ---
+  duration_ms: 5.8377
+  type: 'test'
+  ...
+# Subtest: inherited scale requires one verified zone containing the complete displayed carrier; hydrated crops replace stale derived ownership
+ok 322 - inherited scale requires one verified zone containing the complete displayed carrier; hydrated crops replace stale derived ownership
+  ---
+  duration_ms: 2.8421
+  type: 'test'
+  ...
+# Subtest: joint dowels retain local scope, stated piece length, and spacing
+ok 323 - joint dowels retain local scope, stated piece length, and spacing
+  ---
+  duration_ms: 13.3708
+  type: 'test'
+  ...
+# Subtest: continuous reinforcement is not multiplied as joint reinforcement
+ok 324 - continuous reinforcement is not multiplied as joint reinforcement
+  ---
+  duration_ms: 4.1483
+  type: 'test'
+  ...
+# Subtest: face, intersection, and ambiguous scope remain distinct
+ok 325 - face, intersection, and ambiguous scope remain distinct
+  ---
+  duration_ms: 2.3459
+  type: 'test'
+  ...
+# Subtest: closure gate never emits concrete volume from an unlabeled face or missing schedule
+ok 326 - closure gate never emits concrete volume from an unlabeled face or missing schedule
+  ---
+  duration_ms: 5.7457
+  type: 'test'
+  ...
+# Subtest: a fully witnessed constant section derives CY and continuous bar length with provenance
+ok 327 - a fully witnessed constant section derives CY and continuous bar length with provenance
+  ---
+  duration_ms: 3.5645
+  type: 'test'
+  ...
+# Subtest: normalizes generic architectural and structural sheet identifiers
+ok 328 - normalizes generic architectural and structural sheet identifiers
+  ---
+  duration_ms: 4.7482
+  type: 'test'
+  ...
+# Subtest: assembles fragmented and stacked detail references deterministically
+ok 329 - assembles fragmented and stacked detail references deterministically
+  ---
+  duration_ms: 27.0132
+  type: 'test'
+  ...
+# Subtest: retains rotated native text and parses imperial, fractional, negative, and metric dimensions
+ok 330 - retains rotated native text and parses imperial, fractional, negative, and metric dimensions
+  ---
+  duration_ms: 2.9507
+  type: 'test'
+  ...
+# Subtest: spatial line index remains queryable on dense sheets
+ok 331 - spatial line index remains queryable on dense sheets
+  ---
+  duration_ms: 350.6767
+  type: 'test'
+  ...
+# Subtest: legend placement chooses an open original-page region
+ok 332 - legend placement chooses an open original-page region
+  ---
+  duration_ms: 1.5151
+  type: 'test'
+  ...
+# Subtest: matching dimension witnesses produces a conservative auto-calibrated scale zone
+ok 333 - matching dimension witnesses produces a conservative auto-calibrated scale zone
+  ---
+  duration_ms: 100.6635
+  type: 'test'
+  ...
+# Subtest: groups generic stacked, fragmented, rotated, and uniquely clipped references before classification
+ok 334 - groups generic stacked, fragmented, rotated, and uniquely clipped references before classification
+  ---
+  duration_ms: 5.8335
+  type: 'test'
+  ...
+# Subtest: indexes arbitrary reinforcement, step, quantity, and structurally repeated short-label evidence without assigning meaning
+ok 335 - indexes arbitrary reinforcement, step, quantity, and structurally repeated short-label evidence without assigning meaning
+  ---
+  duration_ms: 5.0155
+  type: 'test'
+  ...
+# Subtest: recovers mixed fractional dimensions and preserves zoom/render interaction invariants
+ok 336 - recovers mixed fractional dimensions and preserves zoom/render interaction invariants
+  ---
+  duration_ms: 2.3279
+  type: 'test'
+  ...
+# Subtest: one class color value drives stroke fill and preview state
+ok 337 - one class color value drives stroke fill and preview state
+  ---
+  duration_ms: 1.3092
+  type: 'test'
+  ...
+# Subtest: indexes symbol labels and dashed evidence without non-concrete regions
+ok 338 - indexes symbol labels and dashed evidence without non-concrete regions
+  ---
+  duration_ms: 22.5154
+  type: 'test'
+  ...
+# Subtest: keeps two robust scale zones on a multi-view page
+ok 339 - keeps two robust scale zones on a multi-view page
+  ---
+  duration_ms: 20.6358
+  type: 'test'
+  ...
+# Subtest: compacts only rebuildable vector cache before browser persistence
+ok 340 - compacts only rebuildable vector cache before browser persistence
+  ---
+  duration_ms: 8.456
+  type: 'test'
+  ...
+# Subtest: manual calibration, accepted quantity, class colors, and legend contents remain unchanged
+ok 341 - manual calibration, accepted quantity, class colors, and legend contents remain unchanged
+  ---
+  duration_ms: 19.6093
+  type: 'test'
+  ...
+# Subtest: PDF/export and viewport coordinate mappings remain source-space stable
+ok 342 - PDF/export and viewport coordinate mappings remain source-space stable
+  ---
+  duration_ms: 1.6175
+  type: 'test'
+  ...
+# Subtest: A: separate leader chains exclude otherwise aligned nearby labels
+ok 343 - A: separate leader chains exclude otherwise aligned nearby labels
+  ---
+  duration_ms: 44.2823
+  type: 'test'
+  ...
+# Subtest: split native glyph runs keep a complete word while duplicate OCR fragments stay out of the lexical index
+ok 344 - split native glyph runs keep a complete word while duplicate OCR fragments stay out of the lexical index
+  ---
+  duration_ms: 4.8486
+  type: 'test'
+  ...
+# Subtest: short overlapping OCR pieces and a one-letter OCR error do not duplicate complete native notes
+ok 345 - short overlapping OCR pieces and a one-letter OCR error do not duplicate complete native notes
+  ---
+  duration_ms: 1.2591
+  type: 'test'
+  ...
+# Subtest: a four-line grammatical annotation completes without absorbing a neighboring leader
+ok 346 - a four-line grammatical annotation completes without absorbing a neighboring leader
+  ---
+  duration_ms: 52.7543
+  type: 'test'
+  ...
+# Subtest: a completed RE qualifier stays with its subject and closes before an independent nearby annotation
+ok 347 - a completed RE qualifier stays with its subject and closes before an independent nearby annotation
+  ---
+  duration_ms: 8.131
+  type: 'test'
+  ...
+# Subtest: leader ownership prevents early lexical merging on the same baseline
+ok 348 - leader ownership prevents early lexical merging on the same baseline
+  ---
+  duration_ms: 5.9858
+  type: 'test'
+  ...
+# Subtest: B: one leader owns a multiline annotation and every source primitive
+ok 349 - B: one leader owns a multiline annotation and every source primitive
+  ---
+  duration_ms: 3.2589
+  type: 'test'
+  ...
+# Subtest: one recovered leader does not merge two complete neighboring annotations
+ok 350 - one recovered leader does not merge two complete neighboring annotations
+  ---
+  duration_ms: 3.8061
+  type: 'test'
+  ...
+# Subtest: C: aligned split number/sheet syntax resolves as a reference token
+ok 351 - C: aligned split number/sheet syntax resolves as a reference token
+  ---
+  duration_ms: 6.4112
+  type: 'test'
+  ...
+# Subtest: D: diagonal numeral cannot contaminate a horizontal dimensional phrase
+ok 352 - D: diagonal numeral cannot contaminate a horizontal dimensional phrase
+  ---
+  duration_ms: 2.8578
+  type: 'test'
+  ...
+# Subtest: E: shared witness topology unifies qualifier and retains schedule dependency
+ok 353 - E: shared witness topology unifies qualifier and retains schedule dependency
+  ---
+  duration_ms: 6.3917
+  type: 'test'
+  ...
+# Subtest: F: native grid preserves independent table cells and rows
+ok 354 - F: native grid preserves independent table cells and rows
+  ---
+  duration_ms: 74.2029
+  type: 'test'
+  ...
+# Subtest: thick/doubled grid strokes retain one cell per row and column with all edge evidence
+ok 355 - thick/doubled grid strokes retain one cell per row and column with all edge evidence
+  ---
+  duration_ms: 3.4141
+  type: 'test'
+  ...
+# Subtest: G: numbered notes partition wrapped lines at each new note number
+ok 356 - G: numbered notes partition wrapped lines at each new note number
+  ---
+  duration_ms: 5.1157
+  type: 'test'
+  ...
+# Subtest: numbered note closure retains three wrapped lines without consuming the next note
+ok 357 - numbered note closure retains three wrapped lines without consuming the next note
+  ---
+  duration_ms: 4.9778
+  type: 'test'
+  ...
+# Subtest: numbered notes inside one grid enclosure retain wrapping, not neighboring cells
+ok 358 - numbered notes inside one grid enclosure retain wrapping, not neighboring cells
+  ---
+  duration_ms: 5.8702
+  type: 'test'
+  ...
+# Subtest: large grouping provenance stays out of compact local storage without mutating evidence
+ok 359 - large grouping provenance stays out of compact local storage without mutating evidence
+  ---
+  duration_ms: 86.1572
+  type: 'test'
+  ...
+# Subtest: H: head-connected cut includes jogs, but not merely crossing geometry
+ok 360 - H: head-connected cut includes jogs, but not merely crossing geometry
+  ---
+  duration_ms: 2.0448
+  type: 'test'
+  ...
+# Subtest: J: overlapping centerline glyph pieces form one atomic symbol with provenance
+ok 361 - J: overlapping centerline glyph pieces form one atomic symbol with provenance
+  ---
+  duration_ms: 1.8468
+  type: 'test'
+  ...
+# Subtest: I: sheet identity then detail title/id/scale resolves a full plate, not another numeral
+ok 362 - I: sheet identity then detail title/id/scale resolves a full plate, not another numeral
+  ---
+  duration_ms: 53.0765
+  type: 'test'
+  ...
+# Subtest: K: naked same-valued numerals do not create cross-sheet references
+ok 363 - K: naked same-valued numerals do not create cross-sheet references
+  ---
+  duration_ms: 2.9202
+  type: 'test'
+  ...
+# Subtest: inline numbered captions need title/scale grammar, not construction vocabulary
+ok 364 - inline numbered captions need title/scale grammar, not construction vocabulary
+  ---
+  duration_ms: 10.0801
+  type: 'test'
+  ...
+# Subtest: raster grid recovery ignores short text strokes and retains table separators
+ok 365 - raster grid recovery ignores short text strokes and retains table separators
+  ---
+  duration_ms: 9.4354
+  type: 'test'
+  ...
+# Subtest: caption measurements remain a title when supported by caption font and aligned scale
+ok 366 - caption measurements remain a title when supported by caption font and aligned scale
+  ---
+  duration_ms: 18.0815
+  type: 'test'
+  ...
+# Subtest: a quoted numbered note without a space still closes the preceding wrapped note
+ok 367 - a quoted numbered note without a space still closes the preceding wrapped note
+  ---
+  duration_ms: 1.8426
+  type: 'test'
+  ...
+# Subtest: enclosed alphabetic caption ids use the same title and scale grammar
+ok 368 - enclosed alphabetic caption ids use the same title and scale grammar
+  ---
+  duration_ms: 24.2138
+  type: 'test'
+  ...
+# Subtest: repeated whole-sheet caption style retains an enclosed plate with a missing scale
+ok 369 - repeated whole-sheet caption style retains an enclosed plate with a missing scale
+  ---
+  duration_ms: 39.4565
+  type: 'test'
+  ...
+# Subtest: typed provenance closure is repeatable without duplicating cells or relations
+ok 370 - typed provenance closure is repeatable without duplicating cells or relations
+  ---
+  duration_ms: 5.2553
+  type: 'test'
+  ...
+# Subtest: provisional caption partitions do not clip the connected diagram on its normal axis
+ok 371 - provisional caption partitions do not clip the connected diagram on its normal axis
+  ---
+  duration_ms: 1.0084
+  type: 'test'
+  ...
+# Subtest: generic multiline annotation keeps its qualifier through layout-preserving transformations
+ok 372 - generic multiline annotation keeps its qualifier through layout-preserving transformations
+  ---
+  duration_ms: 41.0348
+  type: 'test'
+  ...
+# Subtest: a construction property survives text-run split, merge, order, translation, and modest typography changes
+ok 373 - a construction property survives text-run split, merge, order, translation, and modest typography changes
+  ---
+  duration_ms: 8.987
+  type: 'test'
+  ...
+# Subtest: native source conservation survives object order, page order, and unrelated adjacent text
+ok 374 - native source conservation survives object order, page order, and unrelated adjacent text
+  ---
+  duration_ms: 130.8439
+  type: 'test'
+  ...
+# Subtest: resolved stacked reference propagates state to every contributing native fragment
+ok 375 - resolved stacked reference propagates state to every contributing native fragment
+  ---
+  duration_ms: 62.7003
+  type: 'test'
+  ...
+# Subtest: multiple references to one absent sheet create one root-cause issue
+ok 376 - multiple references to one absent sheet create one root-cause issue
+  ---
+  duration_ms: 26.8863
+  type: 'test'
+  ...
+# Subtest: a reinforcement statement retains an explicit leader without guessing a member
+ok 377 - a reinforcement statement retains an explicit leader without guessing a member
+  ---
+  duration_ms: 19.1801
+  type: 'test'
+  ...
+# Subtest: a vector stroke crossing an annotation does not change its text interpretation
+ok 378 - a vector stroke crossing an annotation does not change its text interpretation
+  ---
+  duration_ms: 23.968
+  type: 'test'
+  ...
+# Subtest: printed title-block sheet identity survives rotation, renaming and conflicting filename hints
+ok 379 - printed title-block sheet identity survives rotation, renaming and conflicting filename hints
+  ---
+  duration_ms: 18.0474
+  type: 'test'
+  ...
+# Subtest: filename/name is only fallback when no printed code exists, and conflicting source codes stay unresolved
+ok 380 - filename/name is only fallback when no printed code exists, and conflicting source codes stay unresolved
+  ---
+  duration_ms: 1.7644
+  type: 'test'
+  ...
+# Subtest: blind structural fixtures reject light fixtures and texture under rotation, scale and placement
+ok 381 - blind structural fixtures reject light fixtures and texture under rotation, scale and placement
+  ---
+  duration_ms: 396.0225
+  type: 'test'
+  ...
+# Subtest: generated contour simplification caps micro vertices without altering manual inputs
+ok 382 - generated contour simplification caps micro vertices without altering manual inputs
+  ---
+  duration_ms: 97.5523
+  type: 'test'
+  ...
+# Subtest: raster schedule words remain clickable evidence with OCR provenance after persistence
+ok 383 - raster schedule words remain clickable evidence with OCR provenance after persistence
+  ---
+  duration_ms: 76.9317
+  type: 'test'
+  ...
+# Subtest: section profiles use bounded view ownership instead of a caption-only focus and retain short dark corners
+ok 384 - section profiles use bounded view ownership instead of a caption-only focus and retain short dark corners
+  ---
+  duration_ms: 37.5164
+  type: 'test'
+  ...
+# Subtest: local structural healing closes sub-point gaps and endpoint-to-boundary joins, not large missing edges
+ok 385 - local structural healing closes sub-point gaps and endpoint-to-boundary joins, not large missing edges
+  ---
+  duration_ms: 13.9993
+  type: 'test'
+  ...
+# Subtest: section continuation crossings close the painted profile without invented connecting geometry
+ok 386 - section continuation crossings close the painted profile without invented connecting geometry
+  ---
+  duration_ms: 1.9656
+  type: 'test'
+  ...
+1..386
+# tests 386
+# suites 0
+# pass 385
+# fail 0
+# cancelled 0
+# skipped 1
+# todo 0
+# duration_ms 80974.7197

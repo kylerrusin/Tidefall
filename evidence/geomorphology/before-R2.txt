@@ -1,0 +1,75 @@
+- main:
+  - generic "First-person game viewport"
+  - complementary:
+    - strong: TERRAIN MATERIAL QA · DEVELOPMENT ONLY
+    - text: Comparison view
+    - combobox "Comparison view":
+      - option "A · exposed flow"
+      - option "B · original detailed outcrop"
+      - option "C · rock/sediment contact"
+      - option "D · moderate hillside"
+      - option "E · steep fault face"
+      - option "F · distant streaked mountain"
+      - option "G · distant ridge silhouette"
+      - option "H · coastal rock/water"
+      - option "I · valley sediment"
+      - option "W · weathered upland"
+      - option "K · material-field overview"
+      - option "B5 · same outcrop / 5 m"
+      - option "B25 · same outcrop / 25 m"
+      - option "B100 · same outcrop / 100 m"
+      - option "A25 · material test / medium"
+      - option "C25 · material test / medium"
+      - option "E25 · material test / medium"
+      - option "R1 · western landform survey"
+      - option "R2 · eastern landform survey" [selected]
+      - option "P1 · Pyrax night corridor"
+      - option "P2 · Pyrax night laboratory"
+      - option "P3 · Pyrax outside flashlight"
+    - text: Diagnostic
+    - combobox "Diagnostic":
+      - option "Rendered" [selected]
+      - option "A · neutral unlit"
+      - option "B · no detail normals"
+      - option "C · displacement off"
+      - option "D · AO and shadows off"
+      - option "E · projection coordinates"
+      - option "F · triplanar weights"
+      - option "G · wireframe"
+      - option "G · depth"
+      - option "Bedrock unit"
+      - option "Surface cover"
+      - option "Slope angle"
+      - option "Deposition"
+      - option "Exposed rock"
+      - option "Weathered rock"
+      - option "Sediment"
+      - option "Terrain LOD"
+      - option "Planar cavity coordinates"
+      - option "No height bump only"
+      - option "No photographic normals only"
+      - option "Water coverage"
+      - option "Water wireframe"
+      - option "Original rock reuse / A C E"
+    - text: Material implementation
+    - combobox "Material implementation":
+      - option "Legacy projection only"
+      - option "Repaired projection" [selected]
+    - text: Lighting
+    - combobox "Lighting":
+      - option "Scenario sun" [selected]
+      - option "Controlled grazing sun"
+      - option "Controlled high sun"
+    - checkbox "Water visible" [checked]
+    - text: Water visible
+    - checkbox "Added outcrops visible" [checked]
+    - text: Added outcrops visible
+    - button "Reset frame sample"
+    - text: 300/300 frames
+    - generic: Room R12QA · client d88c3f19-d5a1-430e-8d97-9f33fab272d0 · players 2
+    - generic: seed 42 · tidefall · t 70.00 / fixture 70 · fov 55°
+    - generic: eye 80.000, 49.804, -105.000 · target 300.000, 30.000, -460.000
+    - generic: Rendered R2 / diagnostic 0
+    - generic: Projection pass 1 / light 0
+    - generic: 10.3 FPS · p95 97.9 ms · draws 133 · triangles 354940 · textures 25 / 24.43 MB · GPU sky 3.16 / water 0.06
+    - generic: TDF-LT-031 · R/W/S 1.00/0.00/0.00 · LOD 0 · hit terrain · distance 47.37 m · face 1491 · normal 0.053,0.382,0.922 · PBR 1 · tidefall-geology-v12-true-true-true-0-true-false

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "A",
+    "label": "A · exposed flow",
+    "position": [
+      91,
+      35.839650388621116,
+      -77
+    ],
+    "target": [
+      96,
+      37.838497161865234,
+      -60
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "B",
+    "label": "B · original detailed outcrop",
+    "position": [
+      28,
+      22.12997925993756,
+      -94
+    ],
+    "target": [
+      28,
+      21,
+      -85
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C",
+    "label": "C · rock/sediment contact",
+    "position": [
+      -98,
+      45.946259060537656,
+      -38
+    ],
+    "target": [
+      -107,
+      42.92141514415736,
+      -35
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "D",
+    "label": "D · moderate hillside",
+    "position": [
+      0,
+      13.118548188218295,
+      -65
+    ],
+    "target": [
+      5,
+      5.542458984646314,
+      -43
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "E",
+    "label": "E · steep fault face",
+    "position": [
+      -77,
+      14.298919664979538,
+      25
+    ],
+    "target": [
+      -91,
+      21.189410901258306,
+      25
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "F",
+    "label": "F · distant streaked mountain",
+    "position": [
+      -20,
+      44.49198474122697,
+      -105
+    ],
+    "target": [
+      -460,
+      125,
+      -220
+    ],
+    "fov": 48,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "G",
+    "label": "G · distant ridge silhouette",
+    "position": [
+      80,
+      49.80379896409568,
+      -105
+    ],
+    "target": [
+      300,
+      135,
+      -460
+    ],
+    "fov": 50,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "H",
+    "label": "H · coastal rock/water",
+    "position": [
+      35,
+      0.3210786119793978,
+      48
+    ],
+    "target": [
+      50,
+      -4.15822575954646,
+      78
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "I",
+    "label": "I · valley sediment",
+    "position": [
+      8,
+      2.802334339248718,
+      -15
+    ],
+    "target": [
+      12,
+      -3.8574897277156204,
+      12
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "W",
+    "label": "W · weathered upland",
+    "position": [
+      -15,
+      24.989068556374857,
+      -112
+    ],
+    "target": [
+      -15,
+      21.99322481575784,
+      -95
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "K",
+    "label": "K · material-field overview",
+    "position": [
+      0,
+      220,
+      -15
+    ],
+    "target": [
+      0,
+      0,
+      -15
+    ],
+    "fov": 65,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "B5",
+    "label": "B5 · same outcrop / 5 m",
+    "position": [
+      28,
+      23.12997925993756,
+      -90
+    ],
+    "target": [
+      28,
+      21,
+      -85
+    ],
+    "fov": 74,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "B25",
+    "label": "B25 · same outcrop / 25 m",
+    "position": [
+      28,
+      25.15328715080085,
+      -110
+    ],
+    "target": [
+      28,
+      17.727860024089033,
+      -85
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "B100",
+    "label": "B100 · same outcrop / 100 m",
+    "position": [
+      28,
+      75,
+      -185
+    ],
+    "target": [
+      28,
+      17.727860024089033,
+      -85
+    ],
+    "fov": 50,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "A25",
+    "label": "A25 · material test / medium",
+    "position": [
+      88.99029724695977,
+      35.03623281600226,
+      -83.83298936033677
+    ],
+    "target": [
+      96,
+      37.838497161865234,
+      -60
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C25",
+    "label": "C25 · material test / medium",
+    "position": [
+      -84.40372465805046,
+      50.515882477596264,
+      -42.53209178064984
+    ],
+    "target": [
+      -107,
+      42.92141514415736,
+      -35
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "E25",
+    "label": "E25 · material test / medium",
+    "position": [
+      -68.56957997779685,
+      10.149652859183833,
+      25
+    ],
+    "target": [
+      -91,
+      21.189410901258306,
+      25
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "D2",
+    "label": "D2 · reconstructed hillside / eye level",
+    "position": [
+      0,
+      18.463598871770078,
+      -65
+    ],
+    "target": [
+      5,
+      7.116084972327708,
+      -43
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "E2",
+    "label": "E2 · broadened fault / eye level",
+    "position": [
+      -77,
+      12.524417228731853,
+      25
+    ],
+    "target": [
+      -110,
+      21.460646436194505,
+      25
+    ],
+    "fov": 68,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "L1",
+    "label": "L1 · western hills / landing eye level",
+    "position": [
+      0,
+      24.7,
+      -105
+    ],
+    "target": [
+      -460,
+      35,
+      -220
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "R1",
+    "label": "R1 · western landform survey",
+    "position": [
+      -20,
+      44.492,
+      -105
+    ],
+    "target": [
+      -460,
+      25,
+      -220
+    ],
+    "fov": 55,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "R2",
+    "label": "R2 · eastern landform survey",
+    "position": [
+      80,
+      49.804,
+      -105
+    ],
+    "target": [
+      300,
+      30,
+      -460
+    ],
+    "fov": 55,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "P1",
+    "label": "P1 · Pyrax night corridor",
+    "position": [
+      82,
+      42.212,
+      -102
+    ],
+    "target": [
+      82,
+      41.8,
+      -84
+    ],
+    "fov": 70,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "P2",
+    "label": "P2 · Pyrax night laboratory",
+    "position": [
+      76.5,
+      42.212,
+      -105
+    ],
+    "target": [
+      69,
+      41.8,
+      -103.5
+    ],
+    "fov": 70,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "P3",
+    "label": "P3 · Pyrax outside flashlight",
+    "position": [
+      82,
+      42.212,
+      -114
+    ],
+    "target": [
+      82,
+      41.8,
+      -110
+    ],
+    "fov": 70,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  }
+]

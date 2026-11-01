@@ -1,0 +1,27 @@
+- main:
+  - generic: ×
+  - text: ORBITAL DESCENT
+  - heading "Tidefall" [level=2]
+  - paragraph: Surveying the surface and preparing collision systems…
+  - generic "First-person game viewport"
+  - generic: SURFACE UPLINK ESTABLISHED
+  - button "Leave room": ×
+  - heading "Outlast the tide." [level=2]
+  - text: 4-MINUTE JUDGING PREVIEW
+  - button "TIDEFALL · 8.03 m/s² Star map":
+    - generic: TIDEFALL · 8.03 m/s²
+    - strong: Star map
+  - paragraph: Find high ground, gather supplies, and survive longer than everyone else.
+  - button "ROOM FA71F COPY INVITE":
+    - text: ROOM
+    - strong: FA71F
+    - generic: COPY INVITE
+  - list:
+    - text: Ivory (you)
+    - generic: HOST
+    - generic: NOT READY
+  - button "I'm ready"
+  - button "Start practice Begin" [disabled]:
+    - text: Start practice
+    - generic: Begin
+  - paragraph: Invite a friend for a competitive match. Solo practice is available.

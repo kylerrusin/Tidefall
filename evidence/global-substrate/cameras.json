@@ -1,0 +1,434 @@
+[
+  {
+    "id": "C01",
+    "label": "C01 · spawn",
+    "position": [
+      -18,
+      33,
+      -127
+    ],
+    "target": [
+      0,
+      24.2,
+      -105
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C02",
+    "label": "C02 · fluid boundary",
+    "position": [
+      16,
+      9.095807199698923,
+      78
+    ],
+    "target": [
+      34,
+      0.29580719969892244,
+      100
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C03",
+    "label": "C03 · flat terrain",
+    "position": [
+      -18,
+      9.801533115521936,
+      18
+    ],
+    "target": [
+      0,
+      -3.3890209841898082,
+      40
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C04",
+    "label": "C04 · moderate slope",
+    "position": [
+      32,
+      30.94942135638274,
+      -87
+    ],
+    "target": [
+      50,
+      19.447131212542704,
+      -65
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C05",
+    "label": "C05 · steep terrain",
+    "position": [
+      -118,
+      33.0438974551855,
+      3
+    ],
+    "target": [
+      -100,
+      20.133942970692644,
+      25
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C06",
+    "label": "C06 · outcrop",
+    "position": [
+      -132,
+      39.20757257927364,
+      -59
+    ],
+    "target": [
+      -114,
+      30.407572579273637,
+      -37
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C07",
+    "label": "C07 · valley",
+    "position": [
+      -3,
+      7.762427635067168,
+      23
+    ],
+    "target": [
+      15,
+      -5.86280021507302,
+      45
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C08",
+    "label": "C08 · ridge",
+    "position": [
+      92,
+      42.251333951135734,
+      -57
+    ],
+    "target": [
+      110,
+      32.13869978002275,
+      -35
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C09",
+    "label": "C09 · facility",
+    "position": [
+      -74,
+      33.88135313391249,
+      -126
+    ],
+    "target": [
+      -56,
+      21.77205354918251,
+      -104
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C10",
+    "label": "C10 · distant landscape",
+    "position": [
+      -38,
+      33.123557815656994,
+      -127
+    ],
+    "target": [
+      -460,
+      35,
+      -220
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C11",
+    "label": "C11 · random interior",
+    "position": [
+      -36,
+      20.455641364277668,
+      -40
+    ],
+    "target": [
+      -18,
+      5.533257268214461,
+      -18
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "C12",
+    "label": "C12 · outer region",
+    "position": [
+      -153,
+      23.187761938622312,
+      78
+    ],
+    "target": [
+      -135,
+      12.355923706214645,
+      100
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "V01",
+    "label": "V01 · spawn",
+    "position": [
+      -18,
+      33.36936599428491,
+      -127
+    ],
+    "target": [
+      0,
+      24.2,
+      -105
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V02",
+    "label": "V02 · fluid boundary",
+    "position": [
+      27,
+      24.770640346023967,
+      -19
+    ],
+    "target": [
+      45,
+      15.970640346023966,
+      3
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V03",
+    "label": "V03 · flat terrain",
+    "position": [
+      -18,
+      35.14884472533562,
+      18
+    ],
+    "target": [
+      0,
+      26.34884472533562,
+      40
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V04",
+    "label": "V04 · moderate slope",
+    "position": [
+      32,
+      32.5324938633038,
+      -87
+    ],
+    "target": [
+      50,
+      23.7324938633038,
+      -65
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V05",
+    "label": "V05 · steep terrain",
+    "position": [
+      -118,
+      56.51065249823488,
+      3
+    ],
+    "target": [
+      -100,
+      47.710652498234886,
+      25
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V06",
+    "label": "V06 · outcrop",
+    "position": [
+      90,
+      45.97437242735834,
+      -57
+    ],
+    "target": [
+      108,
+      32.88672394719162,
+      -35
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V07",
+    "label": "V07 · valley",
+    "position": [
+      -3,
+      32.200370047776026,
+      23
+    ],
+    "target": [
+      15,
+      23.400370047776025,
+      45
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V08",
+    "label": "V08 · ridge",
+    "position": [
+      92,
+      46.82286845319246,
+      -57
+    ],
+    "target": [
+      110,
+      31.672404211906674,
+      -35
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V09",
+    "label": "V09 · facility",
+    "position": [
+      64,
+      48.751004759390895,
+      -112
+    ],
+    "target": [
+      82,
+      39.9510047593909,
+      -90
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V10",
+    "label": "V10 · distant landscape",
+    "position": [
+      -38,
+      55.55408568731392,
+      -127
+    ],
+    "target": [
+      -460,
+      35,
+      -220
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V11",
+    "label": "V11 · random interior",
+    "position": [
+      -36,
+      32.01612121768133,
+      -40
+    ],
+    "target": [
+      -18,
+      20.965221186076683,
+      -18
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  },
+  {
+    "id": "V12",
+    "label": "V12 · outer region",
+    "position": [
+      -153,
+      88.97777355708367,
+      78
+    ],
+    "target": [
+      -135,
+      41.532070945937,
+      100
+    ],
+    "fov": 62,
+    "seed": -43,
+    "time": 70,
+    "scenario": "pyrax"
+  }
+]

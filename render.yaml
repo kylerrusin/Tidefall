@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: tidefall-multiplayer
+    runtime: node
+    plan: free
+    region: oregon
+    numInstances: 1
+    autoDeployTrigger: off
+    buildCommand: npm ci --include=dev --no-audit --no-fund && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0

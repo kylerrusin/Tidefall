@@ -1,0 +1,44 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED GEOLOGY
+    - heading "Olivine-bearing vesicular basalt" [level=3]
+    - generic: TDF-LT-031 · underlying bedrock
+    - generic: "Macro cover: rock 100% · weathered 0% · sediment 0%"
+    - generic: Fine-grained and vesicular
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - complementary:
+    - strong: LOCAL EXPLORATION QA
+    - paragraph:
+      - text: Position -92.33, 49.43, -124.25
+      - text: Surface
+    - paragraph: 28.09 ms · p95 40.3 · draws 103 · triangles 117399
+    - button "Reset exploration frame sample"
+    - text: Heading degrees
+    - spinbutton "Survey heading degrees": "180"
+    - text: Pitch degrees
+    - spinbutton "Survey pitch degrees": "0"
+    - button "Focus movement keys"
+    - button "Hide exploration overlay"
+    - button "Record 8-second clip"
+    - link "Save last clip":
+      - /url: blob:http://localhost:4177/411ad3c8-94b2-4c5c-bb07-f4c3cab63e74
+    - paragraph: Uses the real character controller. Heading 0 faces +Z. E inventory · X interact · V mode · F pulse. These controls are excluded from production.
+  - generic: STORM BUILDING
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · SAMPLE · V combat · 100%
+  - generic: E · KIT & CHART
+  - status
+  - button "Click to capture mouse"
+  - status:
+    - strong: GEOLOGICAL SAMPLING · V combat
+    - generic: Glassy basaltic flow margin · fracture pulse 1/2
+    - generic: E inventory · X interact

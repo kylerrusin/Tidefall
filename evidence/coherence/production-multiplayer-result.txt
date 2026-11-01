@@ -1,0 +1,26 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport" [active]
+  - text: LAST ASTRONAUT STANDING
+  - heading "Amber outlasted the expedition." [level=2]
+  - paragraph: Last astronaut alive.
+  - table:
+    - rowgroup:
+      - row "Rank and astronaut Survived Suit record":
+        - columnheader "Rank and astronaut"
+        - columnheader "Survived"
+        - columnheader "Suit record"
+    - rowgroup:
+      - row "1 · Amber (you) 0:24 Alive":
+        - cell "1 · Amber (you)": 1 · Amber (you)
+        - cell "0:24"
+        - cell "Alive"
+      - row "2 · Ivory 0:24 Predator strike":
+        - cell "2 · Ivory": 2 · Ivory
+        - cell "0:24"
+        - cell "Predator strike"
+  - button "Rematch ↻":
+    - text: Rematch
+    - generic: ↻
+  - button "New coastline"
+  - button "Leave room"

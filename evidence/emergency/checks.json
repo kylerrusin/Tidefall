@@ -1,0 +1,40 @@
+{
+  "game": {
+    "tests": 161,
+    "passed": 161,
+    "failed": 0
+  },
+  "root": {
+    "tests": 386,
+    "passed": 385,
+    "failed": 0,
+    "skipped": 1
+  },
+  "typecheck": {
+    "game": "passed",
+    "root": "passed"
+  },
+  "build": {
+    "status": "passed",
+    "warning": "existing large-chunk warning"
+  },
+  "performance": {
+    "scope": "render-only added geometry hidden/visible, same repaired materials, fixed camera A, 300 frames each",
+    "hidden": {
+      "fps": 20.7,
+      "p95ms": 55.4,
+      "draws": 123,
+      "triangles": 449056
+    },
+    "visible": {
+      "fps": 19.3,
+      "p95ms": 58.5,
+      "draws": 128,
+      "triangles": 530388
+    },
+    "textureCount": 14,
+    "mappedTextureEstimateMiB": 24.43
+  },
+  "preview": "http://localhost:4174/",
+  "baseline": "7b9454dcefa34a0a1c7204ee66603041644bcebb"
+}

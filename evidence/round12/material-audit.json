@@ -1,0 +1,99 @@
+{
+  "baseline": "640c4fce2456d34b5711a640ea82899f776907a9",
+  "note": "Macro dominance at mesh vertices, before fragment microheight and wetness; not an area-weighted survey.",
+  "audit": [
+    {
+      "seed": 42,
+      "surfaces": [
+        {
+          "surface": "terrain",
+          "vertices": 16641,
+          "triangles": 32768,
+          "geometrySha256": "586fbee0e6d59a8de63932ffbc0af9c6ab2f370e7c63ca2fb5005b43d27ba70c",
+          "parentUnits": {
+            "TDF-LT-044": 1196,
+            "TDF-LT-043": 3160,
+            "TDF-AL-009": 676,
+            "TDF-LT-034": 3474,
+            "TDF-LT-031": 2166,
+            "TDF-LT-038": 1354,
+            "TDF-LT-046": 4453,
+            "TDF-MN-022": 77,
+            "TDF-MN-027": 15,
+            "TDF-AL-007": 63,
+            "TDF-MN-028": 7
+          },
+          "macroVertexDominance": {
+            "exposed": 9958,
+            "weathered": 2353,
+            "sediment": 4330
+          },
+          "materialAttributeBytes": 1131588
+        },
+        {
+          "surface": "apron",
+          "vertices": 3072,
+          "triangles": 5120,
+          "geometrySha256": "d8539d8c90ab09fef287d7d16554680b19ae1335784ccf85439f842f50192026",
+          "parentUnits": {
+            "TDF-LT-044": 599,
+            "TDF-LT-043": 765,
+            "TDF-AL-009": 30,
+            "TDF-LT-034": 550,
+            "TDF-LT-031": 475,
+            "TDF-LT-038": 499,
+            "TDF-LT-046": 154
+          },
+          "macroVertexDominance": {
+            "exposed": 2749,
+            "weathered": 169,
+            "sediment": 154
+          },
+          "materialAttributeBytes": 208896
+        }
+      ]
+    },
+    {
+      "seed": -43,
+      "surfaces": [
+        {
+          "surface": "terrain",
+          "vertices": 16641,
+          "triangles": 32768,
+          "geometrySha256": "36e6e6dffdf3038c3c9d74fd728c1693a7d6fa3c7a2b2d599ad97d122abef0c5",
+          "parentUnits": {
+            "TDF-LT-031": 7061,
+            "TDF-AL-009": 676,
+            "TDF-LT-038": 4449,
+            "TDF-LT-034": 4433,
+            "TDF-AL-008": 22
+          },
+          "macroVertexDominance": {
+            "exposed": 15077,
+            "weathered": 0,
+            "sediment": 1564
+          },
+          "materialAttributeBytes": 1131588
+        },
+        {
+          "surface": "apron",
+          "vertices": 3072,
+          "triangles": 5120,
+          "geometrySha256": "6dd269837f7d2ddfb720a7887f880c3399556cd5276b194df9abbed394e9842b",
+          "parentUnits": {
+            "TDF-LT-031": 1056,
+            "TDF-AL-009": 32,
+            "TDF-LT-038": 993,
+            "TDF-LT-034": 991
+          },
+          "macroVertexDominance": {
+            "exposed": 1889,
+            "weathered": 2,
+            "sediment": 1181
+          },
+          "materialAttributeBytes": 208896
+        }
+      ]
+    }
+  ]
+}

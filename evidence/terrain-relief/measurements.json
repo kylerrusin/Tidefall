@@ -1,0 +1,95 @@
+{
+  "promotion": "NOT PROMOTED: visual form remains too rounded; browser walking not completed",
+  "baselineCheckpoint": "ab2106a1",
+  "activeHudCheckpoint": "a1dfabaa",
+  "sites": [
+    {
+      "formationId": 11,
+      "name": "western eroded carbonate ledges",
+      "x": -114,
+      "z": -37,
+      "halfWidth": 19.3,
+      "halfLength": 19.7,
+      "strike": 0.12,
+      "unitId": "TDF-LT-043",
+      "kind": "ledges"
+    },
+    {
+      "formationId": 6,
+      "name": "eastern joint-controlled basalt flow",
+      "x": 96,
+      "z": -60,
+      "halfWidth": 17.35,
+      "halfLength": 23,
+      "strike": -0.28,
+      "unitId": "TDF-LT-034",
+      "kind": "flow"
+    }
+  ],
+  "performance": {
+    "conditions": "1280 x 720, High, same W20 pose, scenario sun, seed42 time70, one active QA renderer, 3 separate 300-frame windows; no running test/build workload",
+    "before": {
+      "samples": 900,
+      "meanMs": 19.911444444441134,
+      "p95Ms": 26.69999999552965
+    },
+    "after": {
+      "samples": 900,
+      "meanMs": 17.2508888888773,
+      "p95Ms": 22.100000001490116
+    },
+    "meanChangePercent": -13.361941485398399,
+    "withinFivePercentBudget": true,
+    "backgroundControl": {
+      "before": {
+        "samples": 300,
+        "meanMs": 19.3803333333383,
+        "p95Ms": 25.5
+      },
+      "after": {
+        "samples": 300,
+        "meanMs": 19.397666666656733,
+        "p95Ms": 24.69999999552965
+      }
+    }
+  },
+  "geometry": {
+    "nearTriangles": 32768,
+    "nearVertices": 16641,
+    "changedVertices": 370,
+    "minRelief": -0.00244140625,
+    "maxRelief": 2.810110092163086,
+    "oldOverlayTriangles": 132168,
+    "newOverlayTriangles": 108592,
+    "removedOverlayTriangles": 23576,
+    "importedRockInstances": 2,
+    "visibleW20": {
+      "before": {
+        "draws": 159,
+        "triangles": 392814
+      },
+      "after": {
+        "draws": 161,
+        "triangles": 342078
+      }
+    }
+  },
+  "checks": {
+    "tidefallFull": {
+      "passed": 170,
+      "failed": 0
+    },
+    "finalFocused": {
+      "passed": 7,
+      "failed": 0
+    },
+    "root": {
+      "passed": 385,
+      "skipped": 1,
+      "failed": 0
+    },
+    "typecheck": "pass",
+    "build": "pass",
+    "browserManualWalking": "not completed"
+  }
+}

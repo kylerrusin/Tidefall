@@ -1,0 +1,32 @@
+[
+  {
+    "seed": 42,
+    "before": {
+      "rocks": 156,
+      "fragments": 492
+    },
+    "after": {
+      "rocks": 87,
+      "fragments": 316
+    },
+    "cave": {
+      "length": 109.53132044097015,
+      "triangles": 5412
+    }
+  },
+  {
+    "seed": -43,
+    "before": {
+      "rocks": 196,
+      "fragments": 579
+    },
+    "after": {
+      "rocks": 194,
+      "fragments": 570
+    },
+    "cave": {
+      "length": 109.71774301350214,
+      "triangles": 5456
+    }
+  }
+]

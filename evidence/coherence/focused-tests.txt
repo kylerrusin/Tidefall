@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: centimetre hydraulic depth changes cannot rephase waves late in the match
+ok 1 - centimetre hydraulic depth changes cannot rephase waves late in the match
+  ---
+  duration_ms: 3.1905
+  type: 'test'
+  ...
+# Subtest: shadow target aligns to light-plane texels independently of sun orientation
+ok 2 - shadow target aligns to light-plane texels independently of sun orientation
+  ---
+  duration_ms: 0.5348
+  type: 'test'
+  ...
+# Subtest: renderer palette constrains ordinary rock/soil contrast without changing catalog identity
+ok 3 - renderer palette constrains ordinary rock/soil contrast without changing catalog identity
+  ---
+  duration_ms: 5.678
+  type: 'test'
+  ...
+# Subtest: normal timeline has thirty survival minutes, three boarding minutes and visible stable flight before results
+ok 4 - normal timeline has thirty survival minutes, three boarding minutes and visible stable flight before results
+  ---
+  duration_ms: 1.8381
+  type: 'test'
+  ...
+# Subtest: hatch stays attached to the lintel and seals before thrust on both schedules
+ok 5 - hatch stays attached to the lintel and seals before thrust on both schedules
+  ---
+  duration_ms: 3.3117
+  type: 'test'
+  ...
+# Subtest: water presentation interpolates wet snapshots only, converges and invalidates mutable reconstruction
+ok 6 - water presentation interpolates wet snapshots only, converges and invalidates mutable reconstruction
+  ---
+  duration_ms: 12.0546
+  type: 'test'
+  ...
+# Subtest: synthetic dry-neighbor extension cannot create a detached wet triangle
+ok 7 - synthetic dry-neighbor extension cannot create a detached wet triangle
+  ---
+  duration_ms: 1227.5812
+  type: 'test'
+  ...
+# Subtest: all structural LOD basal vertices remain embedded at the same rigid contact
+ok 8 - all structural LOD basal vertices remain embedded at the same rigid contact
+  ---
+  duration_ms: 1444.8227
+  type: 'test'
+  ...
+# Subtest: normal boarding remains open throughout the complete window and collider closes with the hatch
+ok 9 - normal boarding remains open throughout the complete window and collider closes with the hatch
+  ---
+  duration_ms: 1018.8496
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8840.7475

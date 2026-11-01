@@ -1,0 +1,165 @@
+{
+  "baseline": "20e68cbaeee49fb158428235fa7a2b62420ae316",
+  "seed": 42,
+  "units": "metres and degrees; slope statistics are per triangle (near grid has equal horizontal areas)",
+  "before": {
+    "near": {
+      "vertices": 16641,
+      "triangles": 32768,
+      "heightMin": -14.825106620788574,
+      "heightMax": 108.49298858642578,
+      "medianSlope": 15.708708487913823,
+      "p95Slope": 64.6009022709398,
+      "p99Slope": 67.90444123614178,
+      "maxSlope": 73.0694106177837,
+      "fractionBelow15": 0.48016357421875,
+      "fractionAbove40": 0.214447021484375
+    },
+    "far": {
+      "vertices": 3072,
+      "triangles": 5120,
+      "heightMin": -132.97509765625,
+      "heightMax": 450.8868713378906,
+      "medianSlope": 20.704641800337395,
+      "p95Slope": 62.12986812012014,
+      "p99Slope": 71.23145790880932,
+      "maxSlope": 80.12091787048386,
+      "fractionBelow15": 0.3744140625,
+      "fractionAbove40": 0.2078125
+    },
+    "importedFullDetailTriangles": 80696
+  },
+  "after": {
+    "near": {
+      "vertices": 16641,
+      "triangles": 32768,
+      "heightMin": -13.187444686889648,
+      "heightMax": 32.25930404663086,
+      "medianSlope": 9.040178044143927,
+      "p95Slope": 22.618801095871916,
+      "p99Slope": 28.29487661848229,
+      "maxSlope": 34.834658500358195,
+      "fractionBelow15": 0.770477294921875,
+      "fractionAbove40": 0
+    },
+    "far": {
+      "vertices": 6144,
+      "triangles": 11264,
+      "heightMin": -32.60899353027344,
+      "heightMax": 63.95508575439453,
+      "medianSlope": 6.03526027321392,
+      "p95Slope": 13.979945509467,
+      "p99Slope": 18.471696547535416,
+      "maxSlope": 22.585282349925837,
+      "fractionBelow15": 0.962890625,
+      "fractionAbove40": 0
+    },
+    "importedFullDetailTriangles": 40348
+  },
+  "pyrax": {
+    "lamps": [
+      {
+        "x": 71.5,
+        "y": 44.5020013745302,
+        "z": -105,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 71.5,
+        "y": 44.5020013745302,
+        "z": -95,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 71.5,
+        "y": 44.5020013745302,
+        "z": -85,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 71.5,
+        "y": 44.5020013745302,
+        "z": -75,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 92.5,
+        "y": 44.5020013745302,
+        "z": -105,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 92.5,
+        "y": 44.5020013745302,
+        "z": -95,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 92.5,
+        "y": 44.5020013745302,
+        "z": -85,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 92.5,
+        "y": 44.5020013745302,
+        "z": -75,
+        "angle": 0.82,
+        "distance": 9,
+        "power": 45
+      },
+      {
+        "x": 82,
+        "y": 44.5020013745302,
+        "z": -102,
+        "angle": 0.6,
+        "distance": 9,
+        "power": 55
+      },
+      {
+        "x": 82,
+        "y": 44.5020013745302,
+        "z": -90,
+        "angle": 0.6,
+        "distance": 9,
+        "power": 55
+      },
+      {
+        "x": 82,
+        "y": 44.5020013745302,
+        "z": -78,
+        "angle": 0.6,
+        "distance": 9,
+        "power": 55
+      }
+    ],
+    "closeIndoorFlashlightFactor": 0.65,
+    "solar": {
+      "direction": {
+        "x": -0.9757233578266591,
+        "y": -0.21464113434362478,
+        "z": 0.04350991196441792
+      },
+      "elevation": -0.2163243856598274,
+      "daylight": 0.13283044988807918,
+      "night": 0.8671695501119208,
+      "angularRadius": 0.28799241107798507,
+      "physicalTime": 4572.235166812634,
+      "daySeconds": 974.2803055131103
+    }
+  }
+}

@@ -1,0 +1,38 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED GEOLOGY
+    - heading "Volcanic ash mantle" [level=3]
+    - generic: TDF-SD-018
+    - generic: Ash fallout · Detached or exposed rock
+    - generic: Fine porous volcanic dust
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - complementary:
+    - strong: LOCAL EXPLORATION QA
+    - paragraph:
+      - text: Position -92.44, 35.24, -97.28
+      - text: Cinder Archive · fossil lava tube · 11.3 m below surface
+    - paragraph: 77.88 ms · p95 54.5 · draws 341 · triangles 136651
+    - button "Reset exploration frame sample"
+    - text: Heading degrees
+    - spinbutton "Survey heading degrees": "0"
+    - text: Pitch degrees
+    - spinbutton "Survey pitch degrees": "8"
+    - button "Focus movement keys"
+    - button "Hide exploration overlay"
+    - button "Record 8-second clip"
+    - paragraph: Uses the real character controller. Heading 0 faces +Z. E inventory · X interact · V mode · F pulse. These controls are excluded from production.
+  - generic: BASALT FRONTIER
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · COMBAT · V sample · 100%
+  - generic: E · KIT & CHART
+  - status
+  - button "Click to capture mouse"

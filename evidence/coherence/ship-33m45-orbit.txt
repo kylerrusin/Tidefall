@@ -1,0 +1,11 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - generic: EXTRACTION · 0:15
+  - generic: 0 EXPOSED · 1 ABOARD
+  - button "Open menu": Ⅱ
+  - text: CABIN · WASD to walk · approach seat and E
+  - generic: Restraints lock during launch and release in stable flight.
+  - button "Sit nearby" [active]
+  - text: RESCUE DEPARTING
+  - generic: Beacon -12, -113 · TAB chart

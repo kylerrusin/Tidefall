@@ -1,0 +1,24 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - generic: SURFACE UPLINK ESTABLISHED
+  - button "Leave room": ×
+  - heading "Outlast the tide." [level=2]
+  - text: NORMAL SURVIVAL · 30 MIN + 3 MIN BOARDING
+  - button "TIDEFALL · 8.03 m/s² Star map":
+    - generic: TIDEFALL · 8.03 m/s²
+    - strong: Star map
+  - paragraph: Find high ground, gather supplies, and survive longer than everyone else.
+  - button "ROOM B050C COPY INVITE":
+    - text: ROOM
+    - strong: B050C
+    - generic: COPY INVITE
+  - list:
+    - text: Ivory (you)
+    - generic: HOST
+    - generic: READY
+  - button "Ready ✓" [active]
+  - button "Start practice Begin":
+    - text: Start practice
+    - generic: Begin
+  - paragraph: Invite a friend for a competitive match. Solo practice is available.

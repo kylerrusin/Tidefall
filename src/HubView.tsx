@@ -1,0 +1,5 @@
+import * as THREE from 'three';
+import {useMemo,useEffect} from 'react';
+import {hubParts} from './hub';
+import {LANDER,ground} from './model';
+export function LandingHub({seed}:{seed:number}){const parts=useMemo(()=>hubParts(seed).map(p=>{const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(p.vertices,3));geometry.setIndex(new THREE.BufferAttribute(p.indices,1));geometry.computeVertexNormals();return {geometry,finish:p.finish};}),[seed]);useEffect(()=>()=>parts.forEach(p=>p.geometry.dispose()),[parts]);return <group name="landing-hub" userData={{inspection:'facility',identity:'Landing hub'}}>{parts.map((p,i)=><mesh key={i} geometry={p.geometry} castShadow receiveShadow><meshStandardMaterial color={p.finish==='hull'?'#8d9b98':p.finish==='shield'?'#293c47':p.finish==='window'?'#679ba5':'#a0aaa6'} metalness={p.finish==='window'?.2:.5} roughness={p.finish==='window'?.2:.65}/></mesh>)}<pointLight position={[LANDER.x,ground(LANDER.x,LANDER.z,seed)+2,LANDER.z+4]} color="#e5c69c" intensity={25} distance={15}/></group>;}

@@ -1,0 +1,77 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - complementary:
+    - strong: LOCAL EXPLORATION QA
+    - paragraph:
+      - text: Position -88.78, 35.29, -84.39
+      - text: Cinder Archive · fossil lava tube · 10.4 m below surface
+    - paragraph: 28.96 ms · p95 37.1 · draws 401 · triangles 151397
+    - button "Reset exploration frame sample"
+    - text: Heading degrees
+    - spinbutton "Survey heading degrees": "90"
+    - text: Pitch degrees
+    - spinbutton "Survey pitch degrees": "0"
+    - button "Focus movement keys"
+    - button "Hide exploration overlay"
+    - button "Record 8-second clip"
+    - link "Save last clip":
+      - /url: blob:http://localhost:4177/3510272c-1743-4338-9828-ae61c5bf9131
+    - paragraph: Uses the real character controller. Heading 0 faces +Z. E inventory · X interact · V mode · F pulse. These controls are excluded from production.
+  - generic: FIELD KIT AND SURFACE CHART
+  - button "Close inventory": ×
+  - heading "Travel light." [level=2]
+  - generic "Discoveries · 1"
+  - region "Geological samples":
+    - heading "Samples · 1/20 materials" [level=3]
+    - paragraph: V toggles the rifle between combat and geological sampling. Aim within 10 m and fire controlled pulses. E opens this field kit; X operates doors and seats.
+    - button "Switch rifle to combat"
+    - status: Glassy basaltic flow margin · fracture pulse 1/2
+    - generic "Glassy basaltic flow margin · 1 × · 0.18 kg TDF-LT-035" [active]:
+      - strong: Glassy basaltic flow margin
+      - text: · 1 × · 0.18 kg
+      - generic: TDF-LT-035
+    - paragraph: igneous · Rapidly quenched lava
+    - paragraph: "Modeled composition: Basaltic glass 50–85%, microlites and iron oxides"
+    - paragraph: Glassy fractured rind
+    - paragraph: "Origin: Cinder Archive · fossil lava tube"
+    - paragraph: Catalog assemblage; no measured chemical assay is implied. Sample mass is a gameplay extraction quantity.
+    - button "Discard one glassy basaltic flow margin sample"
+  - button "1 Kinetic pulse rifle Kinetic pulse · 0.32s cadence":
+    - generic: "1"
+    - strong: Kinetic pulse rifle
+    - generic: Kinetic pulse · 0.32s cadence
+  - button "2 Coolant canister 0 stored · cools chassis by 1.2°C":
+    - generic: "2"
+    - strong: Coolant canister
+    - generic: 0 stored · cools chassis by 1.2°C
+  - button "3 Artificial field 100% charge · Q reverse · R recall":
+    - generic: "3"
+    - strong: Artificial field
+    - generic: 100% charge · Q reverse · R recall
+  - term: Suit
+  - definition: 100%
+  - term: Oxygen
+  - definition: 100%
+  - term: Chassis temperature
+  - definition: 37.0°C
+  - term: Thermal liner
+  - definition: None
+  - term: Emergency thrust
+  - definition: 100 / 100
+  - button "B · Energy cell · 0" [disabled]
+  - button "T · Thermal compound · 0" [disabled]
+  - button "Medical supply · 0 · +32 health" [disabled]
+  - button "Field service · 0/3 minerals" [disabled]
+  - generic: Medical and mineral supplies are recovered in the field.
+  - button "Equip an item to use" [disabled]
+  - button "Carry nearby sampleG"
+  - button "Drop Medical" [disabled]
+  - button "Drop Energy" [disabled]
+  - button "Drop Thermal" [disabled]
+  - button "Drop Coolant" [disabled]
+  - button "Drop Mineral" [disabled]
+  - paragraph: Oxygen is consumed underwater. Hold C to dive; release to float. Space assists ascent. Close physical compartment doors to shelter from wind and cold. G carries portable samples.
+  - button "Return to the surface Begin":
+    - text: Return to the surface
+    - generic: Begin

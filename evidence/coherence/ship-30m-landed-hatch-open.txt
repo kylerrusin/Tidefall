@@ -1,0 +1,25 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: SPECULATIVE ENGINEERING
+    - heading "Rescue survey ship" [level=3]
+    - generic: "Status: boarding"
+    - generic: E at the front ramp during the boarding window
+    - generic: Remaining health ranks extracted suits
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - generic: EXTRACTION · 4:00
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · 100%
+  - generic: TAB · KIT & CHART
+  - status
+  - button "Mouse capture unavailable · Retry"
+  - text: RESCUE OPEN · 180s · Enter the ramp, then E aboard
+  - generic: Beacon -12, -113 · TAB chart

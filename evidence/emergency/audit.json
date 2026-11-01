@@ -1,0 +1,419 @@
+{
+  "baseline": "7b9454dcefa34a0a1c7204ee66603041644bcebb",
+  "worlds": [
+    {
+      "seed": 42,
+      "nearHash": "586fbee0e6d59a8de63932ffbc0af9c6ab2f370e7c63ca2fb5005b43d27ba70c",
+      "apronHash": "d8539d8c90ab09fef287d7d16554680b19ae1335784ccf85439f842f50192026",
+      "apronTriangles": 5120,
+      "mismatchedSlopes": 2528,
+      "changedDeposition": 2,
+      "maxSlopeError": 3.1008616257785104,
+      "outcrops": [
+        {
+          "id": 0,
+          "x": 28,
+          "z": -85,
+          "scale": 1.8,
+          "angle": 3.141592653589793,
+          "unitId": "TDF-LT-046",
+          "hash": "b863e0e4cf95dfcda800087275900d8f808447205ac0e8c9c6ff02f7f67f9d30",
+          "triangles": [
+            20174,
+            5085,
+            1289
+          ]
+        },
+        {
+          "id": 1,
+          "x": 73,
+          "z": -43,
+          "scale": 1.65,
+          "angle": 2.7,
+          "unitId": "TDF-LT-034",
+          "hash": "2431c53664925d9aaf2186114e7bb136bfdb1d539367e122df4c1e7b2d44d2c9",
+          "triangles": [
+            20174,
+            4580,
+            1140
+          ]
+        },
+        {
+          "id": 2,
+          "x": 96,
+          "z": -64,
+          "scale": 1.5,
+          "angle": 3.1,
+          "unitId": "TDF-LT-037",
+          "hash": "1e07f1b4880f4881f1cc95b9f9e89fce4e0513d5d882315eb6de323a4300d342",
+          "triangles": [
+            20174,
+            3979,
+            990
+          ]
+        },
+        {
+          "id": 3,
+          "x": -110,
+          "z": -31,
+          "scale": 1.2,
+          "angle": 1.65,
+          "unitId": "TDF-LT-044",
+          "hash": "bb269844266aa469092feffbccb235f60b078363032d08e6a6b1c8cb8c198601",
+          "triangles": [
+            20174,
+            2755,
+            636
+          ]
+        }
+      ]
+    },
+    {
+      "seed": -43,
+      "nearHash": "36e6e6dffdf3038c3c9d74fd728c1693a7d6fa3c7a2b2d599ad97d122abef0c5",
+      "apronHash": "6dd269837f7d2ddfb720a7887f880c3399556cd5276b194df9abbed394e9842b",
+      "apronTriangles": 5120,
+      "mismatchedSlopes": 2538,
+      "changedDeposition": 819,
+      "maxSlopeError": 2.035983354279604,
+      "outcrops": [
+        {
+          "id": 0,
+          "x": 28,
+          "z": -85,
+          "scale": 1.8,
+          "angle": 3.141592653589793,
+          "unitId": "TDF-LT-033",
+          "hash": "43bebf1a5df4fd73cd8c6f7d9ec9435b33c235d52a2fe04b29d63c6555e62f29",
+          "triangles": [
+            20174,
+            5124,
+            1281
+          ]
+        },
+        {
+          "id": 1,
+          "x": 73,
+          "z": -43,
+          "scale": 1.65,
+          "angle": 2.7,
+          "unitId": "TDF-LT-033",
+          "hash": "bd558d2d6a210f659626e6095a609dc71fbdb0d0c9a5fce418e0d8e439717421",
+          "triangles": [
+            20174,
+            4636,
+            1168
+          ]
+        }
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "A",
+      "label": "A · exposed flow",
+      "position": [
+        91,
+        35.839650388621116,
+        -77
+      ],
+      "target": [
+        96,
+        37.838497161865234,
+        -60
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "B",
+      "label": "B · original detailed outcrop",
+      "position": [
+        28,
+        22.12997925993756,
+        -94
+      ],
+      "target": [
+        28,
+        21,
+        -85
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "C",
+      "label": "C · rock/sediment contact",
+      "position": [
+        -98,
+        45.946259060537656,
+        -38
+      ],
+      "target": [
+        -107,
+        42.92141514415736,
+        -35
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "D",
+      "label": "D · moderate hillside",
+      "position": [
+        0,
+        13.118548188218295,
+        -65
+      ],
+      "target": [
+        5,
+        5.542458984646314,
+        -43
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "E",
+      "label": "E · steep fault face",
+      "position": [
+        -77,
+        14.298919664979538,
+        25
+      ],
+      "target": [
+        -91,
+        21.189410901258306,
+        25
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "F",
+      "label": "F · distant streaked mountain",
+      "position": [
+        -20,
+        44.49198474122697,
+        -105
+      ],
+      "target": [
+        -460,
+        125,
+        -220
+      ],
+      "fov": 48,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "G",
+      "label": "G · distant ridge silhouette",
+      "position": [
+        80,
+        49.80379896409568,
+        -105
+      ],
+      "target": [
+        300,
+        135,
+        -460
+      ],
+      "fov": 50,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "H",
+      "label": "H · coastal rock/water",
+      "position": [
+        35,
+        0.3210786119793978,
+        48
+      ],
+      "target": [
+        50,
+        -4.15822575954646,
+        78
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "I",
+      "label": "I · valley sediment",
+      "position": [
+        8,
+        2.802334339248718,
+        -15
+      ],
+      "target": [
+        12,
+        -3.8574897277156204,
+        12
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "W",
+      "label": "W · weathered upland",
+      "position": [
+        -15,
+        24.989068556374857,
+        -112
+      ],
+      "target": [
+        -15,
+        21.99322481575784,
+        -95
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "K",
+      "label": "K · material-field overview",
+      "position": [
+        0,
+        220,
+        -15
+      ],
+      "target": [
+        0,
+        0,
+        -15
+      ],
+      "fov": 65,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "B5",
+      "label": "B5 · same outcrop / 5 m",
+      "position": [
+        28,
+        23.12997925993756,
+        -90
+      ],
+      "target": [
+        28,
+        21,
+        -85
+      ],
+      "fov": 74,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "B25",
+      "label": "B25 · same outcrop / 25 m",
+      "position": [
+        28,
+        25.15328715080085,
+        -110
+      ],
+      "target": [
+        28,
+        17.727860024089033,
+        -85
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "B100",
+      "label": "B100 · same outcrop / 100 m",
+      "position": [
+        28,
+        75,
+        -185
+      ],
+      "target": [
+        28,
+        17.727860024089033,
+        -85
+      ],
+      "fov": 50,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "A25",
+      "label": "A25 · material test / medium",
+      "position": [
+        88.99029724695977,
+        35.03623281600226,
+        -83.83298936033677
+      ],
+      "target": [
+        96,
+        37.838497161865234,
+        -60
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "C25",
+      "label": "C25 · material test / medium",
+      "position": [
+        -84.40372465805046,
+        50.515882477596264,
+        -42.53209178064984
+      ],
+      "target": [
+        -107,
+        42.92141514415736,
+        -35
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    },
+    {
+      "id": "E25",
+      "label": "E25 · material test / medium",
+      "position": [
+        -68.56957997779685,
+        10.149652859183833,
+        25
+      ],
+      "target": [
+        -91,
+        21.189410901258306,
+        25
+      ],
+      "fov": 62,
+      "seed": 42,
+      "time": 70,
+      "scenario": "tidefall"
+    }
+  ]
+}

@@ -1,0 +1,1413 @@
+[
+  {
+    "started": "2026-10-30T00:33:11.632Z",
+    "port": 53466,
+    "mode": "survival",
+    "duration": 1800,
+    "fixture": "Four stationary insulated players in physically sealed facility rooms. Two scripted boarding requests."
+  },
+  {
+    "minute": 0,
+    "time": 1.016666666666668,
+    "wallSeconds": 1.018,
+    "heapMB": 51.93421936035156,
+    "rssMB": 461.18359375,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 20,
+    "medicalGenerations": [
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "ticks": [
+      57,
+      57,
+      57,
+      57
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 722970.0081691936,
+      "boundary": -342.8140579205459,
+      "source": 0
+    }
+  },
+  {
+    "minute": 1,
+    "time": 60.49999999999785,
+    "wallSeconds": 60.51,
+    "heapMB": 52.92973327636719,
+    "rssMB": 218.7578125,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 21,
+    "medicalGenerations": [
+      1,
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      557,
+      557,
+      557,
+      557
+    ],
+    "ticks": [
+      3628,
+      3628,
+      3628,
+      3628
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 256062.56202370426,
+      "boundary": -467250.2602034096,
+      "source": 0
+    }
+  },
+  {
+    "minute": 2,
+    "time": 120.93333333332775,
+    "wallSeconds": 120.957,
+    "heapMB": 52.894866943359375,
+    "rssMB": 219.40625,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 22,
+    "medicalGenerations": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      1112,
+      1112,
+      1112,
+      1112
+    ],
+    "ticks": [
+      7255,
+      7255,
+      7255,
+      7255
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 23761.52247897169,
+      "boundary": -699551.2997481485,
+      "source": 0
+    }
+  },
+  {
+    "minute": 3,
+    "time": 180.36666666670234,
+    "wallSeconds": 180.389,
+    "heapMB": 51.76861572265625,
+    "rssMB": 219.9140625,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 23,
+    "medicalGenerations": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      1658,
+      1658,
+      1658,
+      1658
+    ],
+    "ticks": [
+      10820,
+      10820,
+      10820,
+      10820
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 6387.781743713075,
+      "boundary": -716925.0404834034,
+      "source": 0
+    }
+  },
+  {
+    "minute": 4,
+    "time": 240.81666666675045,
+    "wallSeconds": 240.817,
+    "heapMB": 47.380615234375,
+    "rssMB": 216.19921875,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 23,
+    "medicalGenerations": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      2214,
+      2214,
+      2214,
+      2214
+    ],
+    "ticks": [
+      14449,
+      14449,
+      14449,
+      14449
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 58943.137196326825,
+      "boundary": -664369.6850307868,
+      "source": 0
+    }
+  },
+  {
+    "minute": 5,
+    "time": 300.2500000000556,
+    "wallSeconds": 300.256,
+    "heapMB": 47.44908142089844,
+    "rssMB": 216.890625,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 23,
+    "medicalGenerations": [
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      2759,
+      2759,
+      2759,
+      2759
+    ],
+    "ticks": [
+      18010,
+      18010,
+      18010,
+      18010
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 358808.5311193118,
+      "boundary": -364504.2911077946,
+      "source": 0
+    }
+  },
+  {
+    "minute": 6,
+    "time": 360.68333333333396,
+    "wallSeconds": 360.699,
+    "heapMB": 47.20653533935547,
+    "rssMB": 214.52734375,
+    "bodies": 39,
+    "colliders": 588,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 14,
+    "supplies": 23,
+    "medicalGenerations": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "phase": "scheduled",
+    "packets": [
+      3315,
+      3315,
+      3315,
+      3315
+    ],
+    "ticks": [
+      21641,
+      21641,
+      21641,
+      21641
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 793202.7515895192,
+      "boundary": 69889.92936241611,
+      "source": 0
+    }
+  },
+  {
+    "minute": 7,
+    "time": 420.18333333327985,
+    "wallSeconds": 420.204,
+    "heapMB": 47.41248321533203,
+    "rssMB": 216.9140625,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 4,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      3862,
+      3862,
+      3862,
+      3862
+    ],
+    "ticks": [
+      25210,
+      25210,
+      25210,
+      25210
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 977133.9809082241,
+      "boundary": 253821.15868111918,
+      "source": 0
+    }
+  },
+  {
+    "minute": 8,
+    "time": 480.6499999998915,
+    "wallSeconds": 480.657,
+    "heapMB": 47.49927520751953,
+    "rssMB": 216.875,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 4,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      4417,
+      4417,
+      4417,
+      4417
+    ],
+    "ticks": [
+      28834,
+      28834,
+      28834,
+      28834
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 724682.8764207325,
+      "boundary": 1370.0541936299874,
+      "source": 0
+    }
+  },
+  {
+    "minute": 9,
+    "time": 540.0999999998375,
+    "wallSeconds": 540.124,
+    "heapMB": 47.52062225341797,
+    "rssMB": 216.71875,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 4,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      4964,
+      4964,
+      4964,
+      4964
+    ],
+    "ticks": [
+      32406,
+      32406,
+      32406,
+      32406
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 305236.74697045796,
+      "boundary": -418076.0752566467,
+      "source": 0
+    }
+  },
+  {
+    "minute": 10,
+    "time": 600.5833333331158,
+    "wallSeconds": 600.593,
+    "heapMB": 47.56871032714844,
+    "rssMB": 217.17578125,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      5519,
+      5519,
+      5519,
+      5519
+    ],
+    "ticks": [
+      36030,
+      36030,
+      36030,
+      36030
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 50850.29036733895,
+      "boundary": -672462.5318597754,
+      "source": 0
+    }
+  },
+  {
+    "minute": 11,
+    "time": 660.0833333330617,
+    "wallSeconds": 660.094,
+    "heapMB": 47.44261932373047,
+    "rssMB": 216.91796875,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      4,
+      4,
+      3,
+      3,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      6066,
+      6066,
+      6066,
+      6066
+    ],
+    "ticks": [
+      39600,
+      39600,
+      39600,
+      39600
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 11232.687999516585,
+      "boundary": -712080.1342275911,
+      "source": 0
+    }
+  },
+  {
+    "minute": 12,
+    "time": 720.5999999996733,
+    "wallSeconds": 720.592,
+    "heapMB": 47.57476806640625,
+    "rssMB": 215.625,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      4,
+      4,
+      3,
+      3,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      6622,
+      6622,
+      6622,
+      6622
+    ],
+    "ticks": [
+      43230,
+      43230,
+      43230,
+      43230
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 65545.61243312339,
+      "boundary": -657767.209793983,
+      "source": 0
+    }
+  },
+  {
+    "minute": 13,
+    "time": 780.0833333329525,
+    "wallSeconds": 780.092,
+    "heapMB": 47.550376892089844,
+    "rssMB": 216.71875,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      7169,
+      7169,
+      7169,
+      7169
+    ],
+    "ticks": [
+      46799,
+      46799,
+      46799,
+      46799
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 379526.77816108277,
+      "boundary": -343786.04406603565,
+      "source": 0
+    }
+  },
+  {
+    "minute": 14,
+    "time": 840.5999999995641,
+    "wallSeconds": 840.596,
+    "heapMB": 47.49462890625,
+    "rssMB": 217.75390625,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      5,
+      5,
+      4,
+      4,
+      2
+    ],
+    "phase": "scheduled",
+    "packets": [
+      7725,
+      7725,
+      7725,
+      7725
+    ],
+    "ticks": [
+      50432,
+      50432,
+      50432,
+      50432
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 849926.7350812072,
+      "boundary": 126613.91285409045,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 15,
+    "time": 900.1333333328433,
+    "wallSeconds": 900.145,
+    "heapMB": 47.58063507080078,
+    "rssMB": 217.15234375,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      5,
+      5,
+      5,
+      4,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      8272,
+      8272,
+      8272,
+      8272
+    ],
+    "ticks": [
+      54004,
+      54004,
+      54004,
+      54004
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 1061069.4122572257,
+      "boundary": 337756.5900301025,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 16,
+    "time": 960.6333333327883,
+    "wallSeconds": 960.619,
+    "heapMB": 47.639068603515625,
+    "rssMB": 217.203125,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      5,
+      5,
+      5,
+      5,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      8828,
+      8828,
+      8828,
+      8828
+    ],
+    "ticks": [
+      57636,
+      57636,
+      57636,
+      57636
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 793883.970016158,
+      "boundary": 70571.14778903626,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 17,
+    "time": 1020.1666666660675,
+    "wallSeconds": 1020.15,
+    "heapMB": 47.49889373779297,
+    "rssMB": 216.66796875,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      6,
+      5,
+      5,
+      5,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      9375,
+      9375,
+      9375,
+      9375
+    ],
+    "ticks": [
+      61208,
+      61208,
+      61208,
+      61208
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 328858.52512766584,
+      "boundary": -394454.2970994553,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 18,
+    "time": 1080.649999999346,
+    "wallSeconds": 1080.636,
+    "heapMB": 47.64276123046875,
+    "rssMB": 217.59765625,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      6,
+      6,
+      5,
+      5,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      9930,
+      9930,
+      9930,
+      9930
+    ],
+    "ticks": [
+      64834,
+      64834,
+      64834,
+      64834
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 54905.82109728987,
+      "boundary": -668407.001129823,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 19,
+    "time": 1140.383333332625,
+    "wallSeconds": 1140.392,
+    "heapMB": 47.689979553222656,
+    "rssMB": 219.359375,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      6,
+      6,
+      6,
+      5,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      10473,
+      10473,
+      10473,
+      10473
+    ],
+    "ticks": [
+      68420,
+      68420,
+      68420,
+      68420
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 7768.413160038062,
+      "boundary": -715544.4090670731,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 20,
+    "time": 1200.8999999992366,
+    "wallSeconds": 1200.902,
+    "heapMB": 47.62345886230469,
+    "rssMB": 217.73046875,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      7,
+      6,
+      6,
+      5,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      11029,
+      11029,
+      11029,
+      11029
+    ],
+    "ticks": [
+      72050,
+      72050,
+      72050,
+      72050
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 51027.74083698106,
+      "boundary": -672285.0813901311,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 21,
+    "time": 1260.3666666658492,
+    "wallSeconds": 1260.367,
+    "heapMB": 47.640785217285156,
+    "rssMB": 219.33203125,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      7,
+      7,
+      6,
+      5,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      11576,
+      11576,
+      11576,
+      11576
+    ],
+    "ticks": [
+      75621,
+      75621,
+      75621,
+      75621
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 368502.2230460535,
+      "boundary": -354810.5991810575,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 22,
+    "time": 1320.8666666657941,
+    "wallSeconds": 1320.86,
+    "heapMB": 47.65559387207031,
+    "rssMB": 215.41015625,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 7,
+    "objects": 17,
+    "supplies": 26,
+    "medicalGenerations": [
+      8,
+      7,
+      7,
+      6,
+      3
+    ],
+    "phase": "scheduled",
+    "packets": [
+      12132,
+      12132,
+      12132,
+      12132
+    ],
+    "ticks": [
+      79249,
+      79249,
+      79249,
+      79249
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 872990.980446982,
+      "boundary": 149678.15821987088,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 23,
+    "time": 1380.3999999990733,
+    "wallSeconds": 1380.374,
+    "heapMB": 47.663238525390625,
+    "rssMB": 218.375,
+    "bodies": 42,
+    "colliders": 591,
+    "creatureSlots": 7,
+    "activeCreatures": 5,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      8,
+      8,
+      7,
+      6,
+      4
+    ],
+    "phase": "scheduled",
+    "packets": [
+      12679,
+      12679,
+      12679,
+      12679
+    ],
+    "ticks": [
+      82818,
+      82818,
+      82818,
+      82818
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 1098508.4935568734,
+      "boundary": 375195.6713297665,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 24,
+    "time": 1440.866666665685,
+    "wallSeconds": 1440.845,
+    "heapMB": 47.70835876464844,
+    "rssMB": 219.11328125,
+    "bodies": 69,
+    "colliders": 618,
+    "creatureSlots": 7,
+    "activeCreatures": 6,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      8,
+      8,
+      8,
+      6,
+      4
+    ],
+    "phase": "announced",
+    "packets": [
+      13235,
+      13235,
+      13235,
+      13235
+    ],
+    "ticks": [
+      86451,
+      86451,
+      86451,
+      86451
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 810442.0225902488,
+      "boundary": 87129.20036314905,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 25,
+    "time": 1500.3333333322976,
+    "wallSeconds": 1500.325,
+    "heapMB": 47.71589660644531,
+    "rssMB": 217.734375,
+    "bodies": 69,
+    "colliders": 618,
+    "creatureSlots": 7,
+    "activeCreatures": 6,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      9,
+      8,
+      8,
+      6,
+      4
+    ],
+    "phase": "announced",
+    "packets": [
+      13781,
+      13781,
+      13781,
+      13781
+    ],
+    "ticks": [
+      90015,
+      90015,
+      90015,
+      90015
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 355754.21573565656,
+      "boundary": -367558.6064914418,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 26,
+    "time": 1560.8333333322425,
+    "wallSeconds": 1560.831,
+    "heapMB": 47.741363525390625,
+    "rssMB": 216.85546875,
+    "bodies": 69,
+    "colliders": 618,
+    "creatureSlots": 7,
+    "activeCreatures": 6,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      9,
+      9,
+      8,
+      6,
+      4
+    ],
+    "phase": "announced",
+    "packets": [
+      14337,
+      14337,
+      14337,
+      14337
+    ],
+    "ticks": [
+      93644,
+      93644,
+      93644,
+      93644
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 92392.96320740957,
+      "boundary": -630919.8590196761,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 27,
+    "time": 1620.3333333321884,
+    "wallSeconds": 1620.327,
+    "heapMB": 47.69190979003906,
+    "rssMB": 217.44140625,
+    "bodies": 69,
+    "colliders": 618,
+    "creatureSlots": 7,
+    "activeCreatures": 6,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      9,
+      9,
+      9,
+      6,
+      4
+    ],
+    "phase": "boarding",
+    "packets": [
+      14884,
+      14884,
+      14884,
+      14884
+    ],
+    "ticks": [
+      97217,
+      97217,
+      97217,
+      97217
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 60018.33269482662,
+      "boundary": -663294.4895322587,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 28,
+    "time": 1680.9166666654667,
+    "wallSeconds": 1680.901,
+    "heapMB": 47.722412109375,
+    "rssMB": 217.375,
+    "bodies": 70,
+    "colliders": 619,
+    "creatureSlots": 8,
+    "activeCreatures": 8,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      9,
+      9,
+      9,
+      6,
+      4
+    ],
+    "phase": "boarding",
+    "packets": [
+      15440,
+      15440,
+      15440,
+      15440
+    ],
+    "ticks": [
+      100848,
+      100848,
+      100848,
+      100848
+    ],
+    "health": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "water": {
+      "volume": 206570.82373533674,
+      "boundary": -516741.99849175295,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 29,
+    "time": 1740.4333333320792,
+    "wallSeconds": 1740.424,
+    "heapMB": 47.684349060058594,
+    "rssMB": 217.33984375,
+    "bodies": 70,
+    "colliders": 619,
+    "creatureSlots": 8,
+    "activeCreatures": 8,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      10,
+      9,
+      9,
+      6,
+      4
+    ],
+    "phase": "departing",
+    "packets": [
+      15987,
+      15987,
+      15987,
+      15987
+    ],
+    "ticks": [
+      104420,
+      104420,
+      104420,
+      104420
+    ],
+    "health": [
+      100,
+      100,
+      0,
+      0
+    ],
+    "water": {
+      "volume": 560494.8519745285,
+      "boundary": -162817.97025256456,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "minute": 30,
+    "time": 1800.0166666653583,
+    "wallSeconds": 1800.988,
+    "heapMB": 47.74586486816406,
+    "rssMB": 219.265625,
+    "bodies": 70,
+    "colliders": 619,
+    "creatureSlots": 8,
+    "activeCreatures": 8,
+    "objects": 17,
+    "supplies": 25,
+    "medicalGenerations": [
+      10,
+      10,
+      10,
+      6,
+      4
+    ],
+    "phase": "departed",
+    "packets": [
+      16544,
+      16544,
+      16544,
+      16544
+    ],
+    "ticks": [
+      108001,
+      108001,
+      108001,
+      108001
+    ],
+    "health": [
+      100,
+      100,
+      0,
+      0
+    ],
+    "water": {
+      "volume": 953210.5972577448,
+      "boundary": 229897.77503065258,
+      "source": -5.929035040708186E-12
+    }
+  },
+  {
+    "finished": "2026-10-30T01:03:12.622Z",
+    "wallSeconds": 1800.99,
+    "time": 1800.0166666653583,
+    "winners": [
+      "e49bca34-8e9b-4778-911c-bf7e43cb5328",
+      "91ca08f7-715c-4e19-b397-5db6bef2a5d2"
+    ],
+    "standings": [
+      {
+        "id": "e49bca34-8e9b-4778-911c-bf7e43cb5328",
+        "rank": 1,
+        "time": 1800,
+        "cause": "Extracted aboard rescue ship",
+        "winner": true
+      },
+      {
+        "id": "91ca08f7-715c-4e19-b397-5db6bef2a5d2",
+        "rank": 1,
+        "time": 1800,
+        "cause": "Extracted aboard rescue ship",
+        "winner": true
+      },
+      {
+        "id": "cc9332b5-8a85-47f7-98ed-d483b83720a3",
+        "rank": 3,
+        "time": 1740.016666665413,
+        "cause": "Missed extraction",
+        "winner": false
+      },
+      {
+        "id": "65ea6e59-d292-41d9-92c8-687a1874758a",
+        "rank": 3,
+        "time": 1740.016666665413,
+        "cause": "Missed extraction",
+        "winner": false
+      }
+    ],
+    "samples": 31,
+    "packets": [
+      16544,
+      16544,
+      16544,
+      16544
+    ]
+  }
+]

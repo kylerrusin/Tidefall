@@ -1,0 +1,135 @@
+{
+  "conditions": "1280x720 IAB, same room/seed/t70/camera/material, 3x300 requestAnimationFrame samples; other agent WebGL tab blank; no test/build running; development client",
+  "groups": {
+    "W20": {
+      "before": {
+        "runs": [
+          {
+            "run": 1,
+            "mean": 17.676999999980133,
+            "p95": 24.899999991059303,
+            "samples": 300
+          },
+          {
+            "run": 2,
+            "mean": 17.685,
+            "p95": 25.400000005960464,
+            "samples": 300
+          },
+          {
+            "run": 3,
+            "mean": 18.112666666706403,
+            "p95": 25.5,
+            "samples": 300
+          }
+        ],
+        "mean": 17.82488888889551,
+        "p95Mean": 25.266666665673256
+      },
+      "after": {
+        "runs": [
+          {
+            "run": 1,
+            "mean": 19.0763333333532,
+            "p95": 23.5,
+            "samples": 300
+          },
+          {
+            "run": 2,
+            "mean": 19.046666666666667,
+            "p95": 24.200000002980232,
+            "samples": 300
+          },
+          {
+            "run": 3,
+            "mean": 19.092666666656733,
+            "p95": 24.5,
+            "samples": 300
+          }
+        ],
+        "mean": 19.0718888888922,
+        "p95Mean": 24.066666667660076
+      },
+      "changePercent": 6.995836034487368,
+      "memory": {
+        "chunks": 64,
+        "lods": [
+          9,
+          19,
+          36
+        ],
+        "instances": 492,
+        "bufferBytes": 26283132,
+        "fragmentBufferBytes": 713184,
+        "bodyBufferBytes": 2440728,
+        "generationMs": 1000.9999999403954,
+        "heapUsedBytes": 257469548
+      }
+    },
+    "V06": {
+      "before": {
+        "runs": [
+          {
+            "run": 1,
+            "mean": 30.6,
+            "p95": 33.5,
+            "samples": 300
+          },
+          {
+            "run": 2,
+            "mean": 30.64666666666667,
+            "p95": 33.5,
+            "samples": 300
+          },
+          {
+            "run": 3,
+            "mean": 30.680999999990068,
+            "p95": 33.70000000298023,
+            "samples": 300
+          }
+        ],
+        "mean": 30.642555555552246,
+        "p95Mean": 33.56666666766008
+      },
+      "after": {
+        "runs": [
+          {
+            "run": 1,
+            "mean": 23.872333333343267,
+            "p95": 26.900000005960464,
+            "samples": 300
+          },
+          {
+            "run": 2,
+            "mean": 23.9313333333532,
+            "p95": 27.399999991059303,
+            "samples": 300
+          },
+          {
+            "run": 3,
+            "mean": 23.871999999980133,
+            "p95": 26.900000005960464,
+            "samples": 300
+          }
+        ],
+        "mean": 23.8918888888922,
+        "p95Mean": 27.066666667660076
+      },
+      "changePercent": -22.030364453192174,
+      "memory": {
+        "chunks": 64,
+        "lods": [
+          11,
+          20,
+          33
+        ],
+        "instances": 579,
+        "bufferBytes": 14786076,
+        "fragmentBufferBytes": 839688,
+        "bodyBufferBytes": 2601648,
+        "generationMs": 963.9999999850988,
+        "heapUsedBytes": 253683999
+      }
+    }
+  }
+}

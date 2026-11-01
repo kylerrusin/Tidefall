@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-10-30T20:31:30.900Z",
+      "url": "http://localhost:4175/@vite/client"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-10-30T20:32:32.189Z",
+      "url": "http://localhost:4175/@vite/client"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-10-30T20:33:40.883Z",
+      "url": "http://localhost:4175/@vite/client"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-10-30T20:37:45.705Z",
+      "url": "http://localhost:4175/@vite/client"
+    }
+  ]
+}

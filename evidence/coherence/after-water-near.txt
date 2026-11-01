@@ -1,0 +1,140 @@
+- main:
+  - generic "First-person game viewport"
+  - complementary:
+    - strong: TERRAIN MATERIAL QA · DEVELOPMENT ONLY
+    - button "Hide QA overlay briefly"
+    - text: Comparison view
+    - combobox "Comparison view":
+      - option "ML0 · low cloud observer"
+      - option "ML1 · low cloud observer"
+      - option "ML2 · low cloud observer"
+      - option "ML3 · low cloud observer"
+      - option "ML4 · low cloud observer"
+      - option "M200 · moon through low cloud bank"
+      - option "S0 · rescue hatch exterior"
+      - option "M0 · moon/cloud line of sight"
+      - option "M1 · moon/cloud line of sight"
+      - option "M2 · moon/cloud line of sight"
+      - option "A · exposed flow"
+      - option "B · original detailed outcrop"
+      - option "C · rock/sediment contact"
+      - option "D · moderate hillside"
+      - option "E · steep fault face"
+      - option "F · distant streaked mountain"
+      - option "G · distant ridge silhouette"
+      - option "H · coastal rock/water"
+      - option "I · valley sediment"
+      - option "W · weathered upland"
+      - option "K · material-field overview"
+      - option "B5 · same outcrop / 5 m"
+      - option "B25 · same outcrop / 25 m"
+      - option "B100 · same outcrop / 100 m"
+      - option "A25 · material test / medium"
+      - option "C25 · material test / medium"
+      - option "E25 · material test / medium"
+      - option "D2 · reconstructed hillside / eye level"
+      - option "E2 · broadened fault / eye level"
+      - option "L1 · western hills / landing eye level"
+      - option "R1 · western landform survey"
+      - option "R2 · eastern landform survey"
+      - option "P1 · Pyrax night corridor"
+      - option "P2 · Pyrax night laboratory"
+      - option "P3 · Pyrax outside flashlight"
+      - option "W5 · western ledges / 5 m"
+      - option "W20 · western ledges / 20 m"
+      - option "W50 · western ledges / 50 m"
+      - option "WC · low contact survey"
+      - option "E5 · eastern flow / 5 m"
+      - option "E20 · eastern flow / 20 m"
+      - option "E50 · eastern flow / 50 m"
+      - option "EC · low contact survey"
+      - option "C01 · spawn"
+      - option "C02 · fluid boundary"
+      - option "C03 · flat terrain"
+      - option "C04 · moderate slope"
+      - option "C05 · steep terrain"
+      - option "C06 · outcrop" [selected]
+      - option "C07 · valley"
+      - option "C08 · ridge"
+      - option "C09 · facility"
+      - option "C10 · distant landscape"
+      - option "C11 · random interior"
+      - option "C12 · outer region"
+      - option "V01 · spawn"
+      - option "V02 · fluid boundary"
+      - option "V03 · flat terrain"
+      - option "V04 · moderate slope"
+      - option "V05 · steep terrain"
+      - option "V06 · outcrop"
+      - option "V07 · valley"
+      - option "V08 · ridge"
+      - option "V09 · facility"
+      - option "V10 · distant landscape"
+      - option "V11 · random interior"
+      - option "V12 · outer region"
+    - text: Diagnostic
+    - combobox "Diagnostic":
+      - option "Rendered" [selected]
+      - option "A · neutral unlit"
+      - option "B · no detail normals"
+      - option "C · displacement off"
+      - option "D · AO and shadows off"
+      - option "E · projection coordinates"
+      - option "F · triplanar weights"
+      - option "G · wireframe"
+      - option "G · depth"
+      - option "Bedrock unit"
+      - option "Surface cover"
+      - option "Slope angle"
+      - option "Deposition"
+      - option "Exposed rock"
+      - option "Weathered rock"
+      - option "Sediment"
+      - option "Terrain LOD"
+      - option "Planar cavity coordinates"
+      - option "No height bump only"
+      - option "No photographic normals only"
+      - option "Water coverage"
+      - option "Water wireframe"
+      - option "Original rock reuse / A C E"
+      - option "Neutral clay geometry"
+      - 'option "Lighting: no emission"'
+      - 'option "Lighting: diffuse only"'
+      - 'option "Lighting: no transparency"'
+      - 'option "Lighting: freeze light poses"'
+    - text: Material implementation
+    - combobox "Material implementation":
+      - option "Legacy projection only"
+      - option "Repaired projection" [selected]
+    - text: Lighting
+    - combobox "Lighting":
+      - option "Scenario sun" [selected]
+      - option "Controlled grazing sun"
+      - option "Controlled high sun"
+    - checkbox "Slow camera sweep"
+    - text: Slow camera sweep
+    - text: Cloud field
+    - combobox "Cloud field":
+      - option "Scenario clouds" [selected]
+      - option "Clear"
+      - option "Thin clouds"
+      - option "Thick clouds"
+    - checkbox "Water visible" [checked]
+    - text: Water visible
+    - text: Water component
+    - combobox "Water component":
+      - option "Both meshes"
+      - option "Numerical shoreline only" [selected]
+      - option "Offshore continuation only"
+    - checkbox "Added outcrops visible" [checked]
+    - text: Added outcrops visible
+    - button "Reset frame sample"
+    - text: 300/300 frames
+    - generic: Substrate 64 chunks · LOD 8/17/39 · 492 instances · 24.94 MB geometry · 853.0 ms generation
+    - generic: Room COHER · client 71926d05-ef8f-4a04-b501-879e57541d24 · players 2
+    - generic: seed 42 · tidefall · t 827.27 / fixture 70 · fov 62°
+    - generic: eye -132.000, 39.208, -59.000 · target -114.000, 30.408, -37.000
+    - generic: Rendered C06 / diagnostic 0
+    - generic: Projection pass 1 / light 0
+    - generic: 29.2 FPS · mean 34.21 ms · p95 43.8 ms · draws 337 · triangles 293091 · textures 14 / 24.43 MB · GPU sky 1.85 / water 2.73
+    - generic: TDF-LT-043 · R/W/S 1.00/0.00/0.00 · LOD 0 · hit substrate-volume-0-3/geological-chunk-0-3/global-geological-substrate · distance 25.31 m · face 94 · normal -0.227,0.933,-0.278 · PBR 1 · tidefall-terrain-coherent-restrained-v1

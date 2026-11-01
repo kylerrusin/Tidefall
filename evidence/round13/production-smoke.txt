@@ -1,0 +1,4 @@
+TIDEFALL http://127.0.0.1:49901 (localhost supported)
+Game + WebSocket: same port /ws · production · bind ::
+Keep this terminal open. From the repository root: npm run tidefall
+{"productionHealth":"pass","html":"pass","assets":2,"webSockets":"covered by network.test.ts"}

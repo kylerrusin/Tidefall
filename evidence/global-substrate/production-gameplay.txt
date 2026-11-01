@@ -1,0 +1,24 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED
+    - heading "Marine atmosphere" [level=3]
+    - generic: Pressure ~101 kPa · assumed
+    - generic: Air 8°C · wind 3 m/s
+    - generic: Condensation cloud fraction 15%
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - generic: TIDE RECEDING
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · 100%
+  - generic: TAB · KIT & CHART
+  - status
+  - button "Mouse capture unavailable · Retry"
+  - status: Mouse capture is blocked here. Open this address in a full browser, then click Resume. Keyboard movement remains available.

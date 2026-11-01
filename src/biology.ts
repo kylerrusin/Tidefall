@@ -1,0 +1,25 @@
+import {solidSurface} from './surface-query';
+import {ground,geology,chemistry,hash} from './model';
+import {planetForSeed} from './planets';
+import {facility} from './facility';
+export const GROWTH_FORMS=['mat','crust','tuft','frond','branch','fan','tube','float','filament','rosette'] as const;
+export type GrowthForm=typeof GROWTH_FORMS[number];
+export const GROWTH_NAMES=['Intertidal microbial mat','Mineral-encrusted colony','Anchored ribbon tuft','Broad phototrophic frond','Branching colonial phototroph','Fan-shaped light collector','Current-filtering tube colony','Buoyant colonial raft','Filamentous detrital community','Low radial light collector'];
+export type Growth={id:string;form:GrowthForm;variant:number;cluster:number;x:number;y:number;z:number;size:number;segments:number;branches:number;width:number;color:readonly number[];habitat:string;lineage:string;strategy:string};
+const growthCache=new Map<number,Growth[]>();
+export function biosphere(seed:number){let result=growthCache.get(seed);if(result)return result;result=[];if(!planetForSeed(seed).water)return result;
+ const f=facility(seed);
+ const centers:{x:number;z:number;radius:number}[]=[{x:-46,z:12,radius:5},{x:68,z:2,radius:6}];
+ for(let i=0;i<320&&centers.length<34;i++){const x=(hash(seed,i,2101)-.5)*270,z=-115+hash(seed,i,2102)*245,g=geology(x,z,seed);if(g.slope>.55||g.height< -2||Math.hypot(x,z+105)<22||Math.abs(x-f.x)<17&&Math.abs(z-f.z)<32||centers.some(p=>Math.hypot(x-p.x,z-p.z)<11))continue;if(hash(seed,i,2103)>.22+g.moisture*.72)continue;centers.push({x,z,radius:3.4+hash(seed,i,2104)*4.5});}
+ for(let i=0;i<centers.length*14&&result.length<260;i++){const cluster=i%centers.length,center=centers[cluster],angle=hash(seed,i,2111)*Math.PI*2,r=Math.sqrt(hash(seed,i,2112))*center.radius,x=center.x+Math.cos(angle)*r,z=center.z+Math.sin(angle)*r,g=geology(x,z,seed),c=chemistry(x,z,0,seed);
+  if(Math.hypot(x,z+105)<17||Math.abs(x-f.x)<12&&Math.abs(z-f.z)<27||g.slope>.7||g.height< -2||c.temperature>47)continue;
+  const moisture=g.moisture,vent=c.toxicity>.04,cavern=Math.hypot(x+46,z-12)<12,coast=g.height<9;
+  const candidates:GrowthForm[]=vent?['crust','mat','tube']:cavern?['filament','crust','tube']:g.height<2?['float','tube','mat']:coast?['frond','fan','tuft','rosette']:['branch','rosette','tuft','fan','filament'];
+  const form=candidates[vent||cavern?Math.floor(i/centers.length)%candidates.length:Math.floor(hash(seed,hash(seed,i,2113)<.8?cluster:i,2104)*candidates.length)],variant=Math.floor(hash(seed,i,2105)*8),gravitySupport=Math.sqrt(8/planetForSeed(seed).gravity),size=(.55+hash(seed,i,2106)*.9)*(1-r/center.radius*.22)*gravitySupport,support=solidSurface(x,z,seed);if(support.slope>.7)continue;
+  result.push({id:`TDF-BOT-${GROWTH_FORMS.indexOf(form)+1}-${variant}`,form,variant,cluster,x,y:support.height-.025,z,size,segments:3+variant%4,branches:3+Math.floor(variant/2),width:.09+variant*.013,color:vent?[.38,.23,.09]:cavern?[.13,.29,.22]:coast?[.18,.38,.29]:[.29,.37,.16],habitat:vent?'hydrothermal fringe':cavern?'sheltered cavern':coast?'intertidal coast':'rocky upland',lineage:`Scenario coastal ancestor, ${['colonial biofilm','anchored phototroph','suspension feeder'][vent?0:form==='tube'||form==='float'?2:1]} lineage`,strategy:vent?'Chemical energy and mineral-supported growth':cavern?'Detrital recycling and suspension feeding':form==='tube'?'Suspension feeding in tidal currents':'Hypothetical phototrophy under red stellar illumination'});
+ }
+ growthCache.set(seed,result);if(growthCache.size>8)growthCache.delete(growthCache.keys().next().value!);return result;
+}
+export const BIO_FAMILIES={stalker:'Hexapodal pursuit predator',ridgeback:'Armored territorial browser',ambusher:'Low ambush predator',grazer:'Segmented upland grazer',scuttler:'Small defensive detritivore',skimmer:'Aquatic suspension feeder'} as const;
+export function morphology(seed:number,id:number,kind:string){const variant=Math.floor(hash(seed,id,2901)*12),support=Math.sqrt(8/planetForSeed(seed).gravity),limbs=kind==='skimmer'?0:kind==='scuttler'?8:kind==='ambusher'?4:6;return {id:`TDF-BIO-${kind.toUpperCase()}-${variant+1}`,variant,limbs,segments:kind==='grazer'?4+variant%3:kind==='scuttler'?5:3,aspect:kind==='ambusher'?1.7:kind==='grazer'?1.4:1,width:.85+variant%4*.05,support:Math.max(.65,Math.min(1.1,support)),limbThickness:(kind==='grazer'?.12:.07)/Math.max(.7,support),lineage:`Scenario coastal bilateral ancestor, ${kind==='skimmer'?'aquatic filter-feeding':kind==='grazer'?'segmented browsing':'jointed mobile consumer'} branch`,habitat:kind==='skimmer'?'shallow saline water':kind==='ambusher'?'rock crevices and sheltered approaches':kind==='grazer'?'productive upland':'moist coastal detritus',strategy:kind==='skimmer'?'Filters suspended particles':kind==='grazer'?'Browses sessile producers':kind==='scuttler'?'Recycles detritus; defends itself when injured':'Hunts supporting coastal consumers'};}
+export const passiveKind=(kind:string)=>['grazer','scuttler','skimmer'].includes(kind);

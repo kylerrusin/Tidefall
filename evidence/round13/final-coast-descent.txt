@@ -1,0 +1,38 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED GEOLOGY
+    - heading "Coastal volcaniclastic sediment" [level=3]
+    - generic: TDF-SD-014
+    - generic: Mixed wave and volcanic deposition · Detached or exposed rock
+    - generic: Poorly sorted coarse sand
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - complementary:
+    - strong: LOCAL EXPLORATION QA
+    - paragraph:
+      - text: Position -92.49, 10.67, -96.22
+      - text: Undertide Survey · weathered fracture cavern · 11.4 m below surface
+    - paragraph: 56.76 ms · p95 73.2 · draws 403 · triangles 175831
+    - button "Reset exploration frame sample"
+    - text: Heading degrees
+    - spinbutton "Survey heading degrees": "0"
+    - text: Pitch degrees
+    - spinbutton "Survey pitch degrees": "18"
+    - button "Focus movement keys"
+    - button "Hide exploration overlay"
+    - button "Recording 8 seconds…" [disabled]
+    - paragraph: Uses the real character controller. Heading 0 faces +Z. E inventory · X interact · V mode · F pulse. These controls are excluded from production.
+  - generic: TIDE RECEDING
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · COMBAT · V sample · 100%
+  - generic: E · KIT & CHART
+  - status
+  - button "Mouse capture unavailable · Retry"

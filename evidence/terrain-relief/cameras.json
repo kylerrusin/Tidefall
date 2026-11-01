@@ -1,0 +1,146 @@
+[
+  {
+    "id": "W5",
+    "label": "W5 · western ledges / 5 m",
+    "position": [
+      -114,
+      30.03761617912424,
+      -42
+    ],
+    "target": [
+      -114,
+      28.778142678382437,
+      -37
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "W20",
+    "label": "W20 · western ledges / 20 m",
+    "position": [
+      -114,
+      28.644909268674922,
+      -57
+    ],
+    "target": [
+      -114,
+      28.778142678382437,
+      -37
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "W50",
+    "label": "W50 · western ledges / 50 m",
+    "position": [
+      -114,
+      23.963333376812102,
+      -87
+    ],
+    "target": [
+      -114,
+      28.778142678382437,
+      -37
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "WC",
+    "label": "WC · low contact survey",
+    "position": [
+      -95,
+      26.890354870156944,
+      -33
+    ],
+    "target": [
+      -114,
+      28.37814267838244,
+      -37
+    ],
+    "fov": 65,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "E5",
+    "label": "E5 · eastern flow / 5 m",
+    "position": [
+      92.75,
+      33.48424644670225,
+      -56.20032896160733
+    ],
+    "target": [
+      96,
+      31.45332777634342,
+      -60
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "E20",
+    "label": "E20 · eastern flow / 20 m",
+    "position": [
+      83,
+      29.51921769735819,
+      -44.80131584642933
+    ],
+    "target": [
+      96,
+      31.45332777634342,
+      -60
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "E50",
+    "label": "E50 · eastern flow / 50 m",
+    "position": [
+      63.5,
+      18.320698397937274,
+      -22.003289616073346
+    ],
+    "target": [
+      96,
+      31.45332777634342,
+      -60
+    ],
+    "fov": 62,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  },
+  {
+    "id": "EC",
+    "label": "EC · low contact survey",
+    "position": [
+      115,
+      32.90781080772131,
+      -56
+    ],
+    "target": [
+      96,
+      31.053327776343423,
+      -60
+    ],
+    "fov": 65,
+    "seed": 42,
+    "time": 70,
+    "scenario": "tidefall"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "game": {
+    "tests": 154,
+    "passed": 154,
+    "failed": 0
+  },
+  "resolve": {
+    "tests": 386,
+    "passed": 385,
+    "failed": 0,
+    "skipped": 1
+  },
+  "typecheck": {
+    "tidefall": "passed",
+    "resolve": "passed"
+  },
+  "build": {
+    "status": "passed",
+    "warning": "Existing large production chunk warning"
+  },
+  "production": {
+    "health": {
+      "application": "tidefall",
+      "ok": true,
+      "rooms": 0,
+      "mode": "production",
+      "port": 4173
+    },
+    "assets": [
+      {
+        "path": "/assets/index-DjItv3M1.js",
+        "status": 200,
+        "bytes": 1712640
+      },
+      {
+        "path": "/assets/index-U-T_eNLO.css",
+        "status": 200,
+        "bytes": 18942
+      },
+      {
+        "path": "/materials/rock-face/albedo.jpg",
+        "status": 200,
+        "bytes": 732721
+      },
+      {
+        "path": "/materials/rock-face/normal.jpg",
+        "status": 200,
+        "bytes": 1139857
+      },
+      {
+        "path": "/materials/rock-face/roughness.jpg",
+        "status": 200,
+        "bytes": 224371
+      },
+      {
+        "path": "/materials/rock-face/occlusion.jpg",
+        "status": 200,
+        "bytes": 501528
+      }
+    ]
+  },
+  "console": {
+    "errors": [],
+    "warnings": [
+      {
+        "level": "warn",
+        "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "timestamp": "2026-10-30T20:31:30.900Z",
+        "url": "http://localhost:4175/@vite/client"
+      },
+      {
+        "level": "warn",
+        "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "timestamp": "2026-10-30T20:32:32.189Z",
+        "url": "http://localhost:4175/@vite/client"
+      },
+      {
+        "level": "warn",
+        "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "timestamp": "2026-10-30T20:33:40.883Z",
+        "url": "http://localhost:4175/@vite/client"
+      },
+      {
+        "level": "warn",
+        "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "timestamp": "2026-10-30T20:37:45.705Z",
+        "url": "http://localhost:4175/@vite/client"
+      }
+    ]
+  },
+  "nativePointerLock": "Not retested this round; embedded browser does not provide native Pointer Lock.",
+  "productionConsoleErrors": 0
+}

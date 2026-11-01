@@ -1,0 +1,15 @@
+import {useEffect,useMemo,useRef} from 'react';
+import {useFrame} from '@react-three/fiber';
+import * as THREE from 'three';
+import {connection} from './client';
+import {GEOLOGY} from './geological-catalog';
+import {regionalPalette} from './regional-palette';
+import type {Pulse} from './model';
+/** Bounded surface spall relief. The intact underlying solid collider is preserved. */
+export function ExcavationView(){
+ const ref=useRef<THREE.InstancedMesh>(null),last=useRef(''),data=useMemo(()=>{const v:number[]=[0,0,.012],indices:number[]=[];for(let i=0;i<7;i++){const a=i*2*Math.PI/7,r=.21+(i%3)*.035;v.push(Math.cos(a)*r,Math.sin(a)*r,.035+(i%2)*.012);}for(let i=0;i<7;i++)indices.push(0,i+1,(i+1)%7+1);const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(v,3));g.setIndex(indices);g.computeVertexNormals();return {g,m:new THREE.MeshStandardMaterial({color:'white',roughness:1,side:THREE.DoubleSide}),o:new THREE.Object3D(),axis:new THREE.Vector3(0,0,1),normal:new THREE.Vector3(),color:new THREE.Color()};},[]);
+ useEffect(()=>()=>{data.g.dispose();data.m.dispose();},[data]);
+ useFrame(()=>{const s=connection.state,mesh=ref.current;if(!s||!mesh)return;const patches=s.excavations??[],key=s.code+':'+patches.map(p=>p.id+p.updatedAt+p.remaining).join('|');if(key===last.current)return;last.current=key;patches.forEach((p,i)=>{data.normal.set(p.normal.x,p.normal.y,p.normal.z).normalize();data.o.position.set(p.position.x,p.position.y,p.position.z).addScaledVector(data.normal,.008);data.o.quaternion.setFromUnitVectors(data.axis,data.normal);const scar=1+(3-p.remaining)*.17+p.progress*.06;data.o.scale.set(scar,scar,Math.max(.2,p.remaining/3));data.o.updateMatrix();mesh.setMatrixAt(i,data.o.matrix);data.color.setRGB(...regionalPalette(GEOLOGY[p.unitId].color,s.seed,p.position.x,p.position.z)as[number,number,number],THREE.SRGBColorSpace).multiplyScalar(p.remaining?.66:.45);mesh.setColorAt(i,data.color);});mesh.count=patches.length;mesh.instanceMatrix.needsUpdate=true;if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true;mesh.computeBoundingSphere();});
+ return <instancedMesh name="geological-fracture-patches" ref={ref} args={[data.g,data.m,64]} count={0} receiveShadow/>;
+}
+export function SamplingImpact({pulse}:{pulse:Pulse}){const root=useRef<THREE.Group>(null),normal=pulse.normal??{x:0,y:1,z:0},rotation=useMemo(()=>new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,1,0),new THREE.Vector3(normal.x,normal.y,normal.z)),[normal.x,normal.y,normal.z]);useFrame(()=>{if(!root.current)return;const age=Math.max(0,connection.worldTime()-(pulse.expires-.35));root.current.children.forEach((c,i)=>{const a=i*2.399;c.position.set(Math.cos(a)*age*(.5+i*.08),.02+age*1.3-age*age*3,Math.sin(a)*age*(.5+i*.08));c.scale.setScalar(Math.max(.005,.035-age*.06));});});return <group ref={root} position={[pulse.to.x,pulse.to.y,pulse.to.z]} quaternion={rotation}>{Array.from({length:6},(_,i)=><mesh key={i}><tetrahedronGeometry args={[1,0]}/><meshStandardMaterial color={GEOLOGY[pulse.unitId??'']?.family==='mineral'?'#a5a28a':'#777567'} roughness={1}/></mesh>)}</group>;}

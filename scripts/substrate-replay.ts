@@ -1,0 +1,12 @@
+// Local preview harness only: genuine input messages exercise the unchanged authoritative server.
+import {WebSocket} from 'ws';
+import {readFileSync,writeFileSync} from 'node:fs';
+import type {Snapshot,Player} from '../src/model';
+const code=process.argv[2]??'WALKC',seed=Number(process.argv[3]??42),fixture=process.env.TIDEFALL_QA_COMMAND_FILE??'substrate-fixture.json',control=`substrate-replay-${code}.json`,routes=JSON.parse(readFileSync('evidence/global-substrate/traversal.json','utf8')),route=routes.find((r:{seed:number})=>r.seed===seed);
+if(!route)throw Error('Run substrate-traversal.ts first');
+writeFileSync(fixture,JSON.stringify({create:true,code,seed}));writeFileSync(control,JSON.stringify({phase:'hold'}));
+await new Promise(r=>setTimeout(r,600));const ws=new WebSocket('ws://127.0.0.1:4177/ws');let id='',started=false,staged=false,phase='hold',phaseAt=Date.now(),seq=0;const samples:{at:number;phase:string;player:Player}[]=[];
+ws.on('open',()=>ws.send(JSON.stringify({type:'join',code})));
+ws.on('message',raw=>{const m=JSON.parse(raw.toString());if(m.type==='welcome')id=m.id;if(m.type!=='state')return;const s=m.state as Snapshot;if(s.status==='ready'&&!started){started=true;for(const a of [{type:'loaded',position:{seed}},{type:'ready'},{type:'start'}])ws.send(JSON.stringify(a));}if(s.status==='running'&&!staged){staged=true;writeFileSync(fixture,JSON.stringify({code,time:70,protect:true,freeze:true,static:false,players:[{color:0,position:route.start,insulated:true}],creatures:s.stalkers.map(c=>({id:c.id,health:0}))}));console.log('Staged '+code+' at '+JSON.stringify(route.start));}const player=s.players.find(p=>p.id===id);if(player)samples.push({at:Date.now(),phase,player});});
+const timer=setInterval(()=>{try{const next=JSON.parse(readFileSync(control,'utf8')).phase;if(next!==phase){phase=next;phaseAt=Date.now();console.log('Replay '+code+' '+phase);}if(ws.readyState===WebSocket.OPEN&&staged){const age=Date.now()-phaseAt,z=phase==='walk'&&age<2700?1:0,jump=phase==='thrust'&&age<650;ws.send(JSON.stringify({type:'input',input:{x:0,z,yaw:0,jump,sprint:false,seq:++seq}}));}if(phase==='save'){writeFileSync(`evidence/global-substrate/replay-${code}.json`,JSON.stringify({code,seed,route,samples},null,2)+'\n');phase='hold';writeFileSync(control,JSON.stringify({phase}));console.log('Saved '+samples.length+' replay snapshots');}}catch(e){console.error(String(e));}},1000/60);
+process.on('SIGINT',()=>{clearInterval(timer);ws.close();process.exit(0);});

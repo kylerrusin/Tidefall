@@ -1,0 +1,86 @@
+Browser tab: 11, Title: "TIDEFALL — Survive the Planet", URL: "http://localhost:4175/?terrainQA=F".
+1 AXWebArea TIDEFALL — Survive the Planet, URL: localhost:4175/?terrainQA=F
+	2 container
+		3 image First-person game viewport
+		4 text TERRAIN MATERIAL QA · DEVELOPMENT ONLY
+		5 container
+			6 text Comparison view
+			7 pop up button (collapsed, settable) Description: Comparison view, Value: A · exposed flow, Secondary Actions: Expand
+				8 menu
+					9 (selected) A · exposed flow
+					10 B · original detailed outcrop
+					11 C · rock/sediment contact
+					12 D · moderate hillside
+					13 E · steep fault face
+					14 F · distant streaked mountain
+					15 G · distant ridge silhouette
+					16 H · coastal rock/water
+					17 I · valley sediment
+					18 W · weathered upland
+					19 K · material-field overview
+					20 B5 · same outcrop / 5 m
+					21 B25 · same outcrop / 25 m
+					22 B100 · same outcrop / 100 m
+					23 A25 · material test / medium
+					24 C25 · material test / medium
+					25 E25 · material test / medium
+			26 text Diagnostic
+			27 pop up button (collapsed, settable) Description: Diagnostic, Value: Rendered, Secondary Actions: Expand
+				28 menu
+					29 (selected) Rendered
+					30 A · neutral unlit
+					31 B · no detail normals
+					32 C · displacement off
+					33 D · AO and shadows off
+					34 E · projection coordinates
+					35 F · triplanar weights
+					36 G · wireframe
+					37 G · depth
+					38 Bedrock unit
+					39 Surface cover
+					40 Slope angle
+					41 Deposition
+					42 Exposed rock
+					43 Weathered rock
+					44 Sediment
+					45 Terrain LOD
+					46 Planar cavity coordinates
+					47 No height bump only
+					48 No photographic normals only
+					49 Water coverage
+					50 Water wireframe
+					51 Original rock reuse / A C E
+		52 container
+			53 text Material implementation
+			54 pop up button (collapsed, settable) Description: Material implementation, Value: Repaired projection, Secondary Actions: Expand
+				55 menu
+					56 Legacy projection only
+					57 (selected) Repaired projection
+			58 text Lighting
+			59 pop up button (collapsed, settable) Description: Lighting, Value: Scenario sun, Secondary Actions: Expand
+				60 menu
+					61 (selected) Scenario sun
+					62 Controlled grazing sun
+					63 Controlled high sun
+		64 container
+			65 checkbox (settable, integer) Description: Water visible, Value: 1
+			66 text Water visible
+			67 checkbox (settable, integer) Description: Added outcrops visible, Value: 0
+			68 text Added outcrops visible
+			69 button Reset frame sample
+			70 text 300 /300 frames
+		71 container
+			72 text Room  R12QA  · client  f52f7e4e-49ab-42be-8785-9943b199adda  · players  2
+		73 container
+			74 text seed  42  ·  tidefall  · t  70.00  / fixture  70  · fov  62 °
+		75 container
+			76 text eye  91.000, 35.840, -77.000  · target  96.000, 37.838, -60.000
+		77 container
+			78 text Rendered  A  / diagnostic  0
+		79 container
+			80 text Projection pass  1  / light  0
+		81 container
+			82 text 20.7  FPS · p95  55.4  ms · draws  123  · triangles  449056  · textures  14  /  24.43  MB · GPU sky  4.03  / water  0.06
+		83 text TDF-LT-038 · R/W/S 1.00/0.00/0.00 · LOD 0 · hit formation-jointed basalt · distance 37.27 m · face 957 · normal -0.246,0.739,-0.627 · PBR 1 · tidefall-geology-v12-true-true-true-0-true-false
+
+The focused UI element is 69 button Reset frame sample

@@ -1,0 +1,402 @@
+{
+  "at": "2026-10-30T05:44:13.456Z",
+  "libraryUnits": 32,
+  "facies": 7,
+  "surfaceTreatments": 6,
+  "maps": [
+    {
+      "seed": 42,
+      "units": 25,
+      "unitIds": [
+        "TDF-AL-006",
+        "TDF-AL-007",
+        "TDF-AL-009",
+        "TDF-LT-031",
+        "TDF-LT-032",
+        "TDF-LT-033",
+        "TDF-LT-034",
+        "TDF-LT-036",
+        "TDF-LT-037",
+        "TDF-LT-038",
+        "TDF-LT-041",
+        "TDF-LT-043",
+        "TDF-LT-044",
+        "TDF-LT-045",
+        "TDF-LT-046",
+        "TDF-MN-021",
+        "TDF-MN-022",
+        "TDF-MN-027",
+        "TDF-MN-028",
+        "TDF-SD-011",
+        "TDF-SD-012",
+        "TDF-SD-013",
+        "TDF-SD-014",
+        "TDF-SD-015",
+        "TDF-SD-016"
+      ],
+      "facies": [
+        "weathered",
+        "fresh",
+        "sediment veneer",
+        "mineral veined",
+        "oxidized",
+        "jointed",
+        "wet"
+      ],
+      "unitFaciesAppearances": 98,
+      "stationaryOrganisms": 260,
+      "growthForms": [
+        "tuft",
+        "frond",
+        "filament",
+        "float",
+        "rosette",
+        "tube",
+        "fan",
+        "branch",
+        "mat",
+        "crust"
+      ],
+      "instantiatedMorphologies": 71,
+      "habitats": [
+        "intertidal coast",
+        "rocky upland",
+        "sheltered cavern",
+        "hydrothermal fringe"
+      ],
+      "regions": [
+        {
+          "x": -65,
+          "z": 0,
+          "organismsWithin20m": 14
+        },
+        {
+          "x": 0,
+          "z": 20,
+          "organismsWithin20m": 4
+        },
+        {
+          "x": 100,
+          "z": -40,
+          "organismsWithin20m": 2
+        },
+        {
+          "x": -46,
+          "z": 12,
+          "organismsWithin20m": 18
+        },
+        {
+          "x": 68,
+          "z": 2,
+          "organismsWithin20m": 2
+        }
+      ]
+    },
+    {
+      "seed": -43,
+      "units": 15,
+      "unitIds": [
+        "TDF-AL-008",
+        "TDF-AL-009",
+        "TDF-LT-031",
+        "TDF-LT-032",
+        "TDF-LT-033",
+        "TDF-LT-034",
+        "TDF-LT-035",
+        "TDF-LT-037",
+        "TDF-LT-038",
+        "TDF-LT-039",
+        "TDF-LT-040",
+        "TDF-LT-041",
+        "TDF-LT-042",
+        "TDF-SD-017",
+        "TDF-SD-018"
+      ],
+      "facies": [
+        "sediment veneer",
+        "weathered",
+        "fresh",
+        "jointed",
+        "mineral veined",
+        "oxidized"
+      ],
+      "unitFaciesAppearances": 61,
+      "stationaryOrganisms": 0,
+      "growthForms": [],
+      "instantiatedMorphologies": 0,
+      "habitats": [],
+      "regions": [
+        {
+          "x": -65,
+          "z": 0,
+          "organismsWithin20m": 0
+        },
+        {
+          "x": 0,
+          "z": 20,
+          "organismsWithin20m": 0
+        },
+        {
+          "x": 100,
+          "z": -40,
+          "organismsWithin20m": 0
+        },
+        {
+          "x": -46,
+          "z": 12,
+          "organismsWithin20m": 0
+        },
+        {
+          "x": 68,
+          "z": 2,
+          "organismsWithin20m": 0
+        }
+      ]
+    }
+  ],
+  "distinctGrammarGeometries": 76,
+  "mobileFamilies": [
+    {
+      "kind": "stalker",
+      "limbs": 6,
+      "variants": 12
+    },
+    {
+      "kind": "ridgeback",
+      "limbs": 6,
+      "variants": 12
+    },
+    {
+      "kind": "ambusher",
+      "limbs": 4,
+      "variants": 12
+    },
+    {
+      "kind": "grazer",
+      "limbs": 6,
+      "variants": 12
+    },
+    {
+      "kind": "scuttler",
+      "limbs": 8,
+      "variants": 12
+    },
+    {
+      "kind": "skimmer",
+      "limbs": 0,
+      "variants": 12
+    }
+  ],
+  "facility": {
+    "rooms": 10,
+    "staticParts": 276,
+    "doors": 14,
+    "glazing": 11
+  },
+  "normal": {
+    "seconds": 1800.0166666653583,
+    "ticks": 108001,
+    "wallMs": 167942.60760000002,
+    "completeStepMs": {
+      "median": 1.2185000000026776,
+      "p95": 3.0833999999995285,
+      "max": 34.9997999999905
+    },
+    "memory": [
+      {
+        "time": 0.016666666666666666,
+        "heapMB": 31.377769470214844,
+        "rssMB": 198.8203125,
+        "bodies": 40,
+        "colliders": 627,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 17,
+        "supplies": 20,
+        "fields": 1
+      },
+      {
+        "time": 180.00000000003539,
+        "heapMB": 32.6639404296875,
+        "rssMB": 182.48046875,
+        "bodies": 40,
+        "colliders": 627,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 17,
+        "supplies": 21,
+        "fields": 90
+      },
+      {
+        "time": 360.00000000000125,
+        "heapMB": 32.49787139892578,
+        "rssMB": 181.74609375,
+        "bodies": 40,
+        "colliders": 627,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 17,
+        "supplies": 21,
+        "fields": 180
+      },
+      {
+        "time": 540.0166666665042,
+        "heapMB": 32.86299133300781,
+        "rssMB": 186.30078125,
+        "bodies": 43,
+        "colliders": 630,
+        "creatureSlots": 7,
+        "active": 4,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 269
+      },
+      {
+        "time": 720.0166666663405,
+        "heapMB": 33.069610595703125,
+        "rssMB": 185.5859375,
+        "bodies": 43,
+        "colliders": 630,
+        "creatureSlots": 7,
+        "active": 4,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 358
+      },
+      {
+        "time": 900.0166666661768,
+        "heapMB": 33.217018127441406,
+        "rssMB": 176.953125,
+        "bodies": 43,
+        "colliders": 630,
+        "creatureSlots": 7,
+        "active": 4,
+        "objects": 20,
+        "supplies": 24,
+        "fields": 447
+      },
+      {
+        "time": 1080.0166666660132,
+        "heapMB": 33.38758087158203,
+        "rssMB": 183.1640625,
+        "bodies": 43,
+        "colliders": 630,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 537
+      },
+      {
+        "time": 1260.0166666658495,
+        "heapMB": 32.437110900878906,
+        "rssMB": 186.75,
+        "bodies": 43,
+        "colliders": 630,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 626
+      },
+      {
+        "time": 1440.0166666656858,
+        "heapMB": 28.30976104736328,
+        "rssMB": 175.25390625,
+        "bodies": 66,
+        "colliders": 653,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 715
+      },
+      {
+        "time": 1620.016666665522,
+        "heapMB": 28.390869140625,
+        "rssMB": 172.94140625,
+        "bodies": 66,
+        "colliders": 653,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 804
+      },
+      {
+        "time": 1800.0166666653583,
+        "heapMB": 28.402137756347656,
+        "rssMB": 175.29296875,
+        "bodies": 66,
+        "colliders": 653,
+        "creatureSlots": 7,
+        "active": 7,
+        "objects": 20,
+        "supplies": 25,
+        "fields": 894
+      }
+    ],
+    "standings": [
+      {
+        "id": "7fcc2c97-5bcf-4df3-9de0-652e833884e8",
+        "rank": 1,
+        "time": 1800,
+        "cause": "Extracted aboard rescue ship",
+        "winner": true
+      },
+      {
+        "id": "9c62f4d8-d9c5-4fa6-9404-add42ce59fc4",
+        "rank": 1,
+        "time": 1800,
+        "cause": "Extracted aboard rescue ship",
+        "winner": true
+      }
+    ],
+    "snapshotBytes": 108590,
+    "waterResidual": -1.9610052692797808e-8
+  },
+  "tsunami": {
+    "warning": 795,
+    "release": 810,
+    "sourceX": 12.139345714822412,
+    "stations": [
+      {
+        "x": 12.139345714822412,
+        "z": 35,
+        "arrivalSeconds": 15.00000000011562,
+        "maxAdditionalDepth": 2.165770468562844,
+        "maxCurrentDelta": 2.034958924146111
+      },
+      {
+        "x": 12.139345714822412,
+        "z": 20,
+        "arrivalSeconds": 16.10000000011587,
+        "maxAdditionalDepth": 1.6571639257110675,
+        "maxCurrentDelta": 1.2388030055630537
+      },
+      {
+        "x": 12.139345714822412,
+        "z": 0,
+        "arrivalSeconds": 17.800000000116256,
+        "maxAdditionalDepth": 1.2742786914296431,
+        "maxCurrentDelta": 0.8562982739477027
+      },
+      {
+        "x": 12.139345714822412,
+        "z": -10,
+        "arrivalSeconds": 18.800000000116484,
+        "maxAdditionalDepth": 1.1257213085703572,
+        "maxCurrentDelta": 0.7731515734015612
+      }
+    ],
+    "residual": 1.2098570589813562e-8
+  },
+  "shoreline": {
+    "ms": {
+      "median": 3.309399999998277,
+      "p95": 5.156400000007125,
+      "max": 61.22589999999036
+    },
+    "vertices": 49839
+  }
+}

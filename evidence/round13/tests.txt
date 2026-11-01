@@ -1,0 +1,1215 @@
+
+> tidefall@0.1.0 test
+> tsx --test --test-concurrency=2 tests/*.test.ts
+
+TAP version 13
+# Subtest: centimetre hydraulic depth changes cannot rephase waves late in the match
+ok 1 - centimetre hydraulic depth changes cannot rephase waves late in the match
+  ---
+  duration_ms: 2.7002
+  type: 'test'
+  ...
+# Subtest: shadow target aligns to light-plane texels independently of sun orientation
+ok 2 - shadow target aligns to light-plane texels independently of sun orientation
+  ---
+  duration_ms: 0.2852
+  type: 'test'
+  ...
+# Subtest: renderer palette constrains ordinary rock/soil contrast without changing catalog identity
+ok 3 - renderer palette constrains ordinary rock/soil contrast without changing catalog identity
+  ---
+  duration_ms: 0.7247
+  type: 'test'
+  ...
+# Subtest: normal timeline has thirty survival minutes, three boarding minutes and visible stable flight before results
+ok 4 - normal timeline has thirty survival minutes, three boarding minutes and visible stable flight before results
+  ---
+  duration_ms: 0.7061
+  type: 'test'
+  ...
+# Subtest: hatch stays attached to the lintel and seals before thrust on both schedules
+ok 5 - hatch stays attached to the lintel and seals before thrust on both schedules
+  ---
+  duration_ms: 1.9382
+  type: 'test'
+  ...
+# Subtest: water presentation interpolates wet snapshots only, converges and invalidates mutable reconstruction
+ok 6 - water presentation interpolates wet snapshots only, converges and invalidates mutable reconstruction
+  ---
+  duration_ms: 9.3105
+  type: 'test'
+  ...
+# Subtest: synthetic dry-neighbor extension cannot create a detached wet triangle
+ok 7 - synthetic dry-neighbor extension cannot create a detached wet triangle
+  ---
+  duration_ms: 1368.4903
+  type: 'test'
+  ...
+# Subtest: all structural LOD basal vertices remain embedded at the same rigid contact
+ok 8 - all structural LOD basal vertices remain embedded at the same rigid contact
+  ---
+  duration_ms: 983.9013
+  type: 'test'
+  ...
+# Subtest: normal boarding remains open throughout the complete window and collider closes with the hatch
+ok 9 - normal boarding remains open throughout the complete window and collider closes with the hatch
+  ---
+  duration_ms: 1604.8432
+  type: 'test'
+  ...
+# Subtest: moderate geological shader retains projection, roughness and bounded normal detail
+ok 10 - moderate geological shader retains projection, roughness and bounded normal detail
+  ---
+  duration_ms: 6.0108
+  type: 'test'
+  ...
+# Subtest: apron-only classification uses the actual mesh normals beyond the clamped playable square
+ok 11 - apron-only classification uses the actual mesh normals beyond the clamped playable square
+  ---
+  duration_ms: 1275.1663
+  type: 'test'
+  ...
+# Subtest: original volcanic rock meshes retain their bytes, while marine rocks resupport without deformation
+ok 12 - original volcanic rock meshes retain their bytes, while marine rocks resupport without deformation
+  ---
+  duration_ms: 59.2883
+  type: 'test'
+  ...
+# Subtest: only the original two imported exposures remain, with bounded existing LODs
+ok 13 - only the original two imported exposures remain, with bounded existing LODs
+  ---
+  duration_ms: 128.1338
+  type: 'test'
+  ...
+# Subtest: retired reference rocks have no colliders in the playable world
+ok 14 - retired reference rocks have no colliders in the playable world
+  ---
+  duration_ms: 1428.6564
+  type: 'test'
+  ...
+# Subtest: authoritative capsule moves, jumps and uses extended thrust and recharges after landing
+ok 15 - authoritative capsule moves, jumps and uses extended thrust and recharges after landing
+  ---
+  duration_ms: 4711.8548
+  type: 'test'
+  ...
+# Subtest: invalid and replayed inputs cannot change acknowledged authority
+ok 16 - invalid and replayed inputs cannot change acknowledged authority
+  ---
+  duration_ms: 409.4813
+  type: 'test'
+  ...
+# Subtest: pause drains queued input and stops held movement on the server
+ok 17 - pause drains queued input and stops held movement on the server
+  ---
+  duration_ms: 313.2444
+  type: 'test'
+  ...
+# Subtest: private reconnect retains position and eliminated status; a public id cannot impersonate
+ok 18 - private reconnect retains position and eliminated status; a public id cannot impersonate
+  ---
+  duration_ms: 355.0711
+  type: 'test'
+  ...
+# Subtest: a bounded artificial field changes actual authoritative rigid body velocity
+ok 19 - a bounded artificial field changes actual authoritative rigid body velocity
+  ---
+  duration_ms: 237.3873
+  type: 'test'
+  ...
+# Subtest: smooth landscape material uses vertex colour and retains independent inspection fields
+ok 20 - smooth landscape material uses vertex colour and retains independent inspection fields
+  ---
+  duration_ms: 260.9688
+  type: 'test'
+  ...
+# Subtest: coastal landforms retain relief while avoiding constructed steep walls
+ok 21 - coastal landforms retain relief while avoiding constructed steep walls
+  ---
+  duration_ms: 97.6611
+  type: 'test'
+  ...
+# Subtest: distant rings are deterministic, asymmetric, bounded and joined exactly to every near edge
+ok 22 - distant rings are deterministic, asymmetric, bounded and joined exactly to every near edge
+  ---
+  duration_ms: 1094.8785
+  type: 'test'
+  ...
+# Subtest: reconstructed coastal terrain triangles agree with physical collision and structure supports
+ok 23 - reconstructed coastal terrain triangles agree with physical collision and structure supports
+  ---
+  duration_ms: 1706.9175
+  type: 'test'
+  ...
+# Subtest: six original shape families have closed outward-wound meshes, geometric variants and cheaper LODs
+ok 24 - six original shape families have closed outward-wound meshes, geometric variants and cheaper LODs
+  ---
+  duration_ms: 58.4937
+  type: 'test'
+  ...
+# Subtest: every playable chunk on both planets and two seeds uses coherent globally owned substrate
+ok 25 - every playable chunk on both planets and two seeds uses coherent globally owned substrate
+  ---
+  duration_ms: 4461.1358
+  type: 'test'
+  ...
+# Subtest: terrain chunk borders retain identical fine samples across mixed LODs and near geometry matches collision terrain
+ok 26 - terrain chunk borders retain identical fine samples across mixed LODs and near geometry matches collision terrain
+  ---
+  duration_ms: 335.8011
+  type: 'test'
+  ...
+# Subtest: rock bases fit their complete footprints, preserve authored access and retain per-body inspection identity
+ok 27 - rock bases fit their complete footprints, preserve authored access and retain per-body inspection identity
+  ---
+  duration_ms: 169.0588
+  type: 'test'
+  ...
+# Subtest: rendered bedrock attributes and exact static triangle ray hits share unit, surface and support
+ok 28 - rendered bedrock attributes and exact static triangle ray hits share unit, surface and support
+  ---
+  duration_ms: 3199.782
+  type: 'test'
+  ...
+# Subtest: the restrained historical material retains two texture channels without fine grain, cavity or procedural bump
+ok 29 - the restrained historical material retains two texture channels without fine grain, cavity or procedural bump
+  ---
+  duration_ms: 5.2548
+  type: 'test'
+  ...
+# Subtest: capture uses an explicit request; release and re-acquire reset keys without changing look
+ok 30 - capture uses an explicit request; release and re-acquire reset keys without changing look
+  ---
+  duration_ms: 1.4687
+  type: 'test'
+  ...
+# Subtest: capture rejection is visible and can be retried instead of silently using edge-limited dragging
+ok 31 - capture rejection is visible and can be retried instead of silently using edge-limited dragging
+  ---
+  duration_ms: 0.5071
+  type: 'test'
+  ...
+# Subtest: relative mouse deltas permit repeated full turns and ±85° pitch without absolute cursor coordinates
+ok 32 - relative mouse deltas permit repeated full turns and ±85° pitch without absolute cursor coordinates
+  ---
+  duration_ms: 1.5257
+  type: 'test'
+  ...
+# Subtest: camera-centered celestial direction has zero translational parallax across the map
+ok 33 - camera-centered celestial direction has zero translational parallax across the map
+  ---
+  duration_ms: 0.4745
+  type: 'test'
+  ...
+# Subtest: orbit is consistent with Kepler and lies outside Roche / inside prograde stability limits
+ok 34 - orbit is consistent with Kepler and lies outside Roche / inside prograde stability limits
+  ---
+  duration_ms: 1.2713
+  type: 'test'
+  ...
+# Subtest: quadrupolar forcing scales with mass and inverse cube distance
+ok 35 - quadrupolar forcing scales with mass and inverse cube distance
+  ---
+  duration_ms: 0.208
+  type: 'test'
+  ...
+# Subtest: seeded inherited geology is repeatable and varied
+ok 36 - seeded inherited geology is repeatable and varied
+  ---
+  duration_ms: 1844.5884
+  type: 'test'
+  ...
+# Subtest: lake at rest has zero spurious flow and conserved mass
+ok 37 - lake at rest has zero spurious flow and conserved mass
+  ---
+  duration_ms: 21.5043
+  type: 'test'
+  ...
+# Subtest: dry sill prevents isolated basin flooding, opening sill connects it
+ok 38 - dry sill prevents isolated basin flooding, opening sill connects it
+  ---
+  duration_ms: 36.3048
+  type: 'test'
+  ...
+# Subtest: repeated wet-dry cycles remain finite, nonnegative and conserve boundary-accounted volume
+ok 39 - repeated wet-dry cycles remain finite, nonnegative and conserve boundary-accounted volume
+  ---
+  duration_ms: 775.7127
+  type: 'test'
+  ...
+# Subtest: buoyancy floats dry pumice, sinks basalt; anchor is force limited and softened
+ok 40 - buoyancy floats dry pumice, sinks basalt; anchor is force limited and softened
+  ---
+  duration_ms: 1.8026
+  type: 'test'
+  ...
+# Subtest: hydrothermal and brine concentrations decay with distance and mixing
+ok 41 - hydrothermal and brine concentrations decay with distance and mixing
+  ---
+  duration_ms: 1.1292
+  type: 'test'
+  ...
+# Subtest: numerical world tide exposes the cavern then floods the same connected route
+ok 42 - numerical world tide exposes the cavern then floods the same connected route
+  ---
+  duration_ms: 2980.8803
+  type: 'test'
+  ...
+# Subtest: sphere displacement uses spherical cap volume with bounded dry/full limits
+ok 43 - sphere displacement uses spherical cap volume with bounded dry/full limits
+  ---
+  duration_ms: 1.138
+  type: 'test'
+  ...
+# Subtest: a snapshot arrival preserves the actual interpolated presentation position
+ok 44 - a snapshot arrival preserves the actual interpolated presentation position
+  ---
+  duration_ms: 4087.9803
+  type: 'test'
+  ...
+# Subtest: 100 ms delayed snapshots reconcile with pending fixed-step inputs
+ok 45 - 100 ms delayed snapshots reconcile with pending fixed-step inputs
+  ---
+  duration_ms: 2186.283
+  type: 'test'
+  ...
+# Subtest: remote snapshot buffering interpolates vertical motion and remains continuous across arrivals
+ok 46 - remote snapshot buffering interpolates vertical motion and remains continuous across arrivals
+  ---
+  duration_ms: 369.9502
+  type: 'test'
+  ...
+# Subtest: a flooded suit rises to a breathable draft instead of sinking under repeated gravity
+ok 47 - a flooded suit rises to a breathable draft instead of sinking under repeated gravity
+  ---
+  duration_ms: 1721.4998
+  type: 'test'
+  ...
+# Subtest: fixed simulation produces identical locomotion at 30, 60 and 144 render FPS
+ok 48 - fixed simulation produces identical locomotion at 30, 60 and 144 render FPS
+  ---
+  duration_ms: 3620.3812
+  type: 'test'
+  ...
+# Subtest: ground contact is stable at rest and jumping is a rising-edge impulse
+ok 49 - ground contact is stable at rest and jumping is a rising-edge impulse
+  ---
+  duration_ms: 845.1402
+  type: 'test'
+  ...
+# Subtest: prediction uses the same capsule solver and reconciles acknowledged inputs
+ok 50 - prediction uses the same capsule solver and reconciles acknowledged inputs
+  ---
+  duration_ms: 1935.4216
+  type: 'test'
+  ...
+# Subtest: orbit pitch spans ±85 degrees and wraps yaw through 360 without a snap
+ok 51 - orbit pitch spans ±85 degrees and wraps yaw through 360 without a snap
+  ---
+  duration_ms: 2.6468
+  type: 'test'
+  ...
+# Subtest: strafe and waypoint conventions agree with a camera looking along +z
+ok 52 - strafe and waypoint conventions agree with a camera looking along +z
+  ---
+  duration_ms: 2.0676
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:52205 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# TIDEFALL http://127.0.0.1:62866 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: two genuine WebSockets share supplies, physics, hazards, elimination, result and rematch
+ok 53 - two genuine WebSockets share supplies, physics, hazards, elimination, result and rematch
+  ---
+  duration_ms: 7972.0797
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:62869 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: two independent sockets share creature target, telegraph, projectile, damage IDs and death
+ok 54 - two independent sockets share creature target, telegraph, projectile, damage IDs and death
+  ---
+  duration_ms: 6847.838
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:57509 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: host-only destinations synchronize both sockets, reset inventories and wait for world-specific loading
+ok 55 - host-only destinations synchronize both sockets, reset inventories and wait for world-specific loading
+  ---
+  duration_ms: 6625.488
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:57516 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: two clients share exclusive medkits, quick healing, replenishment and a tsunami trigger
+ok 56 - two clients share exclusive medkits, quick healing, replenishment and a tsunami trigger
+  ---
+  duration_ms: 3460.4398
+  type: 'test'
+  ...
+# Subtest: two independent sockets share automatic loot and a complete physical extraction ranking
+ok 57 - two independent sockets share automatic loot and a complete physical extraction ranking
+  ---
+  duration_ms: 3818.4712
+  type: 'test'
+  ...
+# Subtest: a chassis walks the Pyrax access ramp and traverses the interlocked airlock without jumping
+ok 58 - a chassis walks the Pyrax access ramp and traverses the interlocked airlock without jumping
+  ---
+  duration_ms: 4993.3077
+  type: 'test'
+  ...
+# Subtest: licensed hero geometry preserves exact contact heights and bounded distance meshes
+ok 59 - licensed hero geometry preserves exact contact heights and bounded distance meshes
+  ---
+  duration_ms: 1852.3212
+  type: 'test'
+  ...
+# Subtest: hub collision matches its actual octagonal visible hull from sixteen approach directions
+ok 60 - hub collision matches its actual octagonal visible hull from sixteen approach directions
+  ---
+  duration_ms: 1663.2217
+  type: 'test'
+  ...
+# Subtest: global formation adapter exposes the planet morphology and finite exact collision relief
+ok 61 - global formation adapter exposes the planet morphology and finite exact collision relief
+  ---
+  duration_ms: 81.6244
+  type: 'test'
+  ...
+# Subtest: both distinct facilities have connected doors, sealed protection and supported foundations
+ok 62 - both distinct facilities have connected doors, sealed protection and supported foundations
+  ---
+  duration_ms: 479.6997
+  type: 'test'
+  ...
+# Subtest: lava transports downhill, conserves volume, cools and develops immobile crust
+ok 63 - lava transports downhill, conserves volume, cools and develops immobile crust
+  ---
+  duration_ms: 248.0627
+  type: 'test'
+  ...
+# Subtest: cabin movement cannot tunnel through seats, consoles or the hull at low frame rates
+ok 64 - cabin movement cannot tunnel through seats, consoles or the hull at low frame rates
+  ---
+  duration_ms: 248.2626
+  type: 'test'
+  ...
+# Subtest: repeated seat/unseat cycles preserve ownership and unlock walking after stable ascent
+ok 65 - repeated seat/unseat cycles preserve ownership and unlock walking after stable ascent
+  ---
+  duration_ms: 350.9399
+  type: 'test'
+  ...
+# Subtest: volcanic substrate preserves its authored regional landforms beneath local relief
+ok 66 - volcanic substrate preserves its authored regional landforms beneath local relief
+  ---
+  duration_ms: 1268.5357
+  type: 'test'
+  ...
+# Subtest: surface fields preserve within-unit continuity and slope-dependent competent exposure
+ok 67 - surface fields preserve within-unit continuity and slope-dependent competent exposure
+  ---
+  duration_ms: 145.3609
+  type: 'test'
+  ...
+# Subtest: plants form bounded habitat clusters with root support, varied size and usable tissue coordinates
+ok 68 - plants form bounded habitat clusters with root support, varied size and usable tissue coordinates
+  ---
+  duration_ms: 333.2052
+  type: 'test'
+  ...
+# Subtest: procedural outcrop skirts use parent appearance and fade continuously into exposed rock
+ok 69 - procedural outcrop skirts use parent appearance and fade continuously into exposed rock
+  ---
+  duration_ms: 39.4721
+  type: 'test'
+  ...
+# Subtest: ocean continuation covers every side of the numerical square without rectangular gaps
+ok 70 - ocean continuation covers every side of the numerical square without rectangular gaps
+  ---
+  duration_ms: 144.708
+  type: 'test'
+  ...
+# Subtest: near and continued water share exact inner-boundary mean elevation and optical depth
+ok 71 - near and continued water share exact inner-boundary mean elevation and optical depth
+  ---
+  duration_ms: 379.3911
+  type: 'test'
+  ...
+# Subtest: facility lighting is tied to visible overhead fixtures and bounded inside its own compartment
+ok 72 - facility lighting is tied to visible overhead fixtures and bounded inside its own compartment
+  ---
+  duration_ms: 136.8726
+  type: 'test'
+  ...
+# Subtest: triplanar weights normalize for axis, grazing, zero and invalid normals
+ok 73 - triplanar weights normalize for axis, grazing, zero and invalid normals
+  ---
+  duration_ms: 6.0397
+  type: 'test'
+  ...
+# Subtest: flat normal maps preserve the geometric normal on all signed projection frames
+ok 74 - flat normal maps preserve the geometric normal on all signed projection frames
+  ---
+  duration_ms: 2.1926
+  type: 'test'
+  ...
+# Subtest: a 2.4 metre repeat has the same scale on horizontal and vertical signed faces
+ok 75 - a 2.4 metre repeat has the same scale on horizontal and vertical signed faces
+  ---
+  duration_ms: 0.4945
+  type: 'test'
+  ...
+# Subtest: cover weights stay bounded, normalized and restricted to adjacent material states
+ok 76 - cover weights stay bounded, normalized and restricted to adjacent material states
+  ---
+  duration_ms: 2.4036
+  type: 'test'
+  ...
+# Subtest: world material fields are deterministic, diverse and continuous inside the same unit
+ok 77 - world material fields are deterministic, diverse and continuous inside the same unit
+  ---
+  duration_ms: 48.8761
+  type: 'test'
+  ...
+# Subtest: bedrock parent units do not inherit the fine catalog cycle across a tall apron face
+ok 78 - bedrock parent units do not inherit the fine catalog cycle across a tall apron face
+  ---
+  duration_ms: 28.0944
+  type: 'test'
+  ...
+# Subtest: dry weak regolith keeps granular cover without adding water or clouds to Pyrax
+ok 79 - dry weak regolith keeps granular cover without adding water or clouds to Pyrax
+  ---
+  duration_ms: 0.539
+  type: 'test'
+  ...
+# Subtest: material identities and deposition fields do not depend on an LOD normal or level
+ok 80 - material identities and deposition fields do not depend on an LOD normal or level
+  ---
+  duration_ms: 4.2662
+  type: 'test'
+  ...
+# Subtest: real near/apron boundary and nested formation vertices share their material fields
+ok 81 - real near/apron boundary and nested formation vertices share their material fields
+  ---
+  duration_ms: 665.2481
+  type: 'test'
+  ...
+# Subtest: inspection interpolates the visible triangle field and preserves formation identity
+ok 82 - inspection interpolates the visible triangle field and preserves formation identity
+  ---
+  duration_ms: 6.463
+  type: 'test'
+  ...
+# Subtest: a weathered-regolith formation retains cover above its parent bedrock
+ok 83 - a weathered-regolith formation retains cover above its parent bedrock
+  ---
+  duration_ms: 0.9946
+  type: 'test'
+  ...
+# Subtest: near, solid rock and far material variants inject valid shared shader contracts
+ok 84 - near, solid rock and far material variants inject valid shared shader contracts
+  ---
+  duration_ms: 2.4516
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:57520 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: real sockets synchronize samples, reject client material inventions and preserve inventory on rejoin
+ok 85 - real sockets synchronize samples, reject client material inventions and preserve inventory on rejoin
+  ---
+  duration_ms: 4567.5676
+  type: 'test'
+  ...
+# Subtest: both cave networks are cached, branched, genuinely below the retained terrain and bounded in cost
+ok 86 - both cave networks are cached, branched, genuinely below the retained terrain and bounded in cost
+  ---
+  duration_ms: 4768.3743
+  type: 'test'
+  ...
+# Subtest: actual capsule traverses cave entry, principal chamber, both branches and returns / 42
+ok 87 - actual capsule traverses cave entry, principal chamber, both branches and returns / 42
+  ---
+  duration_ms: 2844.501
+  type: 'test'
+  ...
+# Subtest: actual capsule traverses cave entry, principal chamber, both branches and returns / -43
+ok 88 - actual capsule traverses cave entry, principal chamber, both branches and returns / -43
+  ---
+  duration_ms: 2564.4731
+  type: 'test'
+  ...
+# Subtest: all catalog classes sample with real identity and finite shared patches
+ok 89 - all catalog classes sample with real identity and finite shared patches
+  ---
+  duration_ms: 237.5073
+  type: 'test'
+  ...
+# Subtest: sampling capacity, stacking, discard and snapshot ownership do not invent or lose resources
+ok 90 - sampling capacity, stacking, discard and snapshot ownership do not invent or lose resources
+  ---
+  duration_ms: 226.0215
+  type: 'test'
+  ...
+# Subtest: two players cannot both receive the same final finite sample
+ok 91 - two players cannot both receive the same final finite sample
+  ---
+  duration_ms: 263.7027
+  type: 'test'
+  ...
+# Subtest: server sampling uses actual cave ray, cadence, equipment, energy and mode; combat remains distinct
+ok 92 - server sampling uses actual cave ray, cadence, equipment, energy and mode; combat remains distinct
+  ---
+  duration_ms: 284.9781
+  type: 'test'
+  ...
+# Subtest: equipment and empty space do not yield geological inventory or consume extraction energy
+ok 93 - equipment and empty space do not yield geological inventory or consume extraction energy
+  ---
+  duration_ms: 263.103
+  type: 'test'
+  ...
+# Subtest: decorative replacements retain material identity and exclude the cave cut
+ok 94 - decorative replacements retain material identity and exclude the cave cut
+  ---
+  duration_ms: 34.253
+  type: 'test'
+  ...
+# Subtest: adaptive lamp release rejects rapid dimming without weakening the former flashlight response
+ok 95 - adaptive lamp release rejects rapid dimming without weakening the former flashlight response
+  ---
+  duration_ms: 1.8449
+  type: 'test'
+  ...
+# Subtest: fossil tube contact heat is confined to its marked mineral branch
+ok 96 - fossil tube contact heat is confined to its marked mineral branch
+  ---
+  duration_ms: 0.7645
+  type: 'test'
+  ...
+# Subtest: underground survey equipment reads the local catalog record through the existing interaction action
+ok 97 - underground survey equipment reads the local catalog record through the existing interaction action
+  ---
+  duration_ms: 699.0373
+  type: 'test'
+  ...
+# Subtest: real cave wall, mineral, alteration and floor rays resolve the struck mesh material on both planets
+ok 98 - real cave wall, mineral, alteration and floor rays resolve the struck mesh material on both planets
+  ---
+  duration_ms: 727.1337
+  type: 'test'
+  ...
+# Subtest: rendered rock surfaces and convex colliders agree for varied scales and rotations
+ok 99 - rendered rock surfaces and convex colliders agree for varied scales and rotations
+  ---
+  duration_ms: 1284.6515
+  type: 'test'
+  ...
+# Subtest: server validates pulse cooldown, health, occlusion and eliminated shooters
+ok 100 - server validates pulse cooldown, health, occlusion and eliminated shooters
+  ---
+  duration_ms: 1453.5773
+  type: 'test'
+  ...
+# Subtest: stalker state is authoritative and starts with a spawn grace period
+ok 101 - stalker state is authoritative and starts with a spawn grace period
+  ---
+  duration_ms: 1329.0174
+  type: 'test'
+  ...
+# Subtest: a pulse applies a bounded impulse to a shared dynamic prop
+ok 102 - a pulse applies a bounded impulse to a shared dynamic prop
+  ---
+  duration_ms: 337.9369
+  type: 'test'
+  ...
+# Subtest: stalker warns before attacking, recovers, and shares rifle damage
+ok 103 - stalker warns before attacking, recovers, and shares rifle damage
+  ---
+  duration_ms: 770.246
+  type: 'test'
+  ...
+# Subtest: relative movement and final rendered camera direction agree through full turns and pitch limits
+ok 104 - relative movement and final rendered camera direction agree through full turns and pitch limits
+  ---
+  duration_ms: 27.5818
+  type: 'test'
+  ...
+# Subtest: release and recapture ignore a stale rejected lock request
+ok 105 - release and recapture ignore a stale rejected lock request
+  ---
+  duration_ms: 1.3076
+  type: 'test'
+  ...
+# Subtest: vision has range and field of view, and a visible player is noticed at 12m
+ok 106 - vision has range and field of view, and a visible player is noticed at 12m
+  ---
+  duration_ms: 3373.7332
+  type: 'test'
+  ...
+# Subtest: habitats remain dry and free of static colliders across shared seeds
+ok 107 - habitats remain dry and free of static colliders across shared seeds
+  ---
+  duration_ms: 16687.1985
+  type: 'test'
+  ...
+# Subtest: the initial encounter threatens a stationary player within the first twenty seconds
+ok 108 - the initial encounter threatens a stationary player within the first twenty seconds
+  ---
+  duration_ms: 5953.1633
+  type: 'test'
+  ...
+# Subtest: solid cover blocks perception, while gunfire causes investigation of a remembered location
+ok 109 - solid cover blocks perception, while gunfire causes investigation of a remembered location
+  ---
+  duration_ms: 449.2561
+  type: 'test'
+  ...
+# Subtest: medium-range attacks have a visible windup, travel time, and one authoritative damage event
+ok 110 - medium-range attacks have a visible windup, travel time, and one authoritative damage event
+  ---
+  duration_ms: 753.991
+  type: 'test'
+  ...
+# Subtest: a launched projectile is swept against cover and cannot damage through a wall
+ok 111 - a launched projectile is swept against cover and cannot damage through a wall
+  ---
+  duration_ms: 961.6965
+  type: 'test'
+  ...
+# Subtest: close melee has windup, a bounded active strike, and cooldown
+ok 112 - close melee has windup, a bounded active strike, and cooldown
+  ---
+  duration_ms: 584.1916
+  type: 'test'
+  ...
+# Subtest: cover or a successful dodge during melee preparation prevents damage
+ok 113 - cover or a successful dodge during melee preparation prevents damage
+  ---
+  duration_ms: 570.3586
+  type: 'test'
+  ...
+# Subtest: a late sidestep outside the committed melee arc avoids a strike while still in range
+ok 114 - a late sidestep outside the committed melee arc avoids a strike while still in range
+  ---
+  duration_ms: 544.1537
+  type: 'test'
+  ...
+# Subtest: death cancels windup and owned projectiles; a dead creature cannot attack
+ok 115 - death cancels windup and owned projectiles; a dead creature cannot attack
+  ---
+  duration_ms: 829.0317
+  type: 'test'
+  ...
+# Subtest: A* routes around a simple obstacle without corner cutting
+ok 116 - A* routes around a simple obstacle without corner cutting
+  ---
+  duration_ms: 1.0817
+  type: 'test'
+  ...
+# Subtest: an investigating creature moves around a physical wall instead of pushing through it
+ok 117 - an investigating creature moves around a physical wall instead of pushing through it
+  ---
+  duration_ms: 1159.196
+  type: 'test'
+  ...
+# Subtest: damage bearings identify front, back, left and right with the FPS coordinate convention
+ok 118 - damage bearings identify front, back, left and right with the FPS coordinate convention
+  ---
+  duration_ms: 0.9964
+  type: 'test'
+  ...
+# Subtest: repeated snapshots play damage and successful hit feedback exactly once; misses never confirm
+ok 119 - repeated snapshots play damage and successful hit feedback exactly once; misses never confirm
+  ---
+  duration_ms: 319.3049
+  type: 'test'
+  ...
+# Subtest: animation poses distinguish charge, strike, stagger and death without moving the authoritative body
+ok 120 - animation poses distinguish charge, strike, stagger and death without moving the authoritative body
+  ---
+  duration_ms: 328.7528
+  type: 'test'
+  ...
+# Subtest: remote creature interpolation remains continuous across snapshot arrivals
+ok 121 - remote creature interpolation remains continuous across snapshot arrivals
+  ---
+  duration_ms: 325.21
+  type: 'test'
+  ...
+# Subtest: late instance transforms invalidate old bounds; repaired bounds retain rocks through a camera orbit
+ok 122 - late instance transforms invalidate old bounds; repaired bounds retain rocks through a camera orbit
+  ---
+  duration_ms: 40.1607
+  type: 'test'
+  ...
+# Subtest: geological supports use transformed contact vertices with documented partial burial
+ok 123 - geological supports use transformed contact vertices with documented partial burial
+  ---
+  duration_ms: 6527.5374
+  type: 'test'
+  ...
+# Subtest: both world namespaces have enclosed instance bounds from elevated, backward and sideways camera orbits
+ok 124 - both world namespaces have enclosed instance bounds from elevated, backward and sideways camera orbits
+  ---
+  duration_ms: 63.4527
+  type: 'test'
+  ...
+# Subtest: planet configuration drives distinct terrain, dry liquids, rigid gravity and jump trajectories
+ok 125 - planet configuration drives distinct terrain, dry liquids, rigid gravity and jump trajectories
+  ---
+  duration_ms: 4984.1689
+  type: 'test'
+  ...
+# Subtest: synchronous rotation preserves local host altitude while weather changes temperature and surge
+ok 126 - synchronous rotation preserves local host altitude while weather changes temperature and surge
+  ---
+  duration_ms: 0.751
+  type: 'test'
+  ...
+# Subtest: finite depth waves share shader components and authoritative/predicted contact
+ok 127 - finite depth waves share shader components and authoritative/predicted contact
+  ---
+  duration_ms: 324.9994
+  type: 'test'
+  ...
+# Subtest: wrong-world acknowledgments cannot unlock launch
+ok 128 - wrong-world acknowledgments cannot unlock launch
+  ---
+  duration_ms: 343.47
+  type: 'test'
+  ...
+# Subtest: encounter habitat relocation is validated before allocating any actor or collider
+ok 129 - encounter habitat relocation is validated before allocating any actor or collider
+  ---
+  duration_ms: 341.8059
+  type: 'test'
+  ...
+# Subtest: ridgeback rear tissue beats armor; repeated non-staggering armor hits preserve a committed charge
+ok 130 - ridgeback rear tissue beats armor; repeated non-staggering armor hits preserve a committed charge
+  ---
+  duration_ms: 335.1532
+  type: 'test'
+  ...
+# Subtest: ridgeback telegraphs a committed physical charge, travels and damages only once per impact
+ok 131 - ridgeback telegraphs a committed physical charge, travels and damages only once per impact
+  ---
+  duration_ms: 824.1362
+  type: 'test'
+  ...
+# Subtest: death produces one dynamic anatomical reward, exclusive pickup, finite lifetime and useful treatment
+ok 132 - death produces one dynamic anatomical reward, exclusive pickup, finite lifetime and useful treatment
+  ---
+  duration_ms: 335.5847
+  type: 'test'
+  ...
+# Subtest: shelter footprint relocation, footings and collision parts support both worlds without center-only placement
+ok 133 - shelter footprint relocation, footings and collision parts support both worlds without center-only placement
+  ---
+  duration_ms: 6224.9064
+  type: 'test'
+  ...
+# Subtest: distant terrain stitches every boundary vertex and has upward-facing continuous rings
+ok 134 - distant terrain stitches every boundary vertex and has upward-facing continuous rings
+  ---
+  duration_ms: 123.2104
+  type: 'test'
+  ...
+# Subtest: rendered muzzle transform matches the server for full yaw and extreme pitch
+ok 135 - rendered muzzle transform matches the server for full yaw and extreme pitch
+  ---
+  duration_ms: 4.1107
+  type: 'test'
+  ...
+# Subtest: two-stage rifle aiming converges at near, middle and far targets
+ok 136 - two-stage rifle aiming converges at near, middle and far targets
+  ---
+  duration_ms: 2267.1114
+  type: 'test'
+  ...
+# Subtest: muzzle-side obstruction stops a shot even when the camera ray sees beyond it
+ok 137 - muzzle-side obstruction stops a shot even when the camera ray sees beyond it
+  ---
+  duration_ms: 437.0936
+  type: 'test'
+  ...
+# Subtest: ordinary cold exposure takes minutes, and warm shelter/thermal equipment reverses it
+ok 138 - ordinary cold exposure takes minutes, and warm shelter/thermal equipment reverses it
+  ---
+  duration_ms: 386.9294
+  type: 'test'
+  ...
+# Subtest: H medical use is immediate, full-health safe, authoritative and cooldown-limited
+ok 139 - H medical use is immediate, full-health safe, authoritative and cooldown-limited
+  ---
+  duration_ms: 351.523
+  type: 'test'
+  ...
+# Subtest: medical director rotates valid sites, reuses bounded slots and never duplicates a generation
+ok 140 - medical director rotates valid sites, reuses bounded slots and never duplicates a generation
+  ---
+  duration_ms: 340.2135
+  type: 'test'
+  ...
+# Subtest: coastal xenobiology and volcanic survey machines have distinct habitats, movement and attack budgets
+ok 141 - coastal xenobiology and volcanic survey machines have distinct habitats, movement and attack budgets
+  ---
+  duration_ms: 2341.7185
+  type: 'test'
+  ...
+# Subtest: geological displacement is local, volume-accounted, finite, and propagates faster in deeper water
+ok 142 - geological displacement is local, volume-accounted, finite, and propagates faster in deeper water
+  ---
+  duration_ms: 340.5792
+  type: 'test'
+  ...
+# Subtest: tsunami trigger is authoritative, distinct from the tide and absent on the dry planet
+ok 143 - tsunami trigger is authoritative, distinct from the tide and absent on the dry planet
+  ---
+  duration_ms: 746.912
+  type: 'test'
+  ...
+# Subtest: measured mass/radius drive gravity and the hypothetical moon passes instant orbit screening
+ok 144 - measured mass/radius drive gravity and the hypothetical moon passes instant orbit screening
+  ---
+  duration_ms: 0.897
+  type: 'test'
+  ...
+# Subtest: catalog directions subtract the observing host and labels select one real, correctly transformed object
+ok 145 - catalog directions subtract the observing host and labels select one real, correctly transformed object
+  ---
+  duration_ms: 3.3304
+  type: 'test'
+  ...
+# (node:4180) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+# Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: SI derived fields and explicit scenarios retain unknowns and reject invalid inputs
+ok 146 - SI derived fields and explicit scenarios retain unknowns and reject invalid inputs
+  ---
+  duration_ms: 40.0539
+  type: 'test'
+  ...
+# Subtest: atmospheric composition gates clouds and saline phase properties change density/freezing
+ok 147 - atmospheric composition gates clouds and saline phase properties change density/freezing
+  ---
+  duration_ms: 1.508
+  type: 'test'
+  ...
+# Subtest: seeded geological relaxation preserves shared surface triangles and broad contacts
+ok 148 - seeded geological relaxation preserves shared surface triangles and broad contacts
+  ---
+  duration_ms: 3933.1717
+  type: 'test'
+  ...
+# Subtest: clipped wet polygons lie on their contour and reject degenerate dry triangles
+ok 149 - clipped wet polygons lie on their contour and reject degenerate dry triangles
+  ---
+  duration_ms: 1.2991
+  type: 'test'
+  ...
+# Subtest: six shoreline regimes stay finite, nondegenerate and never climb dry high terrain
+ok 150 - six shoreline regimes stay finite, nondegenerate and never climb dry high terrain
+  ---
+  duration_ms: 1026.7762
+  type: 'test'
+  ...
+# Subtest: server and client agree on reconstructed wet/dry contact and no wet nodes means no rendering
+ok 151 - server and client agree on reconstructed wet/dry contact and no wet nodes means no rendering
+  ---
+  duration_ms: 1778.236
+  type: 'test'
+  ...
+# Subtest: slow fields respond to inundation, chemical sources and habitat limits without volcanic wildlife
+ok 152 - slow fields respond to inundation, chemical sources and habitat limits without volcanic wildlife
+  ---
+  duration_ms: 319.1186
+  type: 'test'
+  ...
+# Subtest: new tsunami warning is fifteen seconds before a nearer one-shot finite source
+ok 153 - new tsunami warning is fifteen seconds before a nearer one-shot finite source
+  ---
+  duration_ms: 330.5443
+  type: 'test'
+  ...
+# Subtest: portable supplies automatically collect once, respect walls and capacity, while nodes remain E-owned
+ok 154 - portable supplies automatically collect once, respect walls and capacity, while nodes remain E-owned
+  ---
+  duration_ms: 301.414
+  type: 'test'
+  ...
+# Subtest: real extraction rejects early/distant boarding, shares solid parts, departs and ranks extracted health
+ok 155 - real extraction rejects early/distant boarding, shares solid parts, departs and ranks extracted health
+  ---
+  duration_ms: 311.8685
+  type: 'test'
+  ...
+# Subtest: inspection uses shared fields and evidence labels without an Inspect-key dependency
+ok 156 - inspection uses shared fields and evidence labels without an Inspect-key dependency
+  ---
+  duration_ms: 304.5444
+  type: 'test'
+  ...
+# Subtest: automatic pickups cannot pass solids or capacity, and dropped supplies reject forged kinds
+ok 157 - automatic pickups cannot pass solids or capacity, and dropped supplies reject forged kinds
+  ---
+  duration_ms: 337.0289
+  type: 'test'
+  ...
+# Subtest: the calibrated finite-depth event reaches the active coastal station within the warning target
+ok 158 - the calibrated finite-depth event reaches the active coastal station within the warning target
+  ---
+  duration_ms: 1864.75
+  type: 'test'
+  ...
+# Subtest: physical resource sizes respect a portable mass budget
+ok 159 - physical resource sizes respect a portable mass budget
+  ---
+  duration_ms: 184.7938
+  type: 'test'
+  ...
+# Subtest: the inspector excludes hidden ancestors rather than labeling invisible corpses or ramps
+ok 160 - the inspector excludes hidden ancestors rather than labeling invisible corpses or ramps
+  ---
+  duration_ms: 5.6686
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:64103 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# TIDEFALL http://127.0.0.1:63330 (localhost supported)
+# Game + WebSocket: same port /ws · production · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: two real sockets agree on preview mode, physical compartment doors and carried sample ownership
+ok 161 - two real sockets agree on preview mode, physical compartment doors and carried sample ownership
+  ---
+  duration_ms: 6033.2645
+  type: 'test'
+  ...
+# Subtest: Round 10 sockets share exclusive seats, launch restraints and walking after orbital ascent
+ok 162 - Round 10 sockets share exclusive seats, launch restraints and walking after orbital ascent
+  ---
+  duration_ms: 4007.0414
+  type: 'test'
+  ...
+# (node:27068) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+# Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: the shared inclined gangway lets a capsule walk into the cabin without jumping
+ok 163 - the shared inclined gangway lets a capsule walk into the cabin without jumping
+  ---
+  duration_ms: 2813.1688
+  type: 'test'
+  ...
+# Subtest: actual collider hits and predicted collider hits retain detached geological identities
+ok 164 - actual collider hits and predicted collider hits retain detached geological identities
+  ---
+  duration_ms: 775.5542
+  type: 'test'
+  ...
+# Subtest: the pitched passenger frame agrees with the rendered rigid transform and ramp boarding is rejected
+ok 165 - the pitched passenger frame agrees with the rendered rigid transform and ramp boarding is rejected
+  ---
+  duration_ms: 2.6508
+  type: 'test'
+  ...
+# Subtest: catalog identities have compositions, physical distinctions and seven coherent facies
+ok 166 - catalog identities have compositions, physical distinctions and seven coherent facies
+  ---
+  duration_ms: 3.5354
+  type: 'test'
+  ...
+# Subtest: map classifications are actually used, deterministic, and planetary rather than a universal catalog
+ok 167 - map classifications are actually used, deterministic, and planetary rather than a universal catalog
+  ---
+  duration_ms: 1459.3502
+  type: 'test'
+  ...
+# Subtest: terrain inspection interpolates actual triangle colors and exposes its dominant vertex material
+ok 168 - terrain inspection interpolates actual triangle colors and exposes its dominant vertex material
+  ---
+  duration_ms: 4486.0734
+  type: 'test'
+  ...
+# Subtest: actual instance ray hits identify detached rocks, deposits and weathered surfaces specifically
+ok 169 - actual instance ray hits identify detached rocks, deposits and weathered surfaces specifically
+  ---
+  duration_ms: 299.142
+  type: 'test'
+  ...
+# Subtest: growth face ranges and child metadata select the actual organism or inclusion
+ok 170 - growth face ranges and child metadata select the actual organism or inclusion
+  ---
+  duration_ms: 2.2171
+  type: 'test'
+  ...
+# Subtest: outcrop geometry is coherent, finite and uses registry identities
+ok 171 - outcrop geometry is coherent, finite and uses registry identities
+  ---
+  duration_ms: 2.3357
+  type: 'test'
+  ...
+# Subtest: growth grammars produce distinct geometry, constrained habitats, lineages and no volcanic vegetation
+ok 172 - growth grammars produce distinct geometry, constrained habitats, lineages and no volcanic vegetation
+  ---
+  duration_ms: 165.7165
+  type: 'test'
+  ...
+# Subtest: six biological mobile classes have functional body plans and bounded supporting anatomy
+ok 173 - six biological mobile classes have functional body plans and bounded supporting anatomy
+  ---
+  duration_ms: 314.352
+  type: 'test'
+  ...
+# Subtest: a grazer flees a nearby player without attacking on sight
+ok 174 - a grazer flees a nearby player without attacking on sight
+  ---
+  duration_ms: 671.9437
+  type: 'test'
+  ...
+# Subtest: all ten rooms connect to the corridor through matching physical doors, and glass remains solid
+ok 175 - all ten rooms connect to the corridor through matching physical doors, and glass remains solid
+  ---
+  duration_ms: 615.383
+  type: 'test'
+  ...
+# Subtest: airlock interlocks, obstruction checks and sealed-room protection use structural state
+ok 176 - airlock interlocks, obstruction checks and sealed-room protection use structural state
+  ---
+  duration_ms: 1.3706
+  type: 'test'
+  ...
+# Subtest: normal and judging schedules last thirty and four minutes with the same ordered stages
+ok 177 - normal and judging schedules last thirty and four minutes with the same ordered stages
+  ---
+  duration_ms: 600.6619
+  type: 'test'
+  ...
+# Subtest: ship trajectory is continuous with zero-speed joins and the hatch closes before thrust
+ok 178 - ship trajectory is continuous with zero-speed joins and the hatch closes before thrust
+  ---
+  duration_ms: 1.0786
+  type: 'test'
+  ...
+# Subtest: portable geological samples have exclusive ownership, mass and collision-aware release
+ok 179 - portable geological samples have exclusive ownership, mass and collision-aware release
+  ---
+  duration_ms: 369.3481
+  type: 'test'
+  ...
+# Subtest: scenario previews preserve transparency outside the globe and deny water on the volcanic world
+ok 180 - scenario previews preserve transparency outside the globe and deny water on the volcanic world
+  ---
+  duration_ms: 2.7041
+  type: 'test'
+  ...
+# TIDEFALL http://127.0.0.1:63334 (localhost supported)
+# Game + WebSocket: same port /ws · development · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# TIDEFALL http://127.0.0.1:63334 (localhost supported)
+# Game + WebSocket: same port /ws · development · bind ::
+# Keep this terminal open. From the repository root: npm run tidefall
+# Subtest: development HTTP, Vite and game WebSocket share one port and release it on close
+ok 181 - development HTTP, Vite and game WebSocket share one port and release it on close
+  ---
+  duration_ms: 6650.2118
+  type: 'test'
+  ...
+# Subtest: real capsule walks two geological contacts on each world and lands after jetpack thrust
+ok 182 - real capsule walks two geological contacts on each world and lands after jetpack thrust
+  ---
+  duration_ms: 7406.895
+  type: 'test'
+  ...
+# Subtest: initial loose equipment spawns above the same solid substrate used for collision
+ok 183 - initial loose equipment spawns above the same solid substrate used for collision
+  ---
+  duration_ms: 579.9571
+  type: 'test'
+  ...
+# Natural storm result at 240.00 seconds; protected temperature 36.98
+# Subtest: a full fixed-step storm arc rewards collected protection and ends within the survival window
+ok 184 - a full fixed-step storm arc rewards collected protection and ends within the survival window
+  ---
+  duration_ms: 28169.2865
+  type: 'test'
+  ...
+# Subtest: ready gates the start and spawns are separated with equal equipment
+ok 185 - ready gates the start and spawns are separated with equal equipment
+  ---
+  duration_ms: 2847.3529
+  type: 'test'
+  ...
+# Subtest: one physical supply is claimed once and oxygen use is server validated
+ok 186 - one physical supply is claimed once and oxygen use is server validated
+  ---
+  duration_ms: 258.6997
+  type: 'test'
+  ...
+# Subtest: brief submersion consumes oxygen before health; breathable air stops tank use
+ok 187 - brief submersion consumes oxygen before health; breathable air stops tank use
+  ---
+  duration_ms: 251.3271
+  type: 'test'
+  ...
+# Subtest: thermal response integrates exposure and insulation/shelter reduce heat transfer
+ok 188 - thermal response integrates exposure and insulation/shelter reduce heat transfer
+  ---
+  duration_ms: 4.4524
+  type: 'test'
+  ...
+# Subtest: shelter capacity is shared and protection requires physically entering its open side
+ok 189 - shelter capacity is shared and protection requires physically entering its open side
+  ---
+  duration_ms: 244.8611
+  type: 'test'
+  ...
+# Subtest: shove is short range, bounded, on cooldown and blocked by a solid wall
+ok 190 - shove is short range, bounded, on cooldown and blocked by a solid wall
+  ---
+  duration_ms: 240.2101
+  type: 'test'
+  ...
+# Subtest: elimination disables collision, preserves spectator identity and records authoritative survival ranking
+ok 191 - elimination disables collision, preserves spectator identity and records authoritative survival ranking
+  ---
+  duration_ms: 227.5994
+  type: 'test'
+  ...
+# Subtest: same-tick final deaths share first place and timed extraction ends a stalled round without fabricated deaths
+ok 192 - same-tick final deaths share first place and timed extraction ends a stalled round without fabricated deaths
+  ---
+  duration_ms: 498.5905
+  type: 'test'
+  ...
+# Subtest: disconnect grace permits genuine rejoin but cannot grant indefinite invulnerability
+ok 193 - disconnect grace permits genuine rejoin but cannot grant indefinite invulnerability
+  ---
+  duration_ms: 400.7769
+  type: 'test'
+  ...
+# Subtest: a deep-water explorer can intentionally dive and float back to a breathable draft
+ok 194 - a deep-water explorer can intentionally dive and float back to a breathable draft
+  ---
+  duration_ms: 1873.5672
+  type: 'test'
+  ...
+1..194
+# tests 194
+# suites 0
+# pass 194
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 159693.7266

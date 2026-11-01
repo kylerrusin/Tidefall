@@ -1,0 +1,44 @@
+- main:
+  - generic: ×
+  - complementary:
+    - text: MODELED GEOLOGY
+    - heading "Bedded carbonate mudstone" [level=3]
+    - generic: TDF-LT-043
+    - generic: Carbonate deposition · Detached or exposed rock
+    - generic: Thin beds of carbonate mud
+    - text: Tab opens the discovery record.
+  - generic "First-person game viewport" [active]
+  - complementary:
+    - strong: LOCAL EXPLORATION QA
+    - paragraph:
+      - text: Position -88.67, 10.67, -82.59
+      - text: Undertide Survey · weathered fracture cavern · 11.8 m below surface
+    - paragraph: 58.18 ms · p95 67.1 · draws 509 · triangles 177870
+    - button "Reset exploration frame sample"
+    - text: Heading degrees
+    - spinbutton "Survey heading degrees": "90"
+    - text: Pitch degrees
+    - spinbutton "Survey pitch degrees": "0"
+    - button "Focus movement keys"
+    - button "Hide exploration overlay"
+    - button "Record 8-second clip"
+    - link "Save last clip":
+      - /url: blob:http://localhost:4177/edb0625a-e995-4ac5-8409-697ddd94d387
+    - paragraph: Uses the real character controller. Heading 0 faces +Z. E inventory · X interact · V mode · F pulse. These controls are excluded from production.
+  - generic: STORM BUILDING
+  - text: "1"
+  - generic: SURVIVOR
+  - button "Open menu": Ⅱ
+  - generic "First-person crosshair": ·
+  - generic: +
+  - meter "Health"
+  - generic: "100"
+  - generic: "1"
+  - text: Kinetic pulse rifle · SAMPLE · V combat · 100%
+  - generic: E · KIT & CHART
+  - status: X · Read underground survey 4
+  - button "Mouse capture unavailable · Retry"
+  - status:
+    - strong: GEOLOGICAL SAMPLING · V combat
+    - generic: Bedded carbonate mudstone collected · 0.18 kg · 2 samples remain in this patch.
+    - generic: E inventory · X interact

@@ -1,0 +1,22 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - text: PRACTICE COMPLETE
+  - heading "Your time on the surface." [level=2]
+  - paragraph: Rescue departed. Extracted suits rank by remaining health; equal health shares first.
+  - table:
+    - rowgroup:
+      - row "Rank and astronaut Survived Suit record":
+        - columnheader "Rank and astronaut"
+        - columnheader "Survived"
+        - columnheader "Suit record"
+    - rowgroup:
+      - row "1 · Ivory (you) 34:00 Extracted aboard rescue ship":
+        - cell "1 · Ivory (you)": 1 · Ivory (you)
+        - cell "34:00"
+        - cell "Extracted aboard rescue ship"
+  - button "Rematch ↻":
+    - text: Rematch
+    - generic: ↻
+  - button "New coastline"
+  - button "Leave room"

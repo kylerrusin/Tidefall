@@ -1,0 +1,32 @@
+import {ground,hash,type V3} from './model';
+import {CAVE_OPENING,inCaveOpening} from './cave-opening';
+import {geologicalNoise} from './geological-fields';
+import type {MeshData} from './geometry';
+type Point={x:number;z:number};
+type CaveMesh=MeshData&{faceRanges:{end:number;id:string}[]};
+const cache=new Map<number,ReturnType<typeof generate>>();
+const distanceTo=(p:Point,a:Point,b:Point)=>{const dx=b.x-a.x,dz=b.z-a.z,t=Math.max(0,Math.min(1,((p.x-a.x)*dx+(p.z-a.z)*dz)/(dx*dx+dz*dz)));return Math.hypot(p.x-a.x-t*dx,p.z-a.z-t*dz);};
+function generate(seed:number){
+ const cx=CAVE_OPENING.x,volcanic=seed<0,main:Point[]=[{x:cx,z:-121.25},{x:cx,z:-111.25},{x:cx,z:-101.25},{x:cx+2,z:-92.5},{x:cx+4,z:-83.75},{x:cx+8,z:-75},{x:cx+10,z:-65}],branches:Point[][]=volcanic?[[main[3],{x:cx-10,z:-88},{x:cx-18,z:-77}],[main[5],{x:cx+20,z:-80},{x:cx+26,z:-69}]]:[[main[4],{x:cx-9,z:-80},{x:cx-17,z:-70}],[main[5],{x:cx+21,z:-78},{x:cx+26,z:-67}]],paths=[main,...branches];
+ const chambers=[{...main[4],rx:6.8,rz:7.4}, {...branches[0].at(-1)!,rx:4.7,rz:5.4},{...branches[1].at(-1)!,rx:5.4,rz:4.6}];
+ const entranceY=ground(cx,-122.5,seed),base=Math.min(...paths.flatMap(p=>p.slice(2).map(p=>ground(p.x,p.z,seed))),ground(cx,-102.5,seed))-9;
+ const noise=(x:number,z:number,scale:number,salt:number)=>geologicalNoise(x/scale,z/scale,Math.abs(seed)+salt)-.5;
+ const field=(x:number,z:number)=>{const p={x,z};let value=-Infinity;for(const path of paths)for(let i=1;i<path.length;i++)value=Math.max(value,(volcanic?2.8:3.05)+noise(x,z,8,811)*.7-distanceTo(p,path[i-1],path[i]));for(const c of chambers)value=Math.max(value,(1-Math.hypot((x-c.x)/c.rx,(z-c.z)/c.rz))*Math.min(c.rx,c.rz)+noise(x,z,5,812)*.5);const trench=Math.min(5-Math.abs(x-cx),z+122.5,-102.5-z);return z< -102.5?trench:Math.max(value,trench);};
+ const floor=(x:number,z:number)=>{const t=Math.max(0,Math.min(1,(-102.5-z)/20));return base+(entranceY-base)*t+noise(x,z,7,819)*.16;};
+ const ceiling=(x:number,z:number)=>{const h=floor(x,z),chamber=Math.max(...chambers.map(c=>Math.max(0,1-Math.hypot((x-c.x)/c.rx,(z-c.z)/c.rz))));return Math.min(ground(x,z,seed)-1.25,h+4.25+chamber*1.7+noise(x,z,3.2,820)*.9+noise(x,z,8,821)*.65);};
+ const unitAt=(p:V3)=>{if(p.y<floor(p.x,p.z)+.28)return volcanic?'TDF-SD-018':'TDF-SD-014';if(p.x<cx-6&&p.z> -88)return volcanic?'TDF-AL-008':'TDF-MN-027';if(p.x>cx+17)return volcanic?'TDF-MN-028':'TDF-AL-007';return volcanic?'TDF-LT-035':'TDF-LT-043';};
+ const vertices:number[]=[],indices:number[]=[],faceRanges:{end:number;id:string}[]=[];
+ const triangle=(a:V3,b:V3,c:V3)=>{const ux=b.x-a.x,uy=b.y-a.y,uz=b.z-a.z,vx=c.x-a.x,vy=c.y-a.y,vz=c.z-a.z;if(Math.hypot(uy*vz-uz*vy,uz*vx-ux*vz,ux*vy-uy*vx)<1e-8)return;const offset=vertices.length/3;vertices.push(a.x,a.y,a.z,b.x,b.y,b.z,c.x,c.y,c.z);indices.push(offset,offset+1,offset+2);faceRanges.push({end:indices.length/3,id:unitAt({x:(a.x+b.x+c.x)/3,y:(a.y+b.y+c.y)/3,z:(a.z+b.z+c.z)/3})});};
+ type Node=Point&{phi:number;edge?:boolean};
+ const clip=(input:Node[])=>{const out:Node[]=[];for(let i=0;i<input.length;i++){const a=input[i],b=input[(i+1)%input.length];if(a.phi>=0)out.push(a);if((a.phi>=0)!==(b.phi>=0)){const t=a.phi/(a.phi-b.phi);out.push({x:a.x+(b.x-a.x)*t,z:a.z+(b.z-a.z)*t,phi:0,edge:true});}}return out;};
+ for(let z=-125;z< -57.5;z+=1.25)for(let x=cx-30;x<cx+35;x+=1.25){const nodes=[[x,z],[x+1.25,z],[x,z+1.25],[x+1.25,z+1.25]].map(([x,z])=>({x,z,phi:field(x,z),edge:Math.abs(field(x,z))<1e-8}));for(const ids of [[0,2,1],[1,2,3]]){const polygon=clip(ids.map(i=>nodes[i]));if(polygon.length<3)continue;const lower=(p:Point)=>({...p,y:floor(p.x,p.z)}),upper=(p:Point)=>({...p,y:inCaveOpening(p.x,p.z,.01)?ground(p.x,p.z,seed):ceiling(p.x,p.z)});for(let k=1;k<polygon.length-1;k++){triangle(lower(polygon[0]),lower(polygon[k]),lower(polygon[k+1]));const mid={x:(polygon[0].x+polygon[k].x+polygon[k+1].x)/3,z:(polygon[0].z+polygon[k].z+polygon[k+1].z)/3};if(!inCaveOpening(mid.x,mid.z))triangle(upper(polygon[0]),upper(polygon[k+1]),upper(polygon[k]));}for(let k=0;k<polygon.length;k++){const a=polygon[k],b=polygon[(k+1)%polygon.length];if(!a.edge||!b.edge||a.z< -122.49&&b.z< -122.49)continue;const wall=(p:Node,t:number)=>{const dx=field(p.x+.06,p.z)-field(p.x-.06,p.z),dz=field(p.x,p.z+.06)-field(p.x,p.z-.06),length=Math.hypot(dx,dz)||1,base=floor(p.x,p.z),top=upper(p).y,shape=t===0||t===1||top-base<2||inCaveOpening(p.x,p.z,.1)?0:t<.5?-.22+noise(p.x,p.z,2.4,840)*.18:.35+noise(p.x,p.z,4,841)*.3;return {x:p.x+dx/length*shape,y:base+(top-base)*t,z:p.z+dz/length*shape};};for(const [lo,hi]of [[0,.28],[.28,.66],[.66,1]]){const af=wall(a,lo),bf=wall(b,lo),ac=wall(a,hi),bc=wall(b,hi);triangle(af,bf,ac);triangle(bf,bc,ac);}}}}
+ const route=main.map(p=>({...p,y:floor(p.x,p.z)+1.01})),stations=[main[1],main[2],main[3],main[4],main[5],main[6],branches[0][1],branches[0][2],branches[1][1],branches[1][2]].map((p,i)=>({...p,y:floor(p.x,p.z),id:i,exit:(()=>{const path=paths.find(path=>path.indexOf(p)>0)!,before=path[path.indexOf(p)-1];return {x:before.x-p.x,z:before.z-p.z};})(),unitId:unitAt({...p,x:p.x+(i%2?2.2:-2.2),y:floor(p.x,p.z)+1.5})}));
+ return {mesh:{vertices:new Float32Array(vertices),indices:new Uint32Array(indices),faceRanges} as CaveMesh,paths,chambers,route,stations,field,floor,ceiling,unitAt,base,entrance:{x:cx,y:entranceY,z:-122.5},length:paths.reduce((s,path)=>s+path.slice(1).reduce((n,p,i)=>n+Math.hypot(p.x-path[i].x,p.z-path[i].z),0),0),name:volcanic?'Cinder Archive · fossil lava tube':'Undertide Survey · weathered fracture cavern'};
+}
+export function caveData(seed:number){let data=cache.get(seed);if(!data){data=generate(seed);cache.set(seed,data);if(cache.size>4)cache.delete(cache.keys().next().value!);}return data;}
+export function caveLocation(p:V3,seed:number){if(p.x< -125||p.x> -55||p.z< -124||p.z> -55)return null;const c=caveData(seed);return c.field(p.x,p.z)>0&&p.y>c.floor(p.x,p.z)-.3&&p.y<c.ceiling(p.x,p.z)+.2?{name:c.name,depth:ground(p.x,p.z,seed)-p.y}:null;}
+
+export function caveStationAt(p:V3,seed:number){if(!caveLocation(p,seed))return null;return caveData(seed).stations.find(s=>Math.hypot(p.x-(s.x-(s.id%2?1:-1)*1.8),p.y-(s.y+.5),p.z-s.z)<2.5)??null;}
+
+/** Localized contact heating in the fossil tube's altered mineral branch; no outdoor climate change. */
+export function caveThermalRise(p:V3,seed:number){if(seed>=0||p.x< -73.5||p.z< -83||!caveLocation(p,seed))return 0;const c=caveData(seed);return p.y-c.floor(p.x,p.z)<1.5?220*Math.max(0,Math.min(1,(p.x+73.5)/6)):0;}

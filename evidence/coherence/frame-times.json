@@ -1,0 +1,59 @@
+{
+  "method": "1280x720 High, 300 requestAnimationFrame intervals after camera warm-up; 95th sample sorted[285]. Static authoritative t70, seed42 W20 or seed-43 V06. One rendering test tab; user tabs untouched. Browser development builds, not isolated GPU benchmark.",
+  "timing": [
+    {
+      "name": "before-W20-frames",
+      "count": 300,
+      "meanMs": 20.8806666666766,
+      "p95Ms": 26.700000002980232
+    },
+    {
+      "name": "before-V06-frames",
+      "count": 300,
+      "meanMs": 27.234000000009935,
+      "p95Ms": 29.700000002980232
+    },
+    {
+      "name": "after-W20-frames-1",
+      "count": 300,
+      "meanMs": 37.550333333363135,
+      "p95Ms": 45.3999999910593
+    },
+    {
+      "name": "repeat-before-W20-frames",
+      "count": 300,
+      "meanMs": 29.822333333293596,
+      "p95Ms": 47.099999994039536
+    },
+    {
+      "name": "repeat-after-W20-frames",
+      "count": 300,
+      "meanMs": 27.3,
+      "p95Ms": 42.79999999701977
+    },
+    {
+      "name": "repeat-before-V06-frames",
+      "count": 300,
+      "meanMs": 29.082333333343268,
+      "p95Ms": 34.6000000089407
+    },
+    {
+      "name": "repeat-after-V06-frames",
+      "count": 300,
+      "meanMs": 31.585333333363135,
+      "p95Ms": 45.20000000298023
+    },
+    {
+      "name": "repeat-after-V06-warm-frames",
+      "count": 300,
+      "meanMs": 31.663000000019867,
+      "p95Ms": 40.3999999910593
+    },
+    {
+      "name": "final-after-V06-frames",
+      "count": 300,
+      "meanMs": 29.816666666666666,
+      "p95Ms": 38.8999999910593
+    }
+  ]
+}
