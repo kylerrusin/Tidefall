@@ -159,9 +159,9 @@ export class Water {
     return {depth:Number.isFinite(eta)?Math.max(0,eta-solidHeight(x,z,this.seed)):0,level:Number.isFinite(eta)?eta:-100};
   }
   levels() {
-    return Array.from(this.h, (h, k) =>
-      h > 0.025 ? Math.round((h + this.bed[k]) * 100) / 100 : -100,
-    );
+    const result=new Array<number>(this.h.length);
+    for(let k=0;k<this.h.length;k++){const h=this.h[k];result[k]=h>0.025?Math.round((h+this.bed[k])*100)/100:-100;}
+    return result;
   }
   surface(x:number,z:number,time:number){return waveContact(this.sample(x,z),x,z,time,this.seed,this.duration);}
   /** Equivalent initial sea-surface displacement from a localized submarine slip.

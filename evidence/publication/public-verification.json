@@ -1,0 +1,48 @@
+{
+  "url": "https://tidefall-multiplayer.onrender.com/",
+  "publicHttps": true,
+  "production": true,
+  "assetChecks": "pass",
+  "secureWebSocket": true,
+  "twoPlayerSharedState": "pass",
+  "modes": [
+    {
+      "mode": "survival",
+      "room": "BB9BD",
+      "sharedTick": 1,
+      "connectedPlayers": 2,
+      "timeline": {
+        "mode": "survival",
+        "duration": 1800,
+        "announce": 1500,
+        "approach": 1680,
+        "land": 1800,
+        "close": 1980,
+        "launch": 1988,
+        "stable": 1998,
+        "orbit": 2025,
+        "end": 2040,
+        "warning": 795
+      }
+    },
+    {
+      "mode": "preview",
+      "room": "34980",
+      "sharedTick": 3,
+      "connectedPlayers": 2,
+      "timeline": {
+        "mode": "preview",
+        "duration": 240,
+        "announce": 160,
+        "approach": 180,
+        "land": 190,
+        "close": 220,
+        "launch": 225,
+        "stable": 230,
+        "orbit": 235,
+        "end": 240,
+        "warning": 75
+      }
+    }
+  ]
+}

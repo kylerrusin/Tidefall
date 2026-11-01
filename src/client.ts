@@ -1,3 +1,4 @@
+import {SNAPSHOT_CODEC,unpackSnapshot} from './domain/snapshot-wire';
 import type {MatchMode} from './mission';
 import type { Prediction } from "./prediction";
 import { SnapshotBuffer, diagnostics } from "./presentation";
@@ -61,6 +62,7 @@ export class Connection {
       ws.send(
         JSON.stringify({
           type: "join",
+          codec: SNAPSHOT_CODEC,
           mode:this.requestedMode,
           code: this.code,
           token: saved.code === this.code ? saved.token : undefined,
@@ -90,6 +92,7 @@ export class Connection {
         );
       }
       if (msg.type === "state") {
+        msg.state=unpackSnapshot(msg.state,this.state);
         const previous = this.state;
         this.state = msg.state;
         const observed=this.state!.time-performance.now()/1000;

@@ -70,6 +70,7 @@ export class Expedition {
   shipBodies:RAPIER.RigidBody[]=[];
   doors:DoorState[]=[];
   doorBodies=new Map<string,RAPIER.RigidBody>();
+  private appliedDoors=new Map<string,number>();
   tokens = new Map<string, string>();
   players = new Map<string, Player>();
   bodies = new Map<string, RAPIER.RigidBody>();
@@ -666,7 +667,7 @@ export class Expedition {
     }
   }
   doorOccupied(d:DoorRecipe){return [...this.players.values()].some(p=>p.alive&&Math.abs(p.x-d.x)<d.sx+.48&&Math.abs(p.z-d.z)<d.sz+.48&&Math.abs(p.y-d.y)<d.sy+1)||this.stalkers.some(s=>s.health>0&&Math.abs(s.x-d.x)<d.sx+s.radius&&Math.abs(s.z-d.z)<d.sz+s.radius&&Math.abs(s.y-d.y)<d.sy+s.radius);}
-  updateDoors(dt:number){for(const recipe of doorRecipes(this.seed)){const d=this.doors.find(d=>d.id===recipe.id)!;if(!d.target&&d.open>0&&this.doorOccupied(recipe))d.target=true;const before=d.open;d.open=Math.max(0,Math.min(1,d.open+(d.target?1:-1)*dt*1.25));const body=this.doorBodies.get(d.id)!;if(before!==d.open){const size=doorSize(recipe,d);body.collider(0).setShape(new RAPIER.Cuboid(size.x,size.y,size.z));}body.collider(0).setEnabled(d.open<.995);body.setNextKinematicTranslation(doorPosition(recipe,d));}}
+  updateDoors(dt:number){for(const recipe of doorRecipes(this.seed)){const d=this.doors.find(d=>d.id===recipe.id)!;if(!d.target&&d.open>0&&this.doorOccupied(recipe))d.target=true;d.open=Math.max(0,Math.min(1,d.open+(d.target?1:-1)*dt*1.25));if(this.appliedDoors.get(d.id)===d.open)continue;const body=this.doorBodies.get(d.id)!,size=doorSize(recipe,d);body.collider(0).setShape(new RAPIER.Cuboid(size.x,size.y,size.z));body.collider(0).setEnabled(d.open<.995);body.setNextKinematicTranslation(doorPosition(recipe,d));this.appliedDoors.set(d.id,d.open);}}
   takeSupply(p:Player,supply:Supply){if(supply.takenBy||supply.active===false)return false;const id=p.id;
         if ((supply.kind === "oxygen"||supply.kind==="coolant") && p.canisters >= 2) return false;
         if (supply.kind === "insulation" && p.insulated) return false;
@@ -816,6 +817,7 @@ export class Expedition {
         this.eliminate(p, cause || (falling < -14 ? "Impact" : "Suit failure"));
       else if (p.y < -40) this.eliminate(p, "Lost below the shelf");
     }
+    const objectPressure=environment(this.time,this.seed).pressure;
     for (let i = 0; i < this.props.length; i++) {
       if(this.objects[i].active===false)continue;
       const b = this.props[i],
@@ -838,9 +840,9 @@ export class Expedition {
             ? 8 * 0.65 * o.radius ** 3
             : (4 / 3) * Math.PI * o.radius ** 3;
       if(o.carriedBy){const owner=this.players.get(o.carriedBy);if(owner?.alive&&owner.connected){const from={x:owner.x,y:owner.y+.35,z:owner.z},dir={x:Math.sin(owner.yaw),y:0,z:Math.cos(owner.yaw)},hit=this.world.castShape(from,{x:0,y:0,z:0,w:1},dir,new RAPIER.Ball(o.radius),0,1.1,true,undefined,undefined,b.collider(0),b,c=>c.handle!==this.colliders.get(owner.id)?.handle),length=Math.max(.2,Math.min(1.1,(hit?.time_of_impact??1.1)-.02));b.setNextKinematicTranslation({x:from.x+dir.x*length,y:from.y,z:from.z+dir.z*length});continue;}o.carriedBy=null;b.setBodyType(RAPIER.RigidBodyType.Dynamic,true);}
-      const fluid=brineProperties(14,this.fields.sample(pos.x,pos.z).salinity,environment(this.time,this.seed).pressure);
-      b.resetForces(true);
-      if (w.depth > 0.02 && fraction > 0)
+      b.resetForces(false);
+      if (w.depth > 0.02 && fraction > 0){
+        const fluid=brineProperties(14,this.fields.sample(pos.x,pos.z).salinity,objectPressure);
         b.addForce(
           {
             x: (w.u - vel.x) * o.mass * fraction * Math.min(1.6,.8*fluid.viscosity/.001),
@@ -848,7 +850,7 @@ export class Expedition {
             z: (w.v - vel.z) * o.mass * fraction * 0.8,
           },
           true,
-        );
+        );}
       for (const a of this.anchors) {
         const acc = anchorAcceleration(pos, a, a.sign, o.mass);
         b.addForce(

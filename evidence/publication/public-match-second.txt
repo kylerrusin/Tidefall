@@ -1,0 +1,22 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - text: EXPLORE, PREPARE, SURVIVE AND OUTLAST
+  - heading "The moon controls the tides." [level=2]:
+    - text: The moon controls
+    - text: the tides.
+  - paragraph: Find high ground, gather supplies, and survive longer than everyone else.
+  - generic: WASD
+  - text: Move
+  - generic: MOUSE
+  - text: Look
+  - generic: SPACE
+  - text: Jump and hold to fly
+  - generic: X
+  - text: Collect and operate doors
+  - generic: E / TAB
+  - text: Inventory & chart
+  - button "Enter the surface Begin":
+    - text: Enter the surface
+    - generic: Begin
+  - button "Skip introduction"

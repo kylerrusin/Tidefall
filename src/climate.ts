@@ -12,7 +12,7 @@ export function solarState(time:number,seed=42){
   const radius=Math.asin(planet.observed.st_rad*6.957e8/(planet.orbit*1.495978707e11)),light=smooth(-radius-.12,radius+.15,direction.y);
   return {direction,elevation:Math.asin(direction.y),daylight:light,night:1-light,angularRadius:radius,physicalTime:time*TIME_COMPRESSION,daySeconds:planet.rotation/TIME_COMPRESSION};
 }
-export function weatherAt(time:number,seed=42,duration=1800){
+function calculateWeather(time:number,seed:number,duration:number){
   const planet=planetForSeed(seed),solar=solarState(time,seed);
   const t=weatherClock(time,duration),pulse=(a:number,b:number,c:number)=>smooth(a,b,t)*(1-smooth(b,c,t));
   const storm=Math.max(pulse(40,95,155)*.48,pulse(170,255,335)*.8,pulse(345,405,465),pulse(460,510,550)),front=smooth(420,510,t);
@@ -26,6 +26,14 @@ export function weatherAt(time:number,seed=42,duration=1800){
     surge:planet.water?storm*3+front*4:0,
     sea:planet.water?astronomy(time).level+storm*3+front*4:-100,
     phase:storm<.08?"clear":storm<.5?"building":front>.2?"severe":"organized storm",solar};
+}
+
+// Exact-input memoization shares the same scientific calculation within a tick.
+const weatherCache:{time:number;seed:number;duration:number;value:ReturnType<typeof calculateWeather>}[]=[];
+export function weatherAt(time:number,seed=42,duration=1800){
+ for(let i=weatherCache.length-1;i>=0;i--){const entry=weatherCache[i];if(entry.time===time&&entry.seed===seed&&entry.duration===duration)return entry.value;}
+ const value=calculateWeather(time,seed,duration);Object.freeze(value.solar.direction);Object.freeze(value.solar);Object.freeze(value);
+ weatherCache.push({time,seed,duration,value});if(weatherCache.length>16)weatherCache.shift();return value;
 }
 
 /** Actual ambient envelope during a nine-minute match; local vents are additional. */

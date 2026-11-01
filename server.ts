@@ -1,3 +1,4 @@
+import {SNAPSHOT_CODEC,packSnapshot} from './src/domain/snapshot-wire';
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
@@ -85,6 +86,9 @@ export async function startServer(
         since: number;
         lastInput: number;
         alive: boolean;
+        compact: boolean;
+        fieldsVersion: number | null;
+        fieldsSeed: number | null;
       }
     >();
   const send = (ws: WebSocket, data: unknown) => {
@@ -156,6 +160,9 @@ export async function startServer(
             since: Date.now(),
             lastInput: Date.now(),
             alive: true,
+            compact: msg.codec===SNAPSHOT_CODEC,
+            fieldsVersion: null,
+            fieldsSeed: null,
           });
           clearTimeout(joinTimeout);
           send(ws, {
@@ -247,7 +254,7 @@ export async function startServer(
       }
     });
     last = now;
-    const snapshots = new Map<string, string>();
+    const snapshots = new Map<string, string>(),models=new Map<string,ReturnType<Expedition["snapshot"]>>();
     for (const [ws, c] of clients) {
       const room = rooms.get(c.code);
       if (!room) continue;
@@ -259,12 +266,12 @@ export async function startServer(
         }
       }
       if (now - lastBroadcast >= 100) {
-        let state = snapshots.get(c.code);
-        if (!state) {
-          const begin=performance.now();state=JSON.stringify({type:"state",state:room.snapshot()});room.networkMs=performance.now()-begin;room.networkBytes=Buffer.byteLength(state);
-          snapshots.set(c.code, state);
-        }
-        if(ws.readyState===WebSocket.OPEN&&ws.bufferedAmount<1e6)ws.send(state);
+        if(ws.readyState!==WebSocket.OPEN||ws.bufferedAmount>=1e6)continue;
+        let snapshot=models.get(c.code);if(!snapshot){snapshot=room.snapshot();models.set(c.code,snapshot);}
+        const includeFields=c.fieldsVersion!==snapshot.fieldsVersion||c.fieldsSeed!==snapshot.seed,key=c.code+(c.compact?':compact:'+includeFields:':full');
+        let state=snapshots.get(key);
+        if(!state){const begin=performance.now();state=JSON.stringify({type:'state',state:c.compact?packSnapshot(snapshot,includeFields):snapshot});room.networkMs=performance.now()-begin;room.networkBytes=Buffer.byteLength(state);snapshots.set(key,state);}
+        ws.send(state);if(c.compact){c.fieldsVersion=snapshot.fieldsVersion;c.fieldsSeed=snapshot.seed;}
       }
     }
     if (now - lastBroadcast >= 100) lastBroadcast = now;

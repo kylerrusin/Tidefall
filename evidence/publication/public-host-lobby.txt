@@ -1,0 +1,27 @@
+- main:
+  - generic: ×
+  - generic "First-person game viewport"
+  - generic: SURFACE UPLINK ESTABLISHED
+  - button "Leave room": ×
+  - heading "Outlast the tide." [level=2]
+  - text: NORMAL SURVIVAL · 30 MIN + 3 MIN BOARDING
+  - button "TIDEFALL · 8.03 m/s² Star map":
+    - generic: TIDEFALL · 8.03 m/s²
+    - strong: Star map
+  - paragraph: Find high ground, gather supplies, and survive longer than everyone else.
+  - button "ROOM 9D54C COPY INVITE":
+    - text: ROOM
+    - strong: 9D54C
+    - generic: COPY INVITE
+  - list:
+    - text: Ivory (you)
+    - generic: HOST
+    - generic: NOT READY
+    - text: Amber
+    - generic: ASTRONAUT 2
+    - generic: NOT READY
+  - button "I'm ready"
+  - button "Start match Begin" [disabled]:
+    - text: Start match
+    - generic: Begin
+  - paragraph: Everyone starts apart with the same suit. Last astronaut alive wins.
